@@ -200,6 +200,13 @@ span.side-nav-section:hover {
   .side-nav-container, .side-nav {
     display: none;
   }
+  .content-container {
+    padding: 20px 10px !important;
+  }
+  .map {
+    padding: 0 !important;
+
+  }
 }
 
 .content-container {
