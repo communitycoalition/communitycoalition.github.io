@@ -337,3 +337,21 @@ table th.PrimaryFont {
   display: flex;
   justify-content: center;
 }
+
+.map {
+    display: flex;
+    -ms-flex:50%;
+    flex: 50%;
+    padding: 2em 0 2em 1em;
+    z-index: 1;
+}
+.view{
+    -ms-flex:50%;
+    flex: 50%;
+    margin: 1em;
+    height: 100%;
+    z-index: 0;
+}
+#mapid { 
+    height: 650px; 
+}
