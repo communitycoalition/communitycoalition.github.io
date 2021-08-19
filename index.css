@@ -372,3 +372,19 @@ table th.PrimaryFont {
     border: none !important;
     font-family: monospace !important;
 }
+
+.img-tooltip {
+    display: flex;
+    width: 200px;
+    border-radius: 10px;
+}
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    /* width: 100% !important; */
+}
+@media only screen and (max-width: 400px) {
+  .leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    max-width: 250px !important;
+    max-height: 250px !important;
+    overflow-y: scroll;
+  }
+}

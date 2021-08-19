@@ -122,7 +122,8 @@ d3.csv('lapd_killings.csv', function (error, data) {
         "<br><b>Age: </b>" + row['AGE'] +
         "<br><b>Date: </b>" + row['DATE'] +
         "<br><b>Killer Officer Type: </b>" + row['OFFICER-TYPE'] +
-        "<br><b>Division: </b>" + row['DIVISION'] 
+        "<br><b>Division: </b>" + row['DIVISION'] + ( jesse ? "<br><img class='img-tooltip' src='JESSE_xs.jpg'/>" : "")
+        
         );
       k_marker.addEventListener('mouseover', function () {
         k_marker.openPopup();
