@@ -347,18 +347,28 @@ table th.PrimaryFont {
 
 .map {
     display: flex;
-    -ms-flex:50%;
-    flex: 50%;
+    -ms-flex:100%;
+    flex: 100%;
     padding: 2em 0 2em 1em;
     z-index: 1;
 }
 .view{
-    -ms-flex:50%;
-    flex: 50%;
+    -ms-flex:100%;
+    flex: 100%;
     margin: 1em;
     height: 100%;
+    overflow: hidden;
     z-index: 0;
 }
 #mapid { 
-    height: 650px; 
+    height: 100vh; 
+}
+
+.my-label {
+    font-size: 12px;
+    /* background: #8c2626 !important; */
+    background: #000 !important;
+    color: white !important;
+    border: none !important;
+    font-family: monospace !important;
 }
