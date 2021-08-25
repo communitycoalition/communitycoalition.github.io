@@ -1,9 +1,5 @@
 //set up base map
-var mymap = L.map('mapid').setView([34.01712330775451, -118.26961622176387], 13);
-var bounds = [
-    [34.056659, -118.220425], //southwest
-    [34.008636, -118.219770]
-];
+var mymap = L.map('mapid').setView([33.99357184171194, -118.27030284749365], 12.5);
 
 // L.tileLayer.provider('Stamen.TonerLite', {
 //   id: 'mapbox.streets',
@@ -13,6 +9,7 @@ var bounds = [
 //   accessToken: 'pk.eyJ1IjoibWFkZWJ5YyIsImEiOiJjampwOWYyNnA3d240M3ZsZnIwODN4ZGl5In0.XFXCZd4wqKFsB7jjH0dUOQ'
 //   }).addTo(mymap);
 L.tileLayer('https://api.mapbox.com/styles/v1/madebyc/cjjp9qx7zahic2rthupyi6zzw/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibWFkZWJ5YyIsImEiOiJjampwOWYyNnA3d240M3ZsZnIwODN4ZGl5In0.XFXCZd4wqKFsB7jjH0dUOQ').addTo(mymap);
+
 
 var redIcon = L.icon({
   iconUrl: 'surveillance.svg',
@@ -48,10 +45,10 @@ var jesse_icon = L.icon({
           divisionColor = "#7952B3";
           break;
         case "77th Street ":
-          divisionColor = "#BD1616";
+          divisionColor = "#592e2d";
           break;
         case "Southeast":
-          divisionColor = "#FFD523";
+          divisionColor = "#b59b00";
           break;
         default: 
           divisionColor = "red";
@@ -156,6 +153,31 @@ d3.csv('csp_sites.csv', function (error, data) {
     let divisionName = row['When deemed a CSP site? '] ? row['Site Name'] + " became CSP site in " + row['When deemed a CSP site? '] : row['Site Name'] + " CSP site" ;
     polyline.bindTooltip(divisionName, { direction: 'bottom', opacity: 1, permanent: false, className: "my-label", offset: [0, 0] });
     polyline.openPopup();
+
+  }); //end for loop
+
+}); //end d3
+
+
+d3.csv('/data/los-angeles-police-killings.csv', function (error, data) {
+
+  if (error) throw error;
+
+  data.forEach(function (row) {
+
+    let marker = L.circleMarker([row.y, row.x], {radius: '1', opacity: '0.7', color: '#000'}).addTo(mymap);
+
+    marker.bindPopup(
+      "<b>Cause of Death: </b>" + "Police " + row.cause +
+      "<br><b>Name: </b>" + row.first + " " + row.middle + " " + row.last +
+      "<br><b>Age: </b>" + row.age +
+      "<br><b>Race: </b>" + row.race +
+      "<br><b>Date: </b>" + row.death_date +
+      "<br><b>Neighborhood: </b>" + row.neighborhood  
+      ,{ autoClose: true });
+    marker.addEventListener('mouseover', function () {
+      marker.openPopup();
+    })
 
   }); //end for loop
 
