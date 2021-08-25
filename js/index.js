@@ -19,7 +19,7 @@ var redIcon = L.icon({
   iconSize: [25, 25], // size of the icon
   });
 var k_icon = L.icon({
-  iconUrl: 'candle3.svg',
+  iconUrl: 'candle_final.png',
   iconSize: [35, 35], // size of the icon
 });
 
@@ -131,6 +131,32 @@ d3.csv('lapd_killings.csv', function (error, data) {
     }
       
   
+  }); //end for loop
+
+}); //end d3
+
+
+d3.csv('csp_sites.csv', function (error, data) {
+
+  if (error) throw error;
+
+  let divisionColor = "#183b7e";
+  data.forEach(function (row) {
+    var bounds = JSON.parse((row['Cordinates']))
+    var polyline = L.polyline(bounds, {
+      color: divisionColor,
+      weight: 3,
+      opacity: 1,
+      lineJoin: 'round',
+      fill: true,
+      dashArray: '5,10',
+      lineJoin: 'miter',
+      lineCap: 'square'
+    }).addTo(mymap);
+    let divisionName = row['When deemed a CSP site? '] ? row['Site Name'] + " became CSP site in " + row['When deemed a CSP site? '] : row['Site Name'] + " CSP site" ;
+    polyline.bindTooltip(divisionName, { direction: 'bottom', opacity: 1, permanent: false, className: "my-label", offset: [0, 0] });
+    polyline.openPopup();
+
   }); //end for loop
 
 }); //end d3
