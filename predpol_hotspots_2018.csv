@@ -1,0 +1,601 @@
+date,address,city,full_address,code,lon,lat,geoAddress
+6/17/2018,1 Gateway Plaza Dr,", Los Angeles, CA","1 Gateway Plaza Dr, Los Angeles, CA",PK,-118.233109,34.055694,"mta building, 1 gateway plaza, los angeles, ca 90012, usa"
+6/16/2018,1 St & Vignes,", Los Angeles, CA","1 St & Vignes, Los Angeles, CA",PK,-118.2360884,34.0485188,
+6/5/2018,1000 S Hope St ,", Los Angeles, CA","1000 S Hope St , Los Angeles, CA",PE,-118.26189,34.0431569,"1000 s hope st, los angeles, ca 90015, usa"
+6/4/2018,1000 S Hope St,", Los Angeles, CA","1000 S Hope St, Los Angeles, CA",PD,-118.26189,34.0431569,"1000 s hope st, los angeles, ca 90015, usa"
+6/15/2018,1001 N Alameda St,", Los Angeles, CA","1001 N Alameda St, Los Angeles, CA",PK,-118.237025,34.059721,"1001 n alameda st, los angeles, ca 90012, usa"
+6/16/2018,11 Th & Los Angeles,", Los Angeles, CA","11 Th & Los Angeles, Los Angeles, CA",PD,-118.3315955,33.9924971,
+6/18/2018,110 E 9th St ,", Los Angeles, CA","110 E 9th St , Los Angeles, CA",PE,-118.2553119,34.040474,"110 e 9th st, los angeles, ca 90079, usa"
+6/20/2018,110 E 9th St,", Los Angeles, CA","110 E 9th St, Los Angeles, CA",PF,-118.2553119,34.040474,"110 e 9th st, los angeles, ca 90079, usa"
+6/25/2018,110 E 9th St,", Los Angeles, CA","110 E 9th St, Los Angeles, CA",PC,-118.2553119,34.040474,"110 e 9th st, los angeles, ca 90079, usa"
+6/26/2018,110 E 9th St,", Los Angeles, CA","110 E 9th St, Los Angeles, CA",PD,-118.2553119,34.040474,"110 e 9th st, los angeles, ca 90079, usa"
+6/27/2018,110 E 9th St,", Los Angeles, CA","110 E 9th St, Los Angeles, CA",PC,-118.2553119,34.040474,"110 e 9th st, los angeles, ca 90079, usa"
+6/29/2018,110 E 9th St,", Los Angeles, CA","110 E 9th St, Los Angeles, CA",PC,-118.2553119,34.040474,"110 e 9th st, los angeles, ca 90079, usa"
+6/30/2018,110 E 9th St,", Los Angeles, CA","110 E 9th St, Los Angeles, CA",PD,-118.2553119,34.040474,"110 e 9th st, los angeles, ca 90079, usa"
+6/3/2018,11th & Los Angeles,", Los Angeles, CA","11th & Los Angeles, Los Angeles, CA",PC,-118.3315955,33.9924971,
+6/4/2018,11th & Los Angeles,", Los Angeles, CA","11th & Los Angeles, Los Angeles, CA",PC,-118.3315955,33.9924971,
+6/5/2018,11th & Los Angeles,", Los Angeles, CA","11th & Los Angeles, Los Angeles, CA",PC,-118.3315955,33.9924971,
+6/1/2018,11th & Olive,", Los Angeles, CA","11th & Olive, Los Angeles, CA",PD,-118.2630981,34.0408647,
+6/4/2018,11th & Olive,", Los Angeles, CA","11th & Olive, Los Angeles, CA",PC,-118.2630981,34.0408647,
+6/6/2018,11th & Olive,", Los Angeles, CA","11th & Olive, Los Angeles, CA",PF,-118.2630981,34.0408647,
+6/7/2018,11th & Olive,", Los Angeles, CA","11th & Olive, Los Angeles, CA",PG,-118.2630981,34.0408647,
+6/14/2018,12 Th & Los Angeles,", Los Angeles, CA","12 Th & Los Angeles, Los Angeles, CA",PC,-118.2630981,34.0408647,
+6/1/2018,1201 S Figueroa St,", Los Angeles, CA","1201 S Figueroa St, Los Angeles, CA",PC,-118.2689545,34.0414337,"1201 s figueroa st, los angeles, ca 90015, usa"
+6/15/2018,1201 S Figueroa St,", Los Angeles, CA","1201 S Figueroa St, Los Angeles, CA",PE,-118.2689545,34.0414337,"1201 s figueroa st, los angeles, ca 90015, usa"
+6/16/2018,1201 S Figueroa St,", Los Angeles, CA","1201 S Figueroa St, Los Angeles, CA",PD,-118.2689545,34.0414337,"1201 s figueroa st, los angeles, ca 90015, usa"
+6/19/2018,1201 S Figueroa St,", Los Angeles, CA","1201 S Figueroa St, Los Angeles, CA",PC,-118.2689545,34.0414337,"1201 s figueroa st, los angeles, ca 90015, usa"
+6/9/2018,1205 E 6th St ,", Los Angeles, CA","1205 E 6th St , Los Angeles, CA",PD,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/13/2018,1205 E 6th St ,", Los Angeles, CA","1205 E 6th St , Los Angeles, CA",PD,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/14/2018,1205 E 6th St ,", Los Angeles, CA","1205 E 6th St , Los Angeles, CA",PD,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/2/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PC,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/2/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PB,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/3/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PD,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/3/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PD,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/4/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PB,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/5/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PD,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/6/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PD,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/6/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PD,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/7/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PE,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/9/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PD,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/10/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PC,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/12/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PC,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/13/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PB,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/15/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PE,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/17/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PD,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/17/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PC,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/18/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PB,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/19/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PE,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/20/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PE,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/22/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PF,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/23/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PC,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/23/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PE,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/24/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PD,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/26/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PC,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/27/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PD,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/28/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PF,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/29/2018,1205 E 6th St,", Los Angeles, CA","1205 E 6th St, Los Angeles, CA",PB,-118.238026,34.0382897,"1205 e 6th st, los angeles, ca 90021, usa"
+6/11/2018,1216 Santee St,", Los Angeles, CA","1216 Santee St, Los Angeles, CA",PC,-118.2575562,34.0355356,"1216s santee st, los angeles, ca 90015, usa"
+6/15/2018,1216 Santee St,", Los Angeles, CA","1216 Santee St, Los Angeles, CA",PB,-118.2575562,34.0355356,"1216s santee st, los angeles, ca 90015, usa"
+6/17/2018,1216 Santee St,", Los Angeles, CA","1216 Santee St, Los Angeles, CA",PB,-118.2575562,34.0355356,"1216s santee st, los angeles, ca 90015, usa"
+6/20/2018,1216 Santee St,", Los Angeles, CA","1216 Santee St, Los Angeles, CA",PD,-118.2575562,34.0355356,"1216s santee st, los angeles, ca 90015, usa"
+6/21/2018,1216 Santee St,", Los Angeles, CA","1216 Santee St, Los Angeles, CA",PC,-118.2575562,34.0355356,"1216s santee st, los angeles, ca 90015, usa"
+6/22/2018,1216 Santee St,", Los Angeles, CA","1216 Santee St, Los Angeles, CA",PC,-118.2575562,34.0355356,"1216s santee st, los angeles, ca 90015, usa"
+6/5/2018,123 S Figueroa St,", Los Angeles, CA","123 S Figueroa St, Los Angeles, CA",PJ,-118.2528904,34.0576763,"140h, 123 s figueroa st, los angeles, ca 90012, usa"
+6/15/2018,123 W12Th St,", Los Angeles, CA","123 W12Th St, Los Angeles, CA",PD,-118.2809261,33.7331773,"123 w 12th st, san pedro, ca 90731, usa"
+6/25/2018,12th & Grand ,", Los Angeles, CA","12th & Grand , Los Angeles, CA",PE,-118.265501,34.0401389,
+6/24/2018,12th & Grand,", Los Angeles, CA","12th & Grand, Los Angeles, CA",PG,-118.265501,34.0401389,
+6/26/2018,12th & Grand,", Los Angeles, CA","12th & Grand, Los Angeles, CA",PE,-118.265501,34.0401389,
+6/26/2018,12th & Hope,", Los Angeles, CA","12th & Hope, Los Angeles, CA",PF,-118.266583,34.0408357,
+6/30/2018,12th & Hope,", Los Angeles, CA","12th & Hope, Los Angeles, CA",PC,-118.266583,34.0408357,
+6/24/2018,12th & Los Angeles ,", Los Angeles, CA","12th & Los Angeles , Los Angeles, CA",PD,-118.2865141,34.0491247,
+6/22/2018,12th & Los Angeles,", Los Angeles, CA","12th & Los Angeles, Los Angeles, CA",PD,-118.2865141,34.0491247,
+6/24/2018,12th & Los Angeles,", Los Angeles, CA","12th & Los Angeles, Los Angeles, CA",PC,-118.2865141,34.0491247,
+6/26/2018,12th & Los Angeles,", Los Angeles, CA","12th & Los Angeles, Los Angeles, CA",PC,-118.2865141,34.0491247,
+6/6/2018,12th & Olive ,", Los Angeles, CA","12th & Olive , Los Angeles, CA",PE,-118.2644219,34.0394411,
+6/17/2018,12th & Olive ,", Los Angeles, CA","12th & Olive , Los Angeles, CA",PE,-118.2644219,34.0394411,
+6/1/2018,12th & Olive,", Los Angeles, CA","12th & Olive, Los Angeles, CA",PD,-118.2644219,34.0394411,
+6/2/2018,12th & Olive,", Los Angeles, CA","12th & Olive, Los Angeles, CA",PD,-118.2644219,34.0394411,
+6/3/2018,12th & Olive,", Los Angeles, CA","12th & Olive, Los Angeles, CA",PF,-118.2644219,34.0394411,
+6/7/2018,12th & Olive,", Los Angeles, CA","12th & Olive, Los Angeles, CA",PF,-118.2644219,34.0394411,
+6/8/2018,12th & Olive,", Los Angeles, CA","12th & Olive, Los Angeles, CA",PC,-118.2644219,34.0394411,
+6/9/2018,12th & Olive,", Los Angeles, CA","12th & Olive, Los Angeles, CA",PF,-118.2644219,34.0394411,
+6/10/2018,12th & Olive,", Los Angeles, CA","12th & Olive, Los Angeles, CA",PF,-118.2644219,34.0394411,
+6/18/2018,12th & Olive,", Los Angeles, CA","12th & Olive, Los Angeles, CA",PC,-118.2644219,34.0394411,
+6/19/2018,12th & Olive,", Los Angeles, CA","12th & Olive, Los Angeles, CA",PG,-118.2644219,34.0394411,
+6/21/2018,12th & Olive,", Los Angeles, CA","12th & Olive, Los Angeles, CA",PF,-118.2644219,34.0394411,
+6/23/2018,12th & Olive,", Los Angeles, CA","12th & Olive, Los Angeles, CA",PG,-118.2644219,34.0394411,
+6/25/2018,12th & Olive,", Los Angeles, CA","12th & Olive, Los Angeles, CA",PF,-118.2644219,34.0394411,
+6/27/2018,12th & Olive,", Los Angeles, CA","12th & Olive, Los Angeles, CA",PF,-118.2644219,34.0394411,
+6/10/2018,1315 S Flower St ,", Los Angeles, CA","1315 S Flower St , Los Angeles, CA",PD,-118.2673224,34.0397659,"1315 s flower st, los angeles, ca 90015, usa"
+6/12/2018,1315 S Flower St,", Los Angeles, CA","1315 S Flower St, Los Angeles, CA",PD,-118.2673224,34.0397659,"1315 s flower st, los angeles, ca 90015, usa"
+6/7/2018,1330 S Olive St,", Los Angeles, CA","1330 S Olive St, Los Angeles, CA",PD,-118.2634202,34.0371514,"1330 s olive st, los angeles, ca 90015, usa"
+6/16/2018,1340 E 6 Th St,", Los Angeles, CA","1340 E 6 Th St, Los Angeles, CA",PC,-118.2341431,34.0375959,"1340 e 6th st, los angeles, ca 90021, usa"
+6/20/2018,1340 E 6 Th St,", Los Angeles, CA","1340 E 6 Th St, Los Angeles, CA",PC,-118.2341431,34.0375959,"1340 e 6th st, los angeles, ca 90021, usa"
+6/18/2018,1340 E 6th St,", Los Angeles, CA","1340 E 6th St, Los Angeles, CA",PD,-118.2341431,34.0375959,"1340 e 6th st, los angeles, ca 90021, usa"
+6/19/2018,1340 E 6th St,", Los Angeles, CA","1340 E 6th St, Los Angeles, CA",PD,-118.2341431,34.0375959,"1340 e 6th st, los angeles, ca 90021, usa"
+6/22/2018,1340 E 6th St,", Los Angeles, CA","1340 E 6th St, Los Angeles, CA",PE,-118.2341431,34.0375959,"1340 e 6th st, los angeles, ca 90021, usa"
+6/23/2018,1340 E 6th St,", Los Angeles, CA","1340 E 6th St, Los Angeles, CA",PB,-118.2341431,34.0375959,"1340 e 6th st, los angeles, ca 90021, usa"
+6/7/2018,1355 S Flower St ,", Los Angeles, CA","1355 S Flower St , Los Angeles, CA",PC,-118.268106,34.038775,"1355 s flower st, los angeles, ca 90015, usa"
+6/3/2018,1355 S Flower St,", Los Angeles, CA","1355 S Flower St, Los Angeles, CA",PC,-118.268106,34.038775,"1355 s flower st, los angeles, ca 90015, usa"
+6/5/2018,1355 S Flower St,", Los Angeles, CA","1355 S Flower St, Los Angeles, CA",PC,-118.268106,34.038775,"1355 s flower st, los angeles, ca 90015, usa"
+6/6/2018,1355 S Flower St,", Los Angeles, CA","1355 S Flower St, Los Angeles, CA",PC,-118.268106,34.038775,"1355 s flower st, los angeles, ca 90015, usa"
+6/9/2018,1355 S Flower St,", Los Angeles, CA","1355 S Flower St, Los Angeles, CA",PB,-118.268106,34.038775,"1355 s flower st, los angeles, ca 90015, usa"
+6/10/2018,1355 S Flower St,", Los Angeles, CA","1355 S Flower St, Los Angeles, CA",PB,-118.268106,34.038775,"1355 s flower st, los angeles, ca 90015, usa"
+6/12/2018,1355 S Flower St,", Los Angeles, CA","1355 S Flower St, Los Angeles, CA",PB,-118.268106,34.038775,"1355 s flower st, los angeles, ca 90015, usa"
+6/15/2018,1355 S Flower St,", Los Angeles, CA","1355 S Flower St, Los Angeles, CA",PC,-118.268106,34.038775,"1355 s flower st, los angeles, ca 90015, usa"
+6/20/2018,1355 S Flower St,", Los Angeles, CA","1355 S Flower St, Los Angeles, CA",PD,-118.268106,34.038775,"1355 s flower st, los angeles, ca 90015, usa"
+6/21/2018,1355 S Flower St,", Los Angeles, CA","1355 S Flower St, Los Angeles, CA",PC,-118.268106,34.038775,"1355 s flower st, los angeles, ca 90015, usa"
+6/22/2018,1355 S Flower St,", Los Angeles, CA","1355 S Flower St, Los Angeles, CA",PE,-118.268106,34.038775,"1355 s flower st, los angeles, ca 90015, usa"
+6/24/2018,1355 S Flower St,", Los Angeles, CA","1355 S Flower St, Los Angeles, CA",PE,-118.268106,34.038775,"1355 s flower st, los angeles, ca 90015, usa"
+6/25/2018,1355 S Flower St,", Los Angeles, CA","1355 S Flower St, Los Angeles, CA",PC,-118.268106,34.038775,"1355 s flower st, los angeles, ca 90015, usa"
+6/26/2018,1355 S Flower St,", Los Angeles, CA","1355 S Flower St, Los Angeles, CA",PB,-118.268106,34.038775,"1355 s flower st, los angeles, ca 90015, usa"
+6/9/2018,1356 Palmetto St,", Los Angeles, CA","1356 Palmetto St, Los Angeles, CA",PG,-118.2309452,34.0401415,"1356 palmetto st, los angeles, ca 90013, usa"
+6/11/2018,1356 Palmetto St,", Los Angeles, CA","1356 Palmetto St, Los Angeles, CA",PC,-118.2309452,34.0401415,"1356 palmetto st, los angeles, ca 90013, usa"
+6/11/2018,1400 N Spring St ,", Los Angeles, CA","1400 N Spring St , Los Angeles, CA",PK,-118.2322409,34.0663569,"1400 n spring st, los angeles, ca 90012, usa"
+6/15/2018,1400 N Spring St ,", Los Angeles, CA","1400 N Spring St , Los Angeles, CA",PJ,-118.2322409,34.0663569,"1400 n spring st, los angeles, ca 90012, usa"
+6/2/2018,1400 N Spring St,", Los Angeles, CA","1400 N Spring St, Los Angeles, CA",PK,-118.2322409,34.0663569,"1400 n spring st, los angeles, ca 90012, usa"
+6/3/2018,1400 N Spring St,", Los Angeles, CA","1400 N Spring St, Los Angeles, CA",PK,-118.2322409,34.0663569,"1400 n spring st, los angeles, ca 90012, usa"
+6/4/2018,1400 N Spring St,", Los Angeles, CA","1400 N Spring St, Los Angeles, CA",PK,-118.2322409,34.0663569,"1400 n spring st, los angeles, ca 90012, usa"
+6/6/2018,1400 N Spring St,", Los Angeles, CA","1400 N Spring St, Los Angeles, CA",PK,-118.2322409,34.0663569,"1400 n spring st, los angeles, ca 90012, usa"
+6/8/2018,1400 N Spring St,", Los Angeles, CA","1400 N Spring St, Los Angeles, CA",PK,-118.2322409,34.0663569,"1400 n spring st, los angeles, ca 90012, usa"
+6/9/2018,1400 N Spring St,", Los Angeles, CA","1400 N Spring St, Los Angeles, CA",PJ,-118.2322409,34.0663569,"1400 n spring st, los angeles, ca 90012, usa"
+6/10/2018,1400 N Spring St,", Los Angeles, CA","1400 N Spring St, Los Angeles, CA",PK,-118.2322409,34.0663569,"1400 n spring st, los angeles, ca 90012, usa"
+6/12/2018,1400 N Spring St,", Los Angeles, CA","1400 N Spring St, Los Angeles, CA",PJ,-118.2322409,34.0663569,"1400 n spring st, los angeles, ca 90012, usa"
+6/19/2018,1400 N Spring St,", Los Angeles, CA","1400 N Spring St, Los Angeles, CA",PK,-118.2322409,34.0663569,"1400 n spring st, los angeles, ca 90012, usa"
+6/20/2018,1400 N Spring St,", Los Angeles, CA","1400 N Spring St, Los Angeles, CA",PK,-118.2322409,34.0663569,"1400 n spring st, los angeles, ca 90012, usa"
+6/27/2018,1440 N Spring St,", Los Angeles, CA","1440 N Spring St, Los Angeles, CA",PJ,-118.2311901,34.0672991,"1440 n spring st, los angeles, ca 90012, usa"
+6/21/2018,1460 Naud St,", Los Angeles, CA","1460 Naud St, Los Angeles, CA",PJ,-118.2306418,34.066155,"1460 naud st, los angeles, ca 90012, usa"
+6/24/2018,1460 Naud St,", Los Angeles, CA","1460 Naud St, Los Angeles, CA",PK,-118.2306418,34.066155,"1460 naud st, los angeles, ca 90012, usa"
+6/13/2018,15 Th St & Los Angeles,", Los Angeles, CA","15 Th St & Los Angeles, Los Angeles, CA",PK,-118.2631872,34.0337146,
+6/14/2018,15 Th St & Los Angeles,", Los Angeles, CA","15 Th St & Los Angeles, Los Angeles, CA",PK,-118.2631872,34.0337146,
+6/21/2018,15 Th St & Los Angeles,", Los Angeles, CA","15 Th St & Los Angeles, Los Angeles, CA",PK,-118.2631872,34.0337146,
+6/20/2018,15 Th St& Los Angeles,", Los Angeles, CA","15 Th St& Los Angeles, Los Angeles, CA",PB,-118.2631872,34.0337146,
+6/6/2018,1501 S Figueroa St,", Los Angeles, CA","1501 S Figueroa St, Los Angeles, CA",PC,-118.2822361,33.7923144,"1501 s figueroa st, wilmington, ca 90744, usa"
+6/8/2018,1501 S Figueroa St,", Los Angeles, CA","1501 S Figueroa St, Los Angeles, CA",PC,-118.2822361,33.7923144,"1501 s figueroa st, wilmington, ca 90744, usa"
+6/5/2018,15th & Los Angeles,", Los Angeles, CA","15th & Los Angeles, Los Angeles, CA",PB,-118.2631872,34.0337146,
+6/6/2018,15th & Los Angeles,", Los Angeles, CA","15th & Los Angeles, Los Angeles, CA",PB,-118.2631872,34.0337146,
+6/7/2018,15th St & Los Angeles,", Los Angeles, CA","15th St & Los Angeles, Los Angeles, CA",PB,-118.2631872,34.0337146,
+6/9/2018,15th St & Los Angeles,", Los Angeles, CA","15th St & Los Angeles, Los Angeles, CA",PB,-118.2631872,34.0337146,
+6/11/2018,15th St & Los Angeles,", Los Angeles, CA","15th St & Los Angeles, Los Angeles, CA",PB,-118.2631872,34.0337146,
+6/12/2018,15th St & Los Angeles,", Los Angeles, CA","15th St & Los Angeles, Los Angeles, CA",PB,-118.2631872,34.0337146,
+6/15/2018,15th St & Los Angeles,", Los Angeles, CA","15th St & Los Angeles, Los Angeles, CA",PK,-118.2631872,34.0337146,
+6/18/2018,15th St & Los Angeles,", Los Angeles, CA","15th St & Los Angeles, Los Angeles, CA",PB,-118.2631872,34.0337146,
+6/22/2018,15th St & Los Angeles,", Los Angeles, CA","15th St & Los Angeles, Los Angeles, CA",PK,-118.2631872,34.0337146,
+6/23/2018,15th St & Los Angeles,", Los Angeles, CA","15th St & Los Angeles, Los Angeles, CA",PK,-118.2631872,34.0337146,
+6/21/2018,15th St & Main St,", Los Angeles, CA","15th St & Main St, Los Angeles, CA",PB,-118.2642305,34.0342961,
+6/22/2018,15th St & Main St,", Los Angeles, CA","15th St & Main St, Los Angeles, CA",PB,-118.2642305,34.0342961,
+6/24/2018,15th St & Main St,", Los Angeles, CA","15th St & Main St, Los Angeles, CA",PB,-118.2642305,34.0342961,
+6/25/2018,15th St & Main St,", Los Angeles, CA","15th St & Main St, Los Angeles, CA",PB,-118.2642305,34.0342961,
+6/26/2018,15th St & Main St,", Los Angeles, CA","15th St & Main St, Los Angeles, CA",PB,-118.2642305,34.0342961,
+6/28/2018,15th St & Main St,", Los Angeles, CA","15th St & Main St, Los Angeles, CA",PB,-118.2642305,34.0342961,
+6/18/2018,15th St& Main St,", Los Angeles, CA","15th St& Main St, Los Angeles, CA",PC,-118.2642305,34.0342961,
+6/20/2018,15th St& Main St,", Los Angeles, CA","15th St& Main St, Los Angeles, CA",PC,-118.2642305,34.0342961,
+6/9/2018,1600 S Figueroa St,", Los Angeles, CA","1600 S Figueroa St, Los Angeles, CA",PC,-118.2697756,34.0372266,"1600 s figueroa st, los angeles, ca 90015, usa"
+6/10/2018,1600 S Figueroa St,", Los Angeles, CA","1600 S Figueroa St, Los Angeles, CA",PB,-118.2697756,34.0372266,"1600 s figueroa st, los angeles, ca 90015, usa"
+6/13/2018,1600 S Figueroa St,", Los Angeles, CA","1600 S Figueroa St, Los Angeles, CA",PC,-118.2697756,34.0372266,"1600 s figueroa st, los angeles, ca 90015, usa"
+6/26/2018,1600 S Figueroa St,", Los Angeles, CA","1600 S Figueroa St, Los Angeles, CA",PK,-118.2697756,34.0372266,"1600 s figueroa st, los angeles, ca 90015, usa"
+6/30/2018,1600 S Figueroa St,", Los Angeles, CA","1600 S Figueroa St, Los Angeles, CA",PK,-118.2697756,34.0372266,"1600 s figueroa st, los angeles, ca 90015, usa"
+6/28/2018,1667 N Main St,", Los Angeles, CA","1667 N Main St, Los Angeles, CA",PJ,-118.226624,34.068031,"1667 n main st, los angeles, ca 90012, usa"
+6/29/2018,1667 N Main St,", Los Angeles, CA","1667 N Main St, Los Angeles, CA",PI,-118.226624,34.068031,"1667 n main st, los angeles, ca 90012, usa"
+6/30/2018,1667 N Main St,", Los Angeles, CA","1667 N Main St, Los Angeles, CA",PJ,-118.226624,34.068031,"1667 n main st, los angeles, ca 90012, usa"
+6/1/2018,1800 S Main St,", Los Angeles, CA","1800 S Main St, Los Angeles, CA",PB,-118.2634659,34.0318962,"1800 s main st, los angeles, ca 90015, usa"
+6/3/2018,1800 S Main St,", Los Angeles, CA","1800 S Main St, Los Angeles, CA",PB,-118.2634659,34.0318962,"1800 s main st, los angeles, ca 90015, usa"
+6/28/2018,1800 S Main St,", Los Angeles, CA","1800 S Main St, Los Angeles, CA",PB,-118.2634659,34.0318962,"1800 s main st, los angeles, ca 90015, usa"
+6/14/2018,1st & Vignes ,", Los Angeles, CA","1st & Vignes , Los Angeles, CA",PJ,-118.2360884,34.0485188,
+6/13/2018,1st & Vignes,", Los Angeles, CA","1st & Vignes, Los Angeles, CA",PI,-118.2360884,34.0485188,
+6/17/2018,1st & Vignes,", Los Angeles, CA","1st & Vignes, Los Angeles, CA",PH,-118.2360884,34.0485188,
+6/1/2018,206 W 6th St,", Los Angeles, CA","206 W 6th St, Los Angeles, CA",PH,-118.2513844,34.0460412,"206 w 6th st, los angeles, ca 90014, usa"
+6/1/2018,206 W 6th St,", Los Angeles, CA","206 W 6th St, Los Angeles, CA",PI,-118.2513844,34.0460412,"206 w 6th st, los angeles, ca 90014, usa"
+6/2/2018,206 W 6th St,", Los Angeles, CA","206 W 6th St, Los Angeles, CA",PF,-118.2513844,34.0460412,"206 w 6th st, los angeles, ca 90014, usa"
+6/3/2018,206 W 6th St,", Los Angeles, CA","206 W 6th St, Los Angeles, CA",PH,-118.2513844,34.0460412,"206 w 6th st, los angeles, ca 90014, usa"
+6/4/2018,206 W 6th St,", Los Angeles, CA","206 W 6th St, Los Angeles, CA",PI,-118.2513844,34.0460412,"206 w 6th st, los angeles, ca 90014, usa"
+6/6/2018,206 W 6th St,", Los Angeles, CA","206 W 6th St, Los Angeles, CA",PI,-118.2513844,34.0460412,"206 w 6th st, los angeles, ca 90014, usa"
+6/6/2018,206 W 6th St,", Los Angeles, CA","206 W 6th St, Los Angeles, CA",PK,-118.2513844,34.0460412,"206 w 6th st, los angeles, ca 90014, usa"
+6/8/2018,206 W 6th St,", Los Angeles, CA","206 W 6th St, Los Angeles, CA",PH,-118.2513844,34.0460412,"206 w 6th st, los angeles, ca 90014, usa"
+6/12/2018,206 W 6th St,", Los Angeles, CA","206 W 6th St, Los Angeles, CA",PH,-118.2513844,34.0460412,"206 w 6th st, los angeles, ca 90014, usa"
+6/15/2018,206 W 6th St,", Los Angeles, CA","206 W 6th St, Los Angeles, CA",PH,-118.2513844,34.0460412,"206 w 6th st, los angeles, ca 90014, usa"
+6/16/2018,206 W 6th St,", Los Angeles, CA","206 W 6th St, Los Angeles, CA",PI,-118.2513844,34.0460412,"206 w 6th st, los angeles, ca 90014, usa"
+6/13/2018,220 S Spring St,", Los Angeles, CA","220 S Spring St, Los Angeles, CA",PI,-118.2459925,34.0508026,"220 s spring st, los angeles, ca 90012, usa"
+6/14/2018,220 S Spring St,", Los Angeles, CA","220 S Spring St, Los Angeles, CA",PJ,-118.2459925,34.0508026,"220 s spring st, los angeles, ca 90012, usa"
+6/17/2018,220 S Spring St,", Los Angeles, CA","220 S Spring St, Los Angeles, CA",PJ,-118.2459925,34.0508026,"220 s spring st, los angeles, ca 90012, usa"
+6/17/2018,220 S Spring St,", Los Angeles, CA","220 S Spring St, Los Angeles, CA",PI,-118.2459925,34.0508026,"220 s spring st, los angeles, ca 90012, usa"
+6/19/2018,220 S Spring St,", Los Angeles, CA","220 S Spring St, Los Angeles, CA",PJ,-118.2459925,34.0508026,"220 s spring st, los angeles, ca 90012, usa"
+6/20/2018,220 S Spring St,", Los Angeles, CA","220 S Spring St, Los Angeles, CA",PJ,-118.2459925,34.0508026,"220 s spring st, los angeles, ca 90012, usa"
+6/23/2018,220 S Spring St,", Los Angeles, CA","220 S Spring St, Los Angeles, CA",PJ,-118.2459925,34.0508026,"220 s spring st, los angeles, ca 90012, usa"
+6/24/2018,220 S Spring St,", Los Angeles, CA","220 S Spring St, Los Angeles, CA",PJ,-118.2459925,34.0508026,"220 s spring st, los angeles, ca 90012, usa"
+6/25/2018,220 S Spring St,", Los Angeles, CA","220 S Spring St, Los Angeles, CA",PJ,-118.2459925,34.0508026,"220 s spring st, los angeles, ca 90012, usa"
+6/27/2018,220 S Spring St,", Los Angeles, CA","220 S Spring St, Los Angeles, CA",PH,-118.2459925,34.0508026,"220 s spring st, los angeles, ca 90012, usa"
+6/28/2018,220 S Spring St,", Los Angeles, CA","220 S Spring St, Los Angeles, CA",PH,-118.2459925,34.0508026,"220 s spring st, los angeles, ca 90012, usa"
+6/29/2018,220 S Spring St,", Los Angeles, CA","220 S Spring St, Los Angeles, CA",PH,-118.2459925,34.0508026,"220 s spring st, los angeles, ca 90012, usa"
+6/30/2018,220 S Spring St,", Los Angeles, CA","220 S Spring St, Los Angeles, CA",PI,-118.2459925,34.0508026,"220 s spring st, los angeles, ca 90012, usa"
+6/27/2018,232 E 2nd St ,", Los Angeles, CA","232 E 2nd St , Los Angeles, CA",PJ,-118.242155,34.049037,"232 e 2nd st, los angeles, ca 90012, usa"
+6/29/2018,232 E 2nd St ,", Los Angeles, CA","232 E 2nd St , Los Angeles, CA",PH,-118.242155,34.049037,"232 e 2nd st, los angeles, ca 90012, usa"
+6/1/2018,232 E 2nd St,", Los Angeles, CA","232 E 2nd St, Los Angeles, CA",PI,-118.242155,34.049037,"232 e 2nd st, los angeles, ca 90012, usa"
+6/2/2018,232 E 2nd St,", Los Angeles, CA","232 E 2nd St, Los Angeles, CA",PI,-118.242155,34.049037,"232 e 2nd st, los angeles, ca 90012, usa"
+6/8/2018,232 E 2nd St,", Los Angeles, CA","232 E 2nd St, Los Angeles, CA",PK,-118.242155,34.049037,"232 e 2nd st, los angeles, ca 90012, usa"
+6/12/2018,242 S Broadway,", Los Angeles, CA","242 S Broadway, Los Angeles, CA",PK,-118.2474379,34.0512759,"242 s broadway, los angeles, ca 90012, usa"
+6/1/2018,303 S Hewitt St,", Los Angeles, CA","303 S Hewitt St, Los Angeles, CA",PF,-118.2362614,34.0452615,"303 s hewitt st, los angeles, ca 90013, usa"
+6/4/2018,303 S Hewitt St,", Los Angeles, CA","303 S Hewitt St, Los Angeles, CA",PG,-118.2362614,34.0452615,"303 s hewitt st, los angeles, ca 90013, usa"
+6/6/2018,333 S Alameda St ,", Los Angeles, CA","333 S Alameda St , Los Angeles, CA",PH,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/9/2018,333 S Alameda St ,", Los Angeles, CA","333 S Alameda St , Los Angeles, CA",PF,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/2/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PE,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/3/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PF,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/5/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PF,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/7/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PH,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/8/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PF,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/10/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PG,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/12/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PG,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/13/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PG,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/14/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PG,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/14/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PH,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/15/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PI,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/16/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PG,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/17/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PG,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/17/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PG,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/18/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PH,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/18/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PF,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/19/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PH,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/21/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PH,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/22/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PI,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/23/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PG,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/24/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PH,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/25/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PG,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/26/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PH,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/27/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PE,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/28/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PE,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/29/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PF,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/30/2018,333 S Alameda St,", Los Angeles, CA","333 S Alameda St, Los Angeles, CA",PG,-118.2383234,34.0445344,"333 s alameda st, los angeles, ca 90013, usa"
+6/9/2018,360 W 3rd St,", Los Angeles, CA","360 W 3rd St, Los Angeles, CA",PI,-118.2845056,33.7416013,"360 w 3rd st, san pedro, ca 90731, usa"
+6/10/2018,360 W 3rd St,", Los Angeles, CA","360 W 3rd St, Los Angeles, CA",PJ,-118.2845056,33.7416013,"360 w 3rd st, san pedro, ca 90731, usa"
+6/13/2018,360 W 3rd St,", Los Angeles, CA","360 W 3rd St, Los Angeles, CA",PJ,-118.2845056,33.7416013,"360 w 3rd st, san pedro, ca 90731, usa"
+6/13/2018,360 W 3rd St,", Los Angeles, CA","360 W 3rd St, Los Angeles, CA",PJ,-118.2845056,33.7416013,"360 w 3rd st, san pedro, ca 90731, usa"
+6/17/2018,360 W 3rd St,", Los Angeles, CA","360 W 3rd St, Los Angeles, CA",PJ,-118.2845056,33.7416013,"360 w 3rd st, san pedro, ca 90731, usa"
+6/18/2018,360 W 3rd St,", Los Angeles, CA","360 W 3rd St, Los Angeles, CA",PJ,-118.2845056,33.7416013,"360 w 3rd st, san pedro, ca 90731, usa"
+6/19/2018,360 W 3rd St,", Los Angeles, CA","360 W 3rd St, Los Angeles, CA",PJ,-118.2845056,33.7416013,"360 w 3rd st, san pedro, ca 90731, usa"
+6/21/2018,360 W 3rd St,", Los Angeles, CA","360 W 3rd St, Los Angeles, CA",PI,-118.2845056,33.7416013,"360 w 3rd st, san pedro, ca 90731, usa"
+6/12/2018,360 W3rd St,", Los Angeles, CA","360 W3rd St, Los Angeles, CA",PI,-118.2845056,33.7416013,"360 w 3rd st, san pedro, ca 90731, usa"
+6/23/2018,400 W 9th St ,", Los Angeles, CA","400 W 9th St , Los Angeles, CA",PE,-118.2589622,34.0438527,"400 w 9th st, los angeles, ca 90015, usa"
+6/17/2018,400 W 9th St,", Los Angeles, CA","400 W 9th St, Los Angeles, CA",PF,-118.2589622,34.0438527,"400 w 9th st, los angeles, ca 90015, usa"
+6/18/2018,400 W 9th St,", Los Angeles, CA","400 W 9th St, Los Angeles, CA",PF,-118.2589622,34.0438527,"400 w 9th st, los angeles, ca 90015, usa"
+6/19/2018,400 W 9th St,", Los Angeles, CA","400 W 9th St, Los Angeles, CA",PE,-118.2589622,34.0438527,"400 w 9th st, los angeles, ca 90015, usa"
+6/20/2018,400 W 9th St,", Los Angeles, CA","400 W 9th St, Los Angeles, CA",PG,-118.2589622,34.0438527,"400 w 9th st, los angeles, ca 90015, usa"
+6/21/2018,400 W 9th St,", Los Angeles, CA","400 W 9th St, Los Angeles, CA",PE,-118.2589622,34.0438527,"400 w 9th st, los angeles, ca 90015, usa"
+6/24/2018,400 W 9th St,", Los Angeles, CA","400 W 9th St, Los Angeles, CA",PF,-118.2589622,34.0438527,"400 w 9th st, los angeles, ca 90015, usa"
+6/25/2018,400 W 9th St,", Los Angeles, CA","400 W 9th St, Los Angeles, CA",PD,-118.2589622,34.0438527,"400 w 9th st, los angeles, ca 90015, usa"
+6/27/2018,400 W 9th St,", Los Angeles, CA","400 W 9th St, Los Angeles, CA",PH,-118.2589622,34.0438527,"400 w 9th st, los angeles, ca 90015, usa"
+6/30/2018,400 W 9th St,", Los Angeles, CA","400 W 9th St, Los Angeles, CA",PF,-118.2589622,34.0438527,"400 w 9th st, los angeles, ca 90015, usa"
+6/26/2018,404 S Figueroa St,", Los Angeles, CA","404 S Figueroa St, Los Angeles, CA",PK,-118.2562255,34.0522541,"404 s figueroa st, los angeles, ca 90071, usa"
+6/1/2018,4th & Alameda ,", Los Angeles, CA","4th & Alameda , Los Angeles, CA",PE,-118.2403216,34.0432869,
+6/3/2018,4th & Alameda ,", Los Angeles, CA","4th & Alameda , Los Angeles, CA",PE,-118.2403216,34.0432869,
+6/4/2018,4th & Alameda ,", Los Angeles, CA","4th & Alameda , Los Angeles, CA",PE,-118.2403216,34.0432869,
+6/17/2018,4th & Mateo ,", Los Angeles, CA","4th & Mateo , Los Angeles, CA",PE,-118.2353287,34.0414808,
+6/30/2018,4th & Mateo ,", Los Angeles, CA","4th & Mateo , Los Angeles, CA",PE,-118.2353287,34.0414808,
+6/17/2018,4th & Mateo,", Los Angeles, CA","4th & Mateo, Los Angeles, CA",PF,-118.2353287,34.0414808,
+6/18/2018,4th & Mateo,", Los Angeles, CA","4th & Mateo, Los Angeles, CA",PD,-118.2353287,34.0414808,
+6/19/2018,4th & Mateo,", Los Angeles, CA","4th & Mateo, Los Angeles, CA",PD,-118.2353287,34.0414808,
+6/19/2018,4th & Mateo,", Los Angeles, CA","4th & Mateo, Los Angeles, CA",PH,-118.2353287,34.0414808,
+6/20/2018,4th & Mateo,", Los Angeles, CA","4th & Mateo, Los Angeles, CA",PF,-118.2353287,34.0414808,
+6/22/2018,4th & Mateo,", Los Angeles, CA","4th & Mateo, Los Angeles, CA",PG,-118.2353287,34.0414808,
+6/22/2018,4th & Mateo,", Los Angeles, CA","4th & Mateo, Los Angeles, CA",PG,-118.2353287,34.0414808,
+6/23/2018,4th & Mateo,", Los Angeles, CA","4th & Mateo, Los Angeles, CA",PD,-118.2353287,34.0414808,
+6/23/2018,4th & Mateo,", Los Angeles, CA","4th & Mateo, Los Angeles, CA",PH,-118.2353287,34.0414808,
+6/24/2018,4th & Mateo,", Los Angeles, CA","4th & Mateo, Los Angeles, CA",PE,-118.2353287,34.0414808,
+6/24/2018,4th & Mateo,", Los Angeles, CA","4th & Mateo, Los Angeles, CA",PH,-118.2353287,34.0414808,
+6/26/2018,4th & Mateo,", Los Angeles, CA","4th & Mateo, Los Angeles, CA",PE,-118.2353287,34.0414808,
+6/26/2018,4th & Mateo,", Los Angeles, CA","4th & Mateo, Los Angeles, CA",PG,-118.2353287,34.0414808,
+6/28/2018,4th & Mateo,", Los Angeles, CA","4th & Mateo, Los Angeles, CA",PD,-118.2353287,34.0414808,
+6/28/2018,4th & Mateo,", Los Angeles, CA","4th & Mateo, Los Angeles, CA",PH,-118.2353287,34.0414808,
+6/29/2018,4th & Mateo,", Los Angeles, CA","4th & Mateo, Los Angeles, CA",PD,-118.2353287,34.0414808,
+6/29/2018,4th & Mateo,", Los Angeles, CA","4th & Mateo, Los Angeles, CA",PD,-118.2353287,34.0414808,
+6/30/2018,4th & Mateo,", Los Angeles, CA","4th & Mateo, Los Angeles, CA",PE,-118.2353287,34.0414808,
+6/1/2018,500 Center St,", Los Angeles, CA","500 Center St, Los Angeles, CA",PJ,-118.2307407,34.0522313,"500 center st, los angeles, ca 90012, usa"
+6/2/2018,500 Center St,", Los Angeles, CA","500 Center St, Los Angeles, CA",PJ,-118.2307407,34.0522313,"500 center st, los angeles, ca 90012, usa"
+6/21/2018,500 S Alameda St,", Los Angeles, CA","500 S Alameda St, Los Angeles, CA",PD,-118.2378561,34.0412445,"500 s alameda st, los angeles, ca 90013, usa"
+6/10/2018,505 N Figueroa St,", Los Angeles, CA","505 N Figueroa St, Los Angeles, CA",PK,-118.2470432,34.0625079,"505 n figueroa st, los angeles, ca 90012, usa"
+6/11/2018,505 N Figueroa St,", Los Angeles, CA","505 N Figueroa St, Los Angeles, CA",PJ,-118.2470432,34.0625079,"505 n figueroa st, los angeles, ca 90012, usa"
+6/3/2018,530 Molino St ,", Los Angeles, CA","530 Molino St , Los Angeles, CA",PG,-118.2334405,34.0407706,"530 molino st, los angeles, ca 90013, usa"
+6/5/2018,530 Molino St ,", Los Angeles, CA","530 Molino St , Los Angeles, CA",PE,-118.2334405,34.0407706,"530 molino st, los angeles, ca 90013, usa"
+6/4/2018,530 Molino St,", Los Angeles, CA","530 Molino St, Los Angeles, CA",PD,-118.2334405,34.0407706,"530 molino st, los angeles, ca 90013, usa"
+6/6/2018,530 Molino St,", Los Angeles, CA","530 Molino St, Los Angeles, CA",PF,-118.2334405,34.0407706,"530 molino st, los angeles, ca 90013, usa"
+6/7/2018,530 Molino St,", Los Angeles, CA","530 Molino St, Los Angeles, CA",PG,-118.2334405,34.0407706,"530 molino st, los angeles, ca 90013, usa"
+6/7/2018,530 Molino St,", Los Angeles, CA","530 Molino St, Los Angeles, CA",PH,-118.2334405,34.0407706,"530 molino st, los angeles, ca 90013, usa"
+6/8/2018,530 Molino St,", Los Angeles, CA","530 Molino St, Los Angeles, CA",PD,-118.2334405,34.0407706,"530 molino st, los angeles, ca 90013, usa"
+6/11/2018,530 Molino St,", Los Angeles, CA","530 Molino St, Los Angeles, CA",PE,-118.2334405,34.0407706,"530 molino st, los angeles, ca 90013, usa"
+6/13/2018,530 Molino St,", Los Angeles, CA","530 Molino St, Los Angeles, CA",PE,-118.2334405,34.0407706,"530 molino st, los angeles, ca 90013, usa"
+6/14/2018,530 Molino St,", Los Angeles, CA","530 Molino St, Los Angeles, CA",PE,-118.2334405,34.0407706,"530 molino st, los angeles, ca 90013, usa"
+6/14/2018,530 Molino St,", Los Angeles, CA","530 Molino St, Los Angeles, CA",PD,-118.2334405,34.0407706,"530 molino st, los angeles, ca 90013, usa"
+6/16/2018,530 Molino St,", Los Angeles, CA","530 Molino St, Los Angeles, CA",PE,-118.2334405,34.0407706,"530 molino st, los angeles, ca 90013, usa"
+6/16/2018,530 Molino St,", Los Angeles, CA","530 Molino St, Los Angeles, CA",PF,-118.2334405,34.0407706,"530 molino st, los angeles, ca 90013, usa"
+6/29/2018,550 N Figueroa St,", Los Angeles, CA","550 N Figueroa St, Los Angeles, CA",PJ,-118.2455813,34.0616716,"550 n figueroa st, los angeles, ca 90012, usa"
+6/30/2018,550 N Figueroa St,", Los Angeles, CA","550 N Figueroa St, Los Angeles, CA",PK,-118.2455813,34.0616716,"550 n figueroa st, los angeles, ca 90012, usa"
+6/9/2018,612 S Flower St,", Los Angeles, CA","612 S Flower St, Los Angeles, CA",PK,-118.2575274,34.0495881,"612 s flower st, los angeles, ca 90017, usa"
+6/15/2018,612 S Flower St,", Los Angeles, CA","612 S Flower St, Los Angeles, CA",PI,-118.2575274,34.0495881,"612 s flower st, los angeles, ca 90017, usa"
+6/16/2018,612 S Flower St,", Los Angeles, CA","612 S Flower St, Los Angeles, CA",PJ,-118.2575274,34.0495881,"612 s flower st, los angeles, ca 90017, usa"
+6/17/2018,612 S Flower St,", Los Angeles, CA","612 S Flower St, Los Angeles, CA",PI,-118.2575274,34.0495881,"612 s flower st, los angeles, ca 90017, usa"
+6/18/2018,612 S Flower St,", Los Angeles, CA","612 S Flower St, Los Angeles, CA",PK,-118.2575274,34.0495881,"612 s flower st, los angeles, ca 90017, usa"
+6/22/2018,612 S Flower St,", Los Angeles, CA","612 S Flower St, Los Angeles, CA",PJ,-118.2575274,34.0495881,"612 s flower st, los angeles, ca 90017, usa"
+6/24/2018,612 S Flower St,", Los Angeles, CA","612 S Flower St, Los Angeles, CA",PI,-118.2575274,34.0495881,"612 s flower st, los angeles, ca 90017, usa"
+6/17/2018,639 N Hill St,", Los Angeles, CA","639 N Hill St, Los Angeles, CA",PK,-118.2410699,34.0606648,"639 n hill st, los angeles, ca 90012, usa"
+6/22/2018,639 N Hill St,", Los Angeles, CA","639 N Hill St, Los Angeles, CA",PK,-118.2410699,34.0606648,"639 n hill st, los angeles, ca 90012, usa"
+6/11/2018,6th & Broadway,", Los Angeles, CA","6th & Broadway, Los Angeles, CA",PK,-118.252052,34.046661,
+6/12/2018,6th & Broadway,", Los Angeles, CA","6th & Broadway, Los Angeles, CA",PK,-118.252052,34.046661,
+6/13/2018,6th & Broadway,", Los Angeles, CA","6th & Broadway, Los Angeles, CA",PK,-118.252052,34.046661,
+6/18/2018,6th & Broadway,", Los Angeles, CA","6th & Broadway, Los Angeles, CA",PK,-118.252052,34.046661,
+6/21/2018,6th & Broadway,", Los Angeles, CA","6th & Broadway, Los Angeles, CA",PK,-118.252052,34.046661,
+6/1/2018,6th & Mateo,", Los Angeles, CA","6th & Mateo, Los Angeles, CA",PB,-118.2347014,34.0374419,
+6/6/2018,6th & Mateo,", Los Angeles, CA","6th & Mateo, Los Angeles, CA",PE,-118.2347014,34.0374419,
+6/7/2018,6th & Mateo,", Los Angeles, CA","6th & Mateo, Los Angeles, CA",PF,-118.2347014,34.0374419,
+6/11/2018,6th & Mateo,", Los Angeles, CA","6th & Mateo, Los Angeles, CA",PD,-118.2347014,34.0374419,
+6/2/2018,6th St & Main St,", Los Angeles, CA","6th St & Main St, Los Angeles, CA",PF,-118.2521446,34.0452864,
+6/3/2018,6th St & Main St,", Los Angeles, CA","6th St & Main St, Los Angeles, CA",PH,-118.2521446,34.0452864,
+6/4/2018,6th St & Main St,", Los Angeles, CA","6th St & Main St, Los Angeles, CA",PF,-118.2521446,34.0452864,
+6/6/2018,6th St & Main St,", Los Angeles, CA","6th St & Main St, Los Angeles, CA",PI,-118.2521446,34.0452864,
+6/8/2018,6th St & Main St,", Los Angeles, CA","6th St & Main St, Los Angeles, CA",PG,-118.2521446,34.0452864,
+6/3/2018,705 W 9th St,", Los Angeles, CA","705 W 9th St, Los Angeles, CA",PI,-118.2615512,34.0462754,"705 w 9th st, los angeles, ca 90015, usa"
+6/5/2018,705 W 9th St,", Los Angeles, CA","705 W 9th St, Los Angeles, CA",PH,-118.2615512,34.0462754,"705 w 9th st, los angeles, ca 90015, usa"
+6/11/2018,710 E Commercial St,", Los Angeles, CA","710 E Commercial St, Los Angeles, CA",PI,-118.2328349,34.0521597,"710 e commercial st, los angeles, ca 90012, usa"
+6/1/2018,711 N Main St,", Los Angeles, CA","711 N Main St, Los Angeles, CA",PK,-118.2376156,34.0588338,"711 n main st, los angeles, ca 90012, usa"
+6/4/2018,711 N Main St,", Los Angeles, CA","711 N Main St, Los Angeles, CA",PJ,-118.2376156,34.0588338,"711 n main st, los angeles, ca 90012, usa"
+6/27/2018,718 Jackson St,", Los Angeles, CA","718 Jackson St, Los Angeles, CA",PK,-118.2327892,34.0506899,"718 jackson st, los angeles, ca 90012, usa"
+6/7/2018,725 S Grand Av ,", Los Angeles, CA","725 S Grand Av , Los Angeles, CA",PI,-118.2576873,34.0466064,"725 s grand ave, los angeles, ca 90017, usa"
+6/16/2018,725 S Grand Av ,", Los Angeles, CA","725 S Grand Av , Los Angeles, CA",PH,-118.2576873,34.0466064,"725 s grand ave, los angeles, ca 90017, usa"
+6/1/2018,725 S Grand Av,", Los Angeles, CA","725 S Grand Av, Los Angeles, CA",PG,-118.2576873,34.0466064,"725 s grand ave, los angeles, ca 90017, usa"
+6/3/2018,725 S Grand Av,", Los Angeles, CA","725 S Grand Av, Los Angeles, CA",PG,-118.2576873,34.0466064,"725 s grand ave, los angeles, ca 90017, usa"
+6/4/2018,725 S Grand Av,", Los Angeles, CA","725 S Grand Av, Los Angeles, CA",PG,-118.2576873,34.0466064,"725 s grand ave, los angeles, ca 90017, usa"
+6/7/2018,725 S Grand Av,", Los Angeles, CA","725 S Grand Av, Los Angeles, CA",PK,-118.2576873,34.0466064,"725 s grand ave, los angeles, ca 90017, usa"
+6/8/2018,725 S Grand Av,", Los Angeles, CA","725 S Grand Av, Los Angeles, CA",PG,-118.2576873,34.0466064,"725 s grand ave, los angeles, ca 90017, usa"
+6/9/2018,725 S Grand Av,", Los Angeles, CA","725 S Grand Av, Los Angeles, CA",PG,-118.2576873,34.0466064,"725 s grand ave, los angeles, ca 90017, usa"
+6/10/2018,725 S Grand Av,", Los Angeles, CA","725 S Grand Av, Los Angeles, CA",PH,-118.2576873,34.0466064,"725 s grand ave, los angeles, ca 90017, usa"
+6/13/2018,725 S Grand Av,", Los Angeles, CA","725 S Grand Av, Los Angeles, CA",PH,-118.2576873,34.0466064,"725 s grand ave, los angeles, ca 90017, usa"
+6/14/2018,725 S Grand Av,", Los Angeles, CA","725 S Grand Av, Los Angeles, CA",PH,-118.2576873,34.0466064,"725 s grand ave, los angeles, ca 90017, usa"
+6/15/2018,725 S Grand Av,", Los Angeles, CA","725 S Grand Av, Los Angeles, CA",PG,-118.2576873,34.0466064,"725 s grand ave, los angeles, ca 90017, usa"
+6/16/2018,725 S Grand Av,", Los Angeles, CA","725 S Grand Av, Los Angeles, CA",PI,-118.2576873,34.0466064,"725 s grand ave, los angeles, ca 90017, usa"
+6/18/2018,725 S Grand Av,", Los Angeles, CA","725 S Grand Av, Los Angeles, CA",PI,-118.2576873,34.0466064,"725 s grand ave, los angeles, ca 90017, usa"
+6/18/2018,725 S Grand Av,", Los Angeles, CA","725 S Grand Av, Los Angeles, CA",PH,-118.2576873,34.0466064,"725 s grand ave, los angeles, ca 90017, usa"
+6/19/2018,725 S Grand Av,", Los Angeles, CA","725 S Grand Av, Los Angeles, CA",PI,-118.2576873,34.0466064,"725 s grand ave, los angeles, ca 90017, usa"
+6/19/2018,725 S Grand Av,", Los Angeles, CA","725 S Grand Av, Los Angeles, CA",PI,-118.2576873,34.0466064,"725 s grand ave, los angeles, ca 90017, usa"
+6/20/2018,725 S Grand Av,", Los Angeles, CA","725 S Grand Av, Los Angeles, CA",PJ,-118.2576873,34.0466064,"725 s grand ave, los angeles, ca 90017, usa"
+6/23/2018,725 S Grand Av,", Los Angeles, CA","725 S Grand Av, Los Angeles, CA",PH,-118.2576873,34.0466064,"725 s grand ave, los angeles, ca 90017, usa"
+6/23/2018,725 S Grand Av,", Los Angeles, CA","725 S Grand Av, Los Angeles, CA",,-118.2576873,34.0466064,"725 s grand ave, los angeles, ca 90017, usa"
+6/25/2018,725 S Grand Av,", Los Angeles, CA","725 S Grand Av, Los Angeles, CA",PI,-118.2576873,34.0466064,"725 s grand ave, los angeles, ca 90017, usa"
+6/27/2018,725 S Grand Av,", Los Angeles, CA","725 S Grand Av, Los Angeles, CA",PF,-118.2576873,34.0466064,"725 s grand ave, los angeles, ca 90017, usa"
+6/28/2018,725 S Grand Av,", Los Angeles, CA","725 S Grand Av, Los Angeles, CA",PF,-118.2576873,34.0466064,"725 s grand ave, los angeles, ca 90017, usa"
+6/29/2018,725 S Grand Av,", Los Angeles, CA","725 S Grand Av, Los Angeles, CA",PG,-118.2576873,34.0466064,"725 s grand ave, los angeles, ca 90017, usa"
+6/30/2018,725 S Grand Av,", Los Angeles, CA","725 S Grand Av, Los Angeles, CA",PH,-118.2576873,34.0466064,"725 s grand ave, los angeles, ca 90017, usa"
+6/2/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PJ,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/3/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PJ,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/4/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PJ,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/5/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PK,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/6/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PJ,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/8/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PJ,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/8/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PJ,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/9/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PH,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/9/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PK,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/10/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PI,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/10/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PJ,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/11/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PJ,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/11/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PH,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/12/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PI,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/14/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PI,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/15/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PJ,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/16/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PK,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/17/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PH,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/18/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PJ,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/18/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PI,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/22/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PI,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/25/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PI,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/25/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PJ,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/26/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PJ,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/27/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PG,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/27/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PI,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/28/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PG,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/28/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PJ,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/29/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PG,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/30/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PH,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/30/2018,735 S Figueroa St,", Los Angeles, CA","735 S Figueroa St, Los Angeles, CA",PI,-118.260562,34.049209,"735 s figueroa st, los angeles, ca 90017, usa"
+6/1/2018,746 S Hope St,", Los Angeles, CA","746 S Hope St, Los Angeles, CA",PH,-118.2582812,34.0467385,"746 s hope st, los angeles, ca 90017, usa"
+6/2/2018,746 S Hope St,", Los Angeles, CA","746 S Hope St, Los Angeles, CA",PI,-118.2582812,34.0467385,"746 s hope st, los angeles, ca 90017, usa"
+6/8/2018,746 S Hope St,", Los Angeles, CA","746 S Hope St, Los Angeles, CA",PI,-118.2582812,34.0467385,"746 s hope st, los angeles, ca 90017, usa"
+6/25/2018,750 N Hill St,", Los Angeles, CA","750 N Hill St, Los Angeles, CA",PK,-118.2396422,34.0617111,"750 n hill st, los angeles, ca 90012, usa"
+6/26/2018,750 N Hill St,", Los Angeles, CA","750 N Hill St, Los Angeles, CA",PI,-118.2396422,34.0617111,"750 n hill st, los angeles, ca 90012, usa"
+6/27/2018,750 N Hill St,", Los Angeles, CA","750 N Hill St, Los Angeles, CA",PI,-118.2396422,34.0617111,"750 n hill st, los angeles, ca 90012, usa"
+6/2/2018,750 W 7th St ,", Los Angeles, CA","750 W 7th St , Los Angeles, CA",PH,-118.2589061,34.0476591,"750 w 7th st, los angeles, ca 90017, usa"
+6/3/2018,750 W 7th St,", Los Angeles, CA","750 W 7th St, Los Angeles, CA",PI,-118.2589061,34.0476591,"750 w 7th st, los angeles, ca 90017, usa"
+6/4/2018,750 W 7th St,", Los Angeles, CA","750 W 7th St, Los Angeles, CA",PI,-118.2589061,34.0476591,"750 w 7th st, los angeles, ca 90017, usa"
+6/5/2018,750 W 7th St,", Los Angeles, CA","750 W 7th St, Los Angeles, CA",PJ,-118.2589061,34.0476591,"750 w 7th st, los angeles, ca 90017, usa"
+6/7/2018,750 W 7th St,", Los Angeles, CA","750 W 7th St, Los Angeles, CA",PK,-118.2589061,34.0476591,"750 w 7th st, los angeles, ca 90017, usa"
+6/11/2018,750 W 7th St,", Los Angeles, CA","750 W 7th St, Los Angeles, CA",PI,-118.2589061,34.0476591,"750 w 7th st, los angeles, ca 90017, usa"
+6/13/2018,750 W 7th St,", Los Angeles, CA","750 W 7th St, Los Angeles, CA",PH,-118.2589061,34.0476591,"750 w 7th st, los angeles, ca 90017, usa"
+6/14/2018,750 W 7th St,", Los Angeles, CA","750 W 7th St, Los Angeles, CA",PI,-118.2589061,34.0476591,"750 w 7th st, los angeles, ca 90017, usa"
+6/16/2018,750 W 7th St,", Los Angeles, CA","750 W 7th St, Los Angeles, CA",PJ,-118.2589061,34.0476591,"750 w 7th st, los angeles, ca 90017, usa"
+6/21/2018,750 W 7th St,", Los Angeles, CA","750 W 7th St, Los Angeles, CA",PI,-118.2589061,34.0476591,"750 w 7th st, los angeles, ca 90017, usa"
+6/23/2018,750 W 7th St,", Los Angeles, CA","750 W 7th St, Los Angeles, CA",PI,-118.2589061,34.0476591,"750 w 7th st, los angeles, ca 90017, usa"
+6/25/2018,750 W 7th St,", Los Angeles, CA","750 W 7th St, Los Angeles, CA",PH,-118.2589061,34.0476591,"750 w 7th st, los angeles, ca 90017, usa"
+6/30/2018,759 Maple Av,", Los Angeles, CA","759 Maple Av, Los Angeles, CA",PD,-118.250902,34.041317,"759 maple ave, los angeles, ca 90014, usa"
+6/25/2018,800 W Olympic Bl ,", Los Angeles, CA","800 W Olympic Bl , Los Angeles, CA",PE,-118.2652703,34.0447954,"lucky strike bowling - los angeles, 800 w olympic blvd, los angeles, ca 90015, usa"
+6/25/2018,800 W Olympic Bl,", Los Angeles, CA","800 W Olympic Bl, Los Angeles, CA",PH,-118.2652703,34.0447954,"lucky strike bowling - los angeles, 800 w olympic blvd, los angeles, ca 90015, usa"
+6/26/2018,800 W Olympic Bl,", Los Angeles, CA","800 W Olympic Bl, Los Angeles, CA",PF,-118.2652703,34.0447954,"lucky strike bowling - los angeles, 800 w olympic blvd, los angeles, ca 90015, usa"
+6/25/2018,801 S Hill St,", Los Angeles, CA","801 S Hill St, Los Angeles, CA",PK,-118.256175,34.044502,"801 s hill st, los angeles, ca 90014, usa"
+6/1/2018,808 S Olive St ,", Los Angeles, CA","808 S Olive St , Los Angeles, CA",PE,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/2/2018,808 S Olive St ,", Los Angeles, CA","808 S Olive St , Los Angeles, CA",PE,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/4/2018,808 S Olive St ,", Los Angeles, CA","808 S Olive St , Los Angeles, CA",PE,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/10/2018,808 S Olive St ,", Los Angeles, CA","808 S Olive St , Los Angeles, CA",PF,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/27/2018,808 S Olive St ,", Los Angeles, CA","808 S Olive St , Los Angeles, CA",PD,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/1/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PF,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/2/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PD,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/4/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PF,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/5/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PG,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/6/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PG,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/6/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PH,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/8/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PE,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/8/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PF,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/9/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PE,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/10/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PI,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/11/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PH,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/12/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PF,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/12/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PH,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/13/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PG,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/13/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PF,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/14/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PG,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/15/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PF,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/15/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PH,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/16/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PH,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/19/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PG,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/20/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PI,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/20/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PH,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/21/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PG,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/21/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PG,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/22/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PH,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/24/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PG,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/24/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PK,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/25/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PF,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/26/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PG,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/26/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PI,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/29/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PE,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/30/2018,808 S Olive St,", Los Angeles, CA","808 S Olive St, Los Angeles, CA",PG,-118.2570106,34.0446455,"808 s olive st, los angeles, ca 90014, usa"
+6/1/2018,813 Alpine St,", Los Angeles, CA","813 Alpine St, Los Angeles, CA",PK,-118.2443935,34.0641289,"813 alpine st, los angeles, ca 90012, usa"
+6/3/2018,813 Alpine St,", Los Angeles, CA","813 Alpine St, Los Angeles, CA",PK,-118.2443935,34.0641289,"813 alpine st, los angeles, ca 90012, usa"
+6/4/2018,813 Alpine St,", Los Angeles, CA","813 Alpine St, Los Angeles, CA",PK,-118.2443935,34.0641289,"813 alpine st, los angeles, ca 90012, usa"
+6/5/2018,813 Alpine St,", Los Angeles, CA","813 Alpine St, Los Angeles, CA",PK,-118.2443935,34.0641289,"813 alpine st, los angeles, ca 90012, usa"
+6/19/2018,825 E 4th St ,", Los Angeles, CA","825 E 4th St , Los Angeles, CA",PF,-118.2372952,34.0435796,"825 e 4th st, los angeles, ca 90013, usa"
+6/5/2018,825 E 4th St,", Los Angeles, CA","825 E 4th St, Los Angeles, CA",PF,-118.2372952,34.0435796,"825 e 4th st, los angeles, ca 90013, usa"
+6/6/2018,825 E 4th St,", Los Angeles, CA","825 E 4th St, Los Angeles, CA",PG,-118.2372952,34.0435796,"825 e 4th st, los angeles, ca 90013, usa"
+6/7/2018,825 E 4th St,", Los Angeles, CA","825 E 4th St, Los Angeles, CA",PI,-118.2372952,34.0435796,"825 e 4th st, los angeles, ca 90013, usa"
+6/10/2018,825 E 4th St,", Los Angeles, CA","825 E 4th St, Los Angeles, CA",PE,-118.2372952,34.0435796,"825 e 4th st, los angeles, ca 90013, usa"
+6/13/2018,825 E 4th St,", Los Angeles, CA","825 E 4th St, Los Angeles, CA",PF,-118.2372952,34.0435796,"825 e 4th st, los angeles, ca 90013, usa"
+6/16/2018,825 E 4th St,", Los Angeles, CA","825 E 4th St, Los Angeles, CA",PF,-118.2372952,34.0435796,"825 e 4th st, los angeles, ca 90013, usa"
+6/18/2018,825 E 4th St,", Los Angeles, CA","825 E 4th St, Los Angeles, CA",PG,-118.2372952,34.0435796,"825 e 4th st, los angeles, ca 90013, usa"
+6/20/2018,825 E 4th St,", Los Angeles, CA","825 E 4th St, Los Angeles, CA",PH,-118.2372952,34.0435796,"825 e 4th st, los angeles, ca 90013, usa"
+6/21/2018,825 E 4th St,", Los Angeles, CA","825 E 4th St, Los Angeles, CA",PF,-118.2372952,34.0435796,"825 e 4th st, los angeles, ca 90013, usa"
+6/23/2018,825 E 4th St,", Los Angeles, CA","825 E 4th St, Los Angeles, CA",PF,-118.2372952,34.0435796,"825 e 4th st, los angeles, ca 90013, usa"
+6/2/2018,833 S Flower St,", Los Angeles, CA","833 S Flower St, Los Angeles, CA",PH,-118.261137,34.0467247,"833 s flower st, los angeles, ca 90017, usa"
+6/3/2018,833 S Flower St,", Los Angeles, CA","833 S Flower St, Los Angeles, CA",PJ,-118.261137,34.0467247,"833 s flower st, los angeles, ca 90017, usa"
+6/4/2018,833 S Flower St,", Los Angeles, CA","833 S Flower St, Los Angeles, CA",PH,-118.261137,34.0467247,"833 s flower st, los angeles, ca 90017, usa"
+6/5/2018,833 S Flower St,", Los Angeles, CA","833 S Flower St, Los Angeles, CA",PH,-118.261137,34.0467247,"833 s flower st, los angeles, ca 90017, usa"
+6/5/2018,833 S Flower St,", Los Angeles, CA","833 S Flower St, Los Angeles, CA",PI,-118.261137,34.0467247,"833 s flower st, los angeles, ca 90017, usa"
+6/6/2018,833 S Flower St,", Los Angeles, CA","833 S Flower St, Los Angeles, CA",PJ,-118.261137,34.0467247,"833 s flower st, los angeles, ca 90017, usa"
+6/7/2018,833 S Flower St,", Los Angeles, CA","833 S Flower St, Los Angeles, CA",PJ,-118.261137,34.0467247,"833 s flower st, los angeles, ca 90017, usa"
+6/8/2018,833 S Flower St,", Los Angeles, CA","833 S Flower St, Los Angeles, CA",PH,-118.261137,34.0467247,"833 s flower st, los angeles, ca 90017, usa"
+6/9/2018,833 S Flower St,", Los Angeles, CA","833 S Flower St, Los Angeles, CA",PJ,-118.261137,34.0467247,"833 s flower st, los angeles, ca 90017, usa"
+6/1/2018,837 Traction Av,", Los Angeles, CA","837 Traction Av, Los Angeles, CA",PG,-118.2344339,34.044756,"837 traction ave, los angeles, ca 90013, usa"
+6/2/2018,837 Traction Av,", Los Angeles, CA","837 Traction Av, Los Angeles, CA",PG,-118.2344339,34.044756,"837 traction ave, los angeles, ca 90013, usa"
+6/5/2018,837 Traction Av,", Los Angeles, CA","837 Traction Av, Los Angeles, CA",PG,-118.2344339,34.044756,"837 traction ave, los angeles, ca 90013, usa"
+6/18/2018,837 Traction Av,", Los Angeles, CA","837 Traction Av, Los Angeles, CA",PG,-118.2344339,34.044756,"837 traction ave, los angeles, ca 90013, usa"
+6/20/2018,837 Traction Av,", Los Angeles, CA","837 Traction Av, Los Angeles, CA",PI,-118.2344339,34.044756,"837 traction ave, los angeles, ca 90013, usa"
+6/21/2018,837 Traction Av,", Los Angeles, CA","837 Traction Av, Los Angeles, CA",PH,-118.2344339,34.044756,"837 traction ave, los angeles, ca 90013, usa"
+6/28/2018,888 S Olive St,", Los Angeles, CA","888 S Olive St, Los Angeles, CA",PI,-118.2577112,34.0437942,"888 s olive st, los angeles, ca 90015, usa"
+6/29/2018,888 S Olive St,", Los Angeles, CA","888 S Olive St, Los Angeles, CA",PF,-118.2577112,34.0437942,"888 s olive st, los angeles, ca 90015, usa"
+6/30/2018,888 S Olive St,", Los Angeles, CA","888 S Olive St, Los Angeles, CA",PF,-118.2577112,34.0437942,"888 s olive st, los angeles, ca 90015, usa"
+6/29/2018,900 S Figueroa St,", Los Angeles, CA","900 S Figueroa St, Los Angeles, CA",PK,-118.2624381,34.0455818,"900 s figueroa st, los angeles, ca 90015, usa"
+6/19/2018,943 N Beaudry Av,", Los Angeles, CA","943 N Beaudry Av, Los Angeles, CA",PK,-118.2464722,34.0685533,"943 n beaudry ave, los angeles, ca 90012, usa"
+6/20/2018,943 N Beaudry Av,", Los Angeles, CA","943 N Beaudry Av, Los Angeles, CA",PK,-118.2464722,34.0685533,"943 n beaudry ave, los angeles, ca 90012, usa"
+6/21/2018,943 N Beaudry Av,", Los Angeles, CA","943 N Beaudry Av, Los Angeles, CA",PJ,-118.2464722,34.0685533,"943 n beaudry ave, los angeles, ca 90012, usa"
+6/13/2018,963 E 4th St ,", Los Angeles, CA","963 E 4th St , Los Angeles, CA",PE,-118.2346167,34.0435895,"963 e 4th st, los angeles, ca 90013, usa"
+6/12/2018,963 E 4th St,", Los Angeles, CA","963 E 4th St, Los Angeles, CA",PG,-118.2346167,34.0435895,"963 e 4th st, los angeles, ca 90013, usa"
+6/22/2018,975 Everett St,", Los Angeles, CA","975 Everett St, Los Angeles, CA",PJ,-118.2492363,34.0694975,"975 everett st, los angeles, ca 90026, usa"
+6/23/2018,975 Everett St,", Los Angeles, CA","975 Everett St, Los Angeles, CA",PK,-118.2492363,34.0694975,"975 everett st, los angeles, ca 90026, usa"
+6/29/2018,975 Everett St,", Los Angeles, CA","975 Everett St, Los Angeles, CA",PJ,-118.2492363,34.0694975,"975 everett st, los angeles, ca 90026, usa"
+6/12/2018,9th & Maple,", Los Angeles, CA","9th & Maple, Los Angeles, CA",PD,-118.2550877,34.039509,
+6/9/2018,9th St & Hill St,", Los Angeles, CA","9th St & Hill St, Los Angeles, CA",PI,-118.2593269,34.0430243,
+6/10/2018,9th St & Hill St,", Los Angeles, CA","9th St & Hill St, Los Angeles, CA",PD,-118.2593269,34.0430243,
+6/10/2018,9th St & Hill St,", Los Angeles, CA","9th St & Hill St, Los Angeles, CA",PH,-118.2593269,34.0430243,
+6/11/2018,9th St & Hill St,", Los Angeles, CA","9th St & Hill St, Los Angeles, CA",PG,-118.2593269,34.0430243,
+6/14/2018,9th St & Hill St,", Los Angeles, CA","9th St & Hill St, Los Angeles, CA",PF,-118.2593269,34.0430243,
+6/16/2018,9th St & Hill St,", Los Angeles, CA","9th St & Hill St, Los Angeles, CA",PG,-118.2593269,34.0430243,
+6/18/2018,9th St & Hill St,", Los Angeles, CA","9th St & Hill St, Los Angeles, CA",PE,-118.2593269,34.0430243,
+6/22/2018,9th St & Hill St,", Los Angeles, CA","9th St & Hill St, Los Angeles, CA",PH,-118.2593269,34.0430243,
+6/24/2018,9th St & Hill St,", Los Angeles, CA","9th St & Hill St, Los Angeles, CA",PJ,-118.2593269,34.0430243,
+6/25/2018,9th St & Hill St,", Los Angeles, CA","9th St & Hill St, Los Angeles, CA",PG,-118.2593269,34.0430243,
+6/26/2018,9th St & Hill St,", Los Angeles, CA","9th St & Hill St, Los Angeles, CA",PH,-118.2593269,34.0430243,
+6/27/2018,9th St & Hill St,", Los Angeles, CA","9th St & Hill St, Los Angeles, CA",PG,-118.2593269,34.0430243,
+6/29/2018,9th St & Hill St,", Los Angeles, CA","9th St & Hill St, Los Angeles, CA",PE,-118.2593269,34.0430243,
+6/11/2018,9th St & Santee,", Los Angeles, CA","9th St & Santee, Los Angeles, CA",PF,-118.2555498,34.0400584,
+6/12/2018,9th St & Santee,", Los Angeles, CA","9th St & Santee, Los Angeles, CA",PF,-118.2555498,34.0400584,
+6/11/2018,Broadway & Olympic ,", Los Angeles, CA","Broadway & Olympic , Los Angeles, CA",PD,-118.2588417,34.041492,
+6/14/2018,Broadway & Solano,", Los Angeles, CA","Broadway & Solano, Los Angeles, CA",PK,-118.2321087,34.0710525,
+6/28/2018,College & Hill,", Los Angeles, CA","College & Hill, Los Angeles, CA",PI,-118.2409141,34.0644421,
+6/28/2018,College & Hill,", Los Angeles, CA","College & Hill, Los Angeles, CA",PK,-118.2409141,34.0644421,
+6/1/2018,Fremont & Temple,", Los Angeles, CA","Fremont & Temple, Los Angeles, CA",PJ,-118.2516,34.0606973,
+6/2/2018,Fremont & Temple,", Los Angeles, CA","Fremont & Temple, Los Angeles, CA",PK,-118.2516,34.0606973,
+6/29/2018,Fremont & Temple,", Los Angeles, CA","Fremont & Temple, Los Angeles, CA",PI,-118.2516,34.0606973,
+6/30/2018,Fremont & Temple,", Los Angeles, CA","Fremont & Temple, Los Angeles, CA",PJ,-118.2516,34.0606973,
+6/12/2018,Garey & Jackson,", Los Angeles, CA","Garey & Jackson, Los Angeles, CA",PJ,-118.234407,34.051268,
+6/8/2018,Grand & Olympic ,", Los Angeles, CA","Grand & Olympic , Los Angeles, CA",PE,-118.26062,34.043012,
+6/12/2018,Grand & Olympic ,", Los Angeles, CA","Grand & Olympic , Los Angeles, CA",PE,-118.26062,34.043012,
+6/20/2018,Grand & Olympic ,", Los Angeles, CA","Grand & Olympic , Los Angeles, CA",PG,-118.26062,34.043012,
+6/9/2018,Grand & Olympic,", Los Angeles, CA","Grand & Olympic, Los Angeles, CA",PH,-118.26062,34.043012,
+6/10/2018,Grand & Olympic,", Los Angeles, CA","Grand & Olympic, Los Angeles, CA",PG,-118.26062,34.043012,
+6/11/2018,Grand & Olympic,", Los Angeles, CA","Grand & Olympic, Los Angeles, CA",PG,-118.26062,34.043012,
+6/11/2018,Grand & Olympic,", Los Angeles, CA","Grand & Olympic, Los Angeles, CA",PF,-118.26062,34.043012,
+6/13/2018,Grand & Olympic,", Los Angeles, CA","Grand & Olympic, Los Angeles, CA",PD,-118.26062,34.043012,
+6/14/2018,Grand & Olympic,", Los Angeles, CA","Grand & Olympic, Los Angeles, CA",PF,-118.26062,34.043012,
+6/14/2018,Grand & Olympic,", Los Angeles, CA","Grand & Olympic, Los Angeles, CA",PE,-118.26062,34.043012,
+6/15/2018,Grand & Olympic,", Los Angeles, CA","Grand & Olympic, Los Angeles, CA",PG,-118.26062,34.043012,
+6/23/2018,Grand & Olympic,", Los Angeles, CA","Grand & Olympic, Los Angeles, CA",PI,-118.26062,34.043012,
+6/24/2018,Grand & Olympic,", Los Angeles, CA","Grand & Olympic, Los Angeles, CA",PI,-118.26062,34.043012,
+6/15/2018,Grand & Pico ,", Los Angeles, CA","Grand & Pico , Los Angeles, CA",PD,-118.264362,34.038897,
+6/21/2018,Grand & Pico ,", Los Angeles, CA","Grand & Pico , Los Angeles, CA",PD,-118.264362,34.038897,
+6/7/2018,Grand & Pico,", Los Angeles, CA","Grand & Pico, Los Angeles, CA",PD,-118.264362,34.038897,
+6/8/2018,Grand & Pico,", Los Angeles, CA","Grand & Pico, Los Angeles, CA",PB,-118.264362,34.038897,
+6/9/2018,Grand & Pico,", Los Angeles, CA","Grand & Pico, Los Angeles, CA",PC,-118.264362,34.038897,
+6/10/2018,Grand & Pico,", Los Angeles, CA","Grand & Pico, Los Angeles, CA",PC,-118.264362,34.038897,
+6/16/2018,Grand & Pico,", Los Angeles, CA","Grand & Pico, Los Angeles, CA",PC,-118.264362,34.038897,
+6/22/2018,Grand & Pico,", Los Angeles, CA","Grand & Pico, Los Angeles, CA",PF,-118.264362,34.038897,
+6/23/2018,Grand & Pico,", Los Angeles, CA","Grand & Pico, Los Angeles, CA",PD,-118.264362,34.038897,
+6/25/2018,Grand & Pico,", Los Angeles, CA","Grand & Pico, Los Angeles, CA",PD,-118.264362,34.038897,
+6/27/2018,Grand & Pico,", Los Angeles, CA","Grand & Pico, Los Angeles, CA",PC,-118.264362,34.038897,
+6/28/2018,Grand & Pico,", Los Angeles, CA","Grand & Pico, Los Angeles, CA",PE,-118.264362,34.038897,
+6/30/2018,Grand & Pico,", Los Angeles, CA","Grand & Pico, Los Angeles, CA",PB,-118.264362,34.038897,
+6/12/2018,Hope & Pico ,", Los Angeles, CA","Hope & Pico , Los Angeles, CA",PE,-118.264362,34.038897,
+6/16/2018,Hope & Pico ,", Los Angeles, CA","Hope & Pico , Los Angeles, CA",PE,-118.264362,34.038897,
+6/2/2018,Hope & Pico,", Los Angeles, CA","Hope & Pico, Los Angeles, CA",PC,-118.264362,34.038897,
+6/3/2018,Hope & Pico,", Los Angeles, CA","Hope & Pico, Los Angeles, CA",PE,-118.2678347,34.0394967,
+6/5/2018,Hope & Pico,", Los Angeles, CA","Hope & Pico, Los Angeles, CA",PD,-118.2678347,34.0394967,
+6/7/2018,Hope & Pico,", Los Angeles, CA","Hope & Pico, Los Angeles, CA",PE,-118.2678347,34.0394967,
+6/9/2018,Hope & Pico,", Los Angeles, CA","Hope & Pico, Los Angeles, CA",PE,-118.2678347,34.0394967,
+6/10/2018,Hope & Pico,", Los Angeles, CA","Hope & Pico, Los Angeles, CA",PE,-118.2678347,34.0394967,
+6/11/2018,Hope & Pico,", Los Angeles, CA","Hope & Pico, Los Angeles, CA",PB,-118.2678347,34.0394967,
+6/13/2018,Hope & Pico,", Los Angeles, CA","Hope & Pico, Los Angeles, CA",PC,-118.2678347,34.0394967,
+6/14/2018,Hope & Pico,", Los Angeles, CA","Hope & Pico, Los Angeles, CA",PC,-118.2678347,34.0394967,
+6/15/2018,Hope & Pico,", Los Angeles, CA","Hope & Pico, Los Angeles, CA",PF,-118.2678347,34.0394967,
+6/17/2018,Hope & Pico,", Los Angeles, CA","Hope & Pico, Los Angeles, CA",PD,-118.2678347,34.0394967,
+6/19/2018,Hope & Pico,", Los Angeles, CA","Hope & Pico, Los Angeles, CA",PF,-118.2678347,34.0394967,
+6/21/2018,Hope & Pico,", Los Angeles, CA","Hope & Pico, Los Angeles, CA",PE,-118.2678347,34.0394967,
+6/23/2018,Hope & Pico,", Los Angeles, CA","Hope & Pico, Los Angeles, CA",PF,-118.2678347,34.0394967,
+6/24/2018,Hope & Pico,", Los Angeles, CA","Hope & Pico, Los Angeles, CA",PF,-118.2678347,34.0394967,
+6/26/2018,Hope & Pico,", Los Angeles, CA","Hope & Pico, Los Angeles, CA",PD,-118.2678347,34.0394967,
+6/27/2018,Hope & Pico,", Los Angeles, CA","Hope & Pico, Los Angeles, CA",PE,-118.2678347,34.0394967,
+6/28/2018,Hope & Pico,", Los Angeles, CA","Hope & Pico, Los Angeles, CA",PG,-118.2678347,34.0394967,
+6/29/2018,Hope & Pico,", Los Angeles, CA","Hope & Pico, Los Angeles, CA",PC,-118.2678347,34.0394967,
+6/30/2018,Hope & Pico,", Los Angeles, CA","Hope & Pico, Los Angeles, CA",PC,-118.2678347,34.0394967,
+6/1/2018,Industrial & Mill,", Los Angeles, CA","Industrial & Mill, Los Angeles, CA",PC,-118.234491,34.035819,
+6/19/2018,Industrial & Mill,", Los Angeles, CA","Industrial & Mill, Los Angeles, CA",PB,-118.234491,34.035819,
+6/21/2018,Industrial & Mill,", Los Angeles, CA","Industrial & Mill, Los Angeles, CA",PB,-118.234491,34.035819,
+6/22/2018,Industrial & Mill,", Los Angeles, CA","Industrial & Mill, Los Angeles, CA",PD,-118.234491,34.035819,
+6/22/2018,Industrial & Mill,", Los Angeles, CA","Industrial & Mill, Los Angeles, CA",PB,-118.234491,34.035819,
+6/23/2018,Industrial & Mill,", Los Angeles, CA","Industrial & Mill, Los Angeles, CA",PB,-118.234491,34.035819,
+6/24/2018,Industrial & Mill,", Los Angeles, CA","Industrial & Mill, Los Angeles, CA",PB,-118.234491,34.035819,
+6/27/2018,Industrial & Mill,", Los Angeles, CA","Industrial & Mill, Los Angeles, CA",PB,-118.234491,34.035819,
+6/28/2018,Industrial & Mill,", Los Angeles, CA","Industrial & Mill, Los Angeles, CA",PC,-118.234491,34.035819,
+6/29/2018,Industrial & Mill,", Los Angeles, CA","Industrial & Mill, Los Angeles, CA",PB,-118.234491,34.035819,
+6/3/2018,Jesse & Santa Fe,", Los Angeles, CA","Jesse & Santa Fe, Los Angeles, CA",PB,-118.2324954,34.0363656,
+6/5/2018,Jesse & Santa Fe,", Los Angeles, CA","Jesse & Santa Fe, Los Angeles, CA",PB,-118.2324954,34.0363656,
+6/6/2018,Jesse & Santa Fe,", Los Angeles, CA","Jesse & Santa Fe, Los Angeles, CA",PB,-118.2324954,34.0363656,
+6/7/2018,Jesse & Santa Fe,", Los Angeles, CA","Jesse & Santa Fe, Los Angeles, CA",PB,-118.2324954,34.0363656,
+6/8/2018,Jesse & Santa Fe,", Los Angeles, CA","Jesse & Santa Fe, Los Angeles, CA",PB,-118.2324954,34.0363656,
+6/13/2018,Jesse & Santa Fe,", Los Angeles, CA","Jesse & Santa Fe, Los Angeles, CA",PB,-118.2324954,34.0363656,
+6/14/2018,Jesse & Santa Fe,", Los Angeles, CA","Jesse & Santa Fe, Los Angeles, CA",PB,-118.2324954,34.0363656,
+6/14/2018,Jesse & Santa Fe,", Los Angeles, CA","Jesse & Santa Fe, Los Angeles, CA",PB,-118.2324954,34.0363656,
+6/15/2018,Jesse & Santa Fe,", Los Angeles, CA","Jesse & Santa Fe, Los Angeles, CA",PC,-118.2324954,34.0363656,
+6/15/2018,Jesse & Santa Fe,", Los Angeles, CA","Jesse & Santa Fe, Los Angeles, CA",PB,-118.2324954,34.0363656,
+6/16/2018,Jesse & Santa Fe,", Los Angeles, CA","Jesse & Santa Fe, Los Angeles, CA",PB,-118.2324954,34.0363656,
+6/16/2018,Jesse & Santa Fe,", Los Angeles, CA","Jesse & Santa Fe, Los Angeles, CA",PB,-118.2324954,34.0363656,
+6/17/2018,Jesse & Santa Fe,", Los Angeles, CA","Jesse & Santa Fe, Los Angeles, CA",PC,-118.2324954,34.0363656,
+6/17/2018,Jesse & Santa Fe,", Los Angeles, CA","Jesse & Santa Fe, Los Angeles, CA",PB,-118.2324954,34.0363656,
+6/19/2018,Jesse & Santa Fe,", Los Angeles, CA","Jesse & Santa Fe, Los Angeles, CA",PB,-118.2324954,34.0363656,
+6/19/2018,Jesse & Santa Fe,", Los Angeles, CA","Jesse & Santa Fe, Los Angeles, CA",PC,-118.2324954,34.0363656,
+6/20/2018,Jesse & Santa Fe,", Los Angeles, CA","Jesse & Santa Fe, Los Angeles, CA",PE,-118.2324954,34.0363656,
+6/20/2018,Jesse & Santa Fe,", Los Angeles, CA","Jesse & Santa Fe, Los Angeles, CA",PB,-118.2324954,34.0363656,
+6/22/2018,Jesse & Santa Fe,", Los Angeles, CA","Jesse & Santa Fe, Los Angeles, CA",PC,-118.2324954,34.0363656,
+6/23/2018,Jesse & Santa Fe,", Los Angeles, CA","Jesse & Santa Fe, Los Angeles, CA",PC,-118.2324954,34.0363656,
+6/24/2018,Jesse & Santa Fe,", Los Angeles, CA","Jesse & Santa Fe, Los Angeles, CA",PC,-118.2324954,34.0363656,
+6/25/2018,Jesse & Santa Fe,", Los Angeles, CA","Jesse & Santa Fe, Los Angeles, CA",PB,-118.2324954,34.0363656,
+6/27/2018,Jesse & Santa Fe,", Los Angeles, CA","Jesse & Santa Fe, Los Angeles, CA",PB,-118.2324954,34.0363656,
+6/28/2018,Jesse & Santa Fe,", Los Angeles, CA","Jesse & Santa Fe, Los Angeles, CA",PC,-118.2324954,34.0363656,
+6/28/2018,Jesse & Santa Fe,", Los Angeles, CA","Jesse & Santa Fe, Los Angeles, CA",PD,-118.2324954,34.0363656,
+6/30/2018,Jesse & Santa Fe,", Los Angeles, CA","Jesse & Santa Fe, Los Angeles, CA",PB,-118.2324954,34.0363656,
+6/8/2018,Los Angeles & Olympic,", Los Angeles, CA","Los Angeles & Olympic, Los Angeles, CA",PD,-118.255877,34.039577,
+6/11/2018,Los Angeles & Olympic,", Los Angeles, CA","Los Angeles & Olympic, Los Angeles, CA",PE,-118.255877,34.039577,
+6/12/2018,Los Angeles & Olympic,", Los Angeles, CA","Los Angeles & Olympic, Los Angeles, CA",PC,-118.255877,34.039577,
+6/26/2018,Pico & Santee ,", Los Angeles, CA","Pico & Santee , Los Angeles, CA",PJ,-118.2607842,34.0352617,
+6/2/2018,Pico & Santee,", Los Angeles, CA","Pico & Santee, Los Angeles, CA",PB,-118.2607842,34.0352617,
+6/4/2018,Pico & Santee,", Los Angeles, CA","Pico & Santee, Los Angeles, CA",PB,-118.2607842,34.0352617,
+6/7/2018,Pico & Santee,", Los Angeles, CA","Pico & Santee, Los Angeles, CA",PC,-118.2607842,34.0352617,
+6/27/2018,Pico & Santee,", Los Angeles, CA","Pico & Santee, Los Angeles, CA",PK,-118.2607842,34.0352617,
+6/28/2018,Pico & Santee,", Los Angeles, CA","Pico & Santee, Los Angeles, CA",PK,-118.2607842,34.0352617,
+6/29/2018,Pico & Santee,", Los Angeles, CA","Pico & Santee, Los Angeles, CA",PK,-118.2607842,34.0352617,
+6/2/2018,Traction & Alameda,", Los Angeles, CA","Traction & Alameda, Los Angeles, CA",PG,-118.240289,34.0468828,
+6/4/2018,Traction & Alameda,", Los Angeles, CA","Traction & Alameda, Los Angeles, CA",PH,-118.240289,34.0468828,
+6/5/2018,Traction & Alameda,", Los Angeles, CA","Traction & Alameda, Los Angeles, CA",PI,-118.240289,34.0468828,
+6/7/2018,Traction & Alameda,", Los Angeles, CA","Traction & Alameda, Los Angeles, CA",PJ,-118.240289,34.0468828,
+6/8/2018,Traction & Alameda,", Los Angeles, CA","Traction & Alameda, Los Angeles, CA",PI,-118.240289,34.0468828,
