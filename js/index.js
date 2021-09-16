@@ -38,7 +38,7 @@ function laser_zones() {
   d3.csv('laser_zones.csv', function (error, data) {
 
     if (error) throw error;
-
+    
     let divisionColor = "#000";
     data.forEach(function (row) {
       switch (row['DIVISION']) {
@@ -100,9 +100,223 @@ function laser_zones() {
           central_laser.push(polyline);
       }
     }); //end for loop
-    for (let i = 0; i < newton_laser.length; i++) {
-      newton_laser[i].openTooltip();
-    }
+
+    let central_li = document.getElementById('central');
+    central_li.addEventListener('mouseover', function () {
+      for (let i = 0; i < central_laser.length; i++) {
+        central_laser[i].openTooltip();
+        mymap.setView([34.04192210315219, -118.246022169184], 16);
+      }
+    });
+    central_li.addEventListener('mouseout', function () {
+      for (let i = 0; i < central_laser.length; i++) {
+        central_laser[i].closeTooltip();
+      }
+    });
+
+    let central_visible = true;
+    central_li.addEventListener('click', function () {
+        if (central_visible) {
+          for (let i = 0; i < central_laser.length; i++) {
+            mymap.removeLayer(central_laser[i]);
+          }
+          central_li.style.color = "grey";
+          central_li.style.textDecoration = "line-through";
+          central_visible = false;
+        } else {
+          for (let i = 0; i < central_laser.length; i++) {
+            mymap.addLayer(central_laser[i]);
+          }
+          central_li.style = "";
+          central_visible = true;
+        }
+    });
+    
+    let newton_li = document.getElementById('newton');
+    newton_li.addEventListener('mouseover', function () {
+      for (let i = 0; i < newton_laser.length; i++) {
+        newton_laser[i].openTooltip();
+        mymap.setView([33.994687, -118.280534], 14);
+      }
+    });
+    newton_li.addEventListener('mouseout', function () {
+      for (let i = 0; i < newton_laser.length; i++) {
+        newton_laser[i].closeTooltip();
+      }
+    });
+
+    let newton_visible = true;
+    newton_li.addEventListener('click', function () {
+      if (newton_visible) {
+        for (let i = 0; i < newton_laser.length; i++) {
+          mymap.removeLayer(newton_laser[i]);
+        }
+        newton_li.style.color = "grey";
+        newton_li.style.textDecoration = "line-through";
+        newton_visible = false;
+      } else {
+        for (let i = 0; i < newton_laser.length; i++) {
+          mymap.addLayer(newton_laser[i]);
+        }
+        newton_li.style = "";
+        newton_visible = true;
+      }
+    });
+
+    let southwest_li = document.getElementById('southwest');
+    southwest_li.addEventListener('mouseover', function () {
+      for (let i = 0; i < southwest_laser.length; i++) {
+        southwest_laser[i].openTooltip();
+        mymap.setView([34.022805, -118.308963], 14);
+      }
+    });
+    southwest_li.addEventListener('mouseout', function () {
+      for (let i = 0; i < southwest_laser.length; i++) {
+        southwest_laser[i].closeTooltip();
+      }
+    });
+
+    let southwest_visible = true;
+    southwest_li.addEventListener('click', function () {
+      if (southwest_visible) {
+        for (let i = 0; i < southwest_laser.length; i++) {
+          mymap.removeLayer(southwest_laser[i]);
+        }
+        southwest_li.style.color = "grey";
+        southwest_li.style.textDecoration = "line-through";
+        southwest_visible = false;
+      } else {
+        for (let i = 0; i < southwest_laser.length; i++) {
+          mymap.addLayer(southwest_laser[i]);
+        }
+        southwest_li.style = "";
+        southwest_visible = true;
+      }
+    });
+
+    let harbor_li = document.getElementById('harbor');
+    harbor_li.addEventListener('mouseover', function () {
+      for (let i = 0; i < harbor_laser.length; i++) {
+        harbor_laser[i].openTooltip();
+        mymap.setView([33.77645414152006, -118.27432207738882], 13);
+      }
+    });
+    harbor_li.addEventListener('mouseout', function () {
+      for (let i = 0; i < harbor_laser.length; i++) {
+        harbor_laser[i].closeTooltip();
+      }
+    });
+
+    let harbor_visible = true;
+    harbor_li.addEventListener('click', function () {
+      if (harbor_visible) {
+        for (let i = 0; i < harbor_laser.length; i++) {
+          mymap.removeLayer(harbor_laser[i]);
+        }
+        harbor_li.style.color = "grey";
+        harbor_li.style.textDecoration = "line-through";
+        harbor_visible = false;
+      } else {
+        for (let i = 0; i < harbor_laser.length; i++) {
+          mymap.addLayer(harbor_laser[i]);
+        }
+        harbor_li.style = "";
+        harbor_visible = true;
+      }
+    });
+
+    let hollenbeck_li = document.getElementById('hollenbeck');
+    hollenbeck_li.addEventListener('mouseover', function () {
+      for (let i = 0; i < hollenbeck_laser.length; i++) {
+        hollenbeck_laser[i].openTooltip();
+        mymap.setView([34.043201, -118.201025], 13);
+      }
+    });
+    hollenbeck_li.addEventListener('mouseout', function () {
+      for (let i = 0; i < hollenbeck_laser.length; i++) {
+        hollenbeck_laser[i].closeTooltip();
+      }
+    });
+
+    let hollenbeck_visible = true;
+    hollenbeck_li.addEventListener('click', function () {
+      if (hollenbeck_visible) {
+        for (let i = 0; i < hollenbeck_laser.length; i++) {
+          mymap.removeLayer(hollenbeck_laser[i]);
+        }
+        hollenbeck_li.style.color = "grey";
+        hollenbeck_li.style.textDecoration = "line-through";
+        hollenbeck_visible = false;
+      } else {
+        for (let i = 0; i < hollenbeck_laser.length; i++) {
+          mymap.addLayer(hollenbeck_laser[i]);
+        }
+        hollenbeck_li.style = "";
+        hollenbeck_visible = true;
+      }
+    });
+
+    let seventy_seven_li = document.getElementById('seventy-seven');
+    seventy_seven_li.addEventListener('mouseover', function () {
+      for (let i = 0; i < seventy_seven_laser.length; i++) {
+        seventy_seven_laser[i].openTooltip();
+        mymap.setView([33.982267068751, -118.29409151414029], 14);
+      }
+    });
+    seventy_seven_li.addEventListener('mouseout', function () {
+      for (let i = 0; i < seventy_seven_laser.length; i++) {
+        seventy_seven_laser[i].closeTooltip();
+      }
+    });
+
+    let seventy_seven_visible = true;
+    seventy_seven_li.addEventListener('click', function () {
+      if (seventy_seven_visible) {
+        for (let i = 0; i < seventy_seven_laser.length; i++) {
+          mymap.removeLayer(seventy_seven_laser[i]);
+        }
+        seventy_seven_li.style.color = "grey";
+        seventy_seven_li.style.textDecoration = "line-through";
+        seventy_seven_visible = false;
+      } else {
+        for (let i = 0; i < seventy_seven_laser.length; i++) {
+          mymap.addLayer(seventy_seven_laser[i]);
+        }
+        seventy_seven_li.style = "";
+        seventy_seven_visible = true;
+      }
+    });
+
+    let southeast_li = document.getElementById('southeast');
+    southeast_li.addEventListener('mouseover', function () {
+      for (let i = 0; i < southeast_laser.length; i++) {
+        southeast_laser[i].openTooltip();
+        mymap.setView([33.92946745632624, -118.2543273461193], 14);
+      }
+    });
+    southeast_li.addEventListener('mouseout', function () {
+      for (let i = 0; i < southeast_laser.length; i++) {
+        southeast_laser[i].closeTooltip();
+      }
+    });
+
+    let southeast_visible = true;
+    southeast_li.addEventListener('click', function () {
+      if (southeast_visible) {
+        for (let i = 0; i < southeast_laser.length; i++) {
+          mymap.removeLayer(southeast_laser[i]);
+        }
+        southeast_li.style.color = "grey";
+        southeast_li.style.textDecoration = "line-through";
+        southeast_visible = false;
+      } else {
+        for (let i = 0; i < southeast_laser.length; i++) {
+          mymap.addLayer(southeast_laser[i]);
+        }
+        southeast_li.style = "";
+        southeast_visible = true;
+      }
+    });
 
   }); //end d3
 }
@@ -112,6 +326,8 @@ function anchor_points() {
   d3.csv('anchor_points.csv', function (error, data) {
 
     if (error) throw error;
+
+    let anchor_point = [];
 
     data.forEach(function (row) {
       let coordinates = row['COORDINATES'].split(',');
@@ -126,15 +342,35 @@ function anchor_points() {
           "<br><b>Type: </b>" + row['Property type'] +
           "<br><b>Details: </b>" + row['Property detail/name']
           , { autoClose: true });
+        
+        anchor_point.push(marker);
         marker.addEventListener('mouseover', function () {
           marker.openPopup();
         })
-        // marker.addEventListener('mouseout', function () {
-        //   marker.closePopup();
-        // })
-
       }
     }); //end for loop
+    let anchor_point_li = document.getElementById('anchor-point');
+    anchor_point_li.addEventListener('mouseover', function () {
+      mymap.setView([33.99357184171194, -118.27030284749365], 11);
+    });
+
+    let anchor_point_visible = true;
+    anchor_point_li.addEventListener('click', function () {
+      if (anchor_point_visible) {
+        for (let i = 0; i < anchor_point.length; i++) {
+          mymap.removeLayer(anchor_point[i]);
+        }
+        anchor_point_li.style.color = "grey";
+        anchor_point_li.style.textDecoration = "line-through";
+        anchor_point_visible = false;
+      } else {
+        for (let i = 0; i < anchor_point.length; i++) {
+          mymap.addLayer(anchor_point[i]);
+        }
+        anchor_point_li.style = "";
+        anchor_point_visible = true;
+      }
+    });
 
   }); //end d3
 }
@@ -207,10 +443,11 @@ function all_police_killings() {
 
     if (error) throw error;
 
+    let police_killings = [];
     data.forEach(function (row) {
 
       let marker = L.circleMarker([row.y, row.x], { radius: '1', opacity: '0.7', color: '#000' }).addTo(mymap);
-
+      police_killings.push(marker);
       marker.bindPopup(
         "<b>Cause of Death: </b>" + "Police " + row.cause +
         "<br><b>Name: </b>" + row.first + " " + row.middle + " " + row.last +
@@ -225,6 +462,31 @@ function all_police_killings() {
 
     }); //end for loop
 
+    let police_killings_li = document.getElementById('police-killings');
+
+    police_killings_li.addEventListener('mouseover', function () {
+      mymap.setView([34.048854063902425, -118.2483245514302], 10);
+    });
+
+    let police_killings_visible = true;
+    
+    police_killings_li.addEventListener('click', function () {
+      if (police_killings_visible) {
+        for (let i = 0; i < police_killings.length; i++) {
+          mymap.removeLayer(police_killings[i]);
+        }
+        police_killings_li.style.color = "grey";
+        police_killings_li.style.textDecoration = "line-through";
+        police_killings_visible = false;
+      } else {
+        for (let i = 0; i < police_killings.length; i++) {
+          mymap.addLayer(police_killings[i]);
+        }
+        police_killings_li.style = "";
+        police_killings_visible = true;
+      }
+    });
+    
   }); //end d3
 }
 
@@ -244,6 +506,9 @@ function predpol_hotspots() {
     }); //end for loop
 
     const uniqueRow = [];
+
+    let predpol = [];
+
     data.forEach(function (row) {
 
       let latlon = row.lat + " , " + row.lon;
@@ -263,12 +528,33 @@ function predpol_hotspots() {
         marker.addEventListener('mouseover', function () {
           marker.openPopup();
         })
+        predpol.push(marker);
       }
-
-
+      
     }); //end for loop
+    let predpol_li = document.getElementById('predpol');
+    predpol_li.addEventListener('mouseover', function () {
+      mymap.setView([34.048854063902425, -118.2483245514302], 14);
+    });
 
-    // console.log(counts);
+    let predpol_visible = true;
+    predpol_li.addEventListener('click', function () {
+      if (predpol_visible) {
+        for (let i = 0; i < predpol.length; i++) {
+          mymap.removeLayer(predpol[i]);
+        }
+        predpol_li.style.color = "grey";
+        predpol_li.style.textDecoration = "line-through";
+        predpol_visible = false;
+      } else {
+        for (let i = 0; i < predpol.length; i++) {
+          mymap.addLayer(predpol[i]);
+        }
+        predpol_li.style = "";
+        predpol_visible = true;
+      }
+    });
+
   }); //end d3
 }
 

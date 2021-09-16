@@ -92,6 +92,11 @@ hr {
   padding-top: 10px;
 }
 
+#central_hidden, #hollenbeck_hidden, #newton_hidden, #southwest_hidden, #seventy-seven_hidden, #southeast_hidden, #harbor_hidden, #csp_hidden, #predpol_hidden, #police-killings_hidden {
+  color: grey;
+  text-decoration: line-through;
+}
+
 .csp-site{
   font-size: 12px;
   font-weight: 800;
