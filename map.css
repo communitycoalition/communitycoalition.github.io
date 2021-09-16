@@ -1,0 +1,275 @@
+
+.map {
+    display: flex;
+    -ms-flex:50%;
+    flex: 50%;
+    padding: 2em .5em;
+    z-index: 1;
+    /* border-radius: 29px; */
+}
+.view{
+    -ms-flex:50%;
+    flex: 50%;
+    /* margin: 1em; */
+    height: 100%;
+    /* border-radius: 0 10px 10px 0; */
+    z-index: 0;
+}
+#mapid {
+    height: 650px;
+    border-radius: 0 10px 10px 0;
+}
+#gentry-list {
+    padding: 0px 14px;
+    background-color: #fdfdfc;
+    height: 650px;
+    overflow: scroll;
+    border-radius: 10px 0 0 10px;
+}
+
+li{
+    list-style-type: none;
+    color: black;
+    line-height: 1.9em;
+    cursor: pointer;
+}
+li:hover {
+    color: rgba(200,0,0,1);
+    background: rgba(255, 189, 182, 0.3);
+}
+li:first-child {
+  margin-top: 14px;
+}
+
+hr {
+  padding: 3px 0;
+  border-bottom: 1px solid #00000040;
+}
+
+.anchor-points-icon {
+  display: inline-flex;
+  object-fit:scale-down;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  float: right;
+  margin: 0px 3px;
+}
+
+.predpol-icon {
+  display: inline-flex;
+  object-fit:scale-down;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  float: right;
+  margin: -13px 3px;
+}
+
+.police-killings-icon {
+  display: inline-flex;
+  object-fit:scale-down;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  float: right;
+  margin: -13px 3px;
+}
+
+#csp , #predpol{
+  line-height: 16px;
+  padding: 10px 0 5px;
+}
+
+#anchor-point {
+  padding-top: 6px;
+}
+#police-killings {
+  line-height: 16px;
+  padding-top: 10px;
+}
+
+.csp-site{
+  font-size: 12px;
+  font-weight: 800;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 16px;
+  box-sizing: border-box;
+  color: #183b7e;
+  border: 2px dotted #183b7e;
+  padding: 8px 4px;
+  background: #183b7e10;
+  float: right;
+  margin: -9px 3px 0 3px;
+}
+
+.central-laser{
+  font-size: 12px;
+  font-weight: 800;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 16px;
+  box-sizing: border-box;
+  color: #b83838;
+  border: 2px solid #b83838;
+  padding: 8px 4px;
+  background: #b8383810;
+  float: right;
+  margin: 6px 3px 0 3px;
+}
+
+.newton-laser{
+  font-size: 12px;
+  font-weight: 800;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 16px;
+  box-sizing: border-box;
+  color: #2D2424;
+  border: 2px solid #2D2424;
+  padding: 8px 4px;
+  background: #2D242410;
+  float: right;
+  margin: 6px 3px 0 3px;
+}
+
+.southwest-laser{
+  font-size: 12px;
+  font-weight: 800;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 16px;
+  box-sizing: border-box;
+  color: #B85C38;
+  border: 2px solid #B85C38;
+  padding: 8px 4px;
+  background: #B85C3810;
+  float: right;
+  margin: 6px 3px 0 3px;
+}
+
+.harbor-laser{
+  font-size: 12px;
+  font-weight: 800;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 16px;
+  box-sizing: border-box;
+  color: #002366;
+  border: 2px solid #002366;
+  padding: 8px 4px;
+  background: #00236610;
+  float: right;
+  margin: 6px 3px 0 3px;
+}
+
+.hollenbeck-laser{
+  font-size: 12px;
+  font-weight: 800;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 16px;
+  box-sizing: border-box;
+  color: #7952B3;
+  border: 2px solid #7952B3;
+  padding: 8px 4px;
+  background: #7952B310;
+  float: right;
+  margin: 6px 3px 0 3px;
+}
+
+.seventy-seven-laser{
+  font-size: 12px;
+  font-weight: 800;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 16px;
+  box-sizing: border-box;
+  color: #592e2d;
+  border: 2px solid #592e2d;
+  padding: 8px 4px;
+  background: #592e2d10;
+  float: right;
+  margin: 6px 3px 0 3px;
+}
+.southeast-laser{
+  font-size: 12px;
+  font-weight: 800;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 16px;
+  box-sizing: border-box;
+  color: #b59b00;
+  border: 2px solid #b59b00;
+  padding: 8px 4px;
+  background: #b59b0010;
+  float: right;
+  margin: 6px 3px 0 3px;
+}
+.my-label {
+    font-size: 12px;
+    background: #000 !important;
+    color: white !important;
+    border: none !important;
+    font-family: monospace !important;
+}
+
+.leaflet-tooltip-top:before {
+  border-top-color: #000 !important;
+}
+
+.img-tooltip {
+    display: flex;
+    width: 200px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 400px) {
+  .map {
+    flex-direction: column-reverse;
+    margin: 0;
+    padding: 0;
+  }
+  #mapid {
+    height: 500px;
+  }
+  .view {
+    margin: 0;
+  }
+  #gentry-list {
+    margin: 20px;
+    padding: 0; 
+  }
+  .leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    max-width: 250px !important;
+    max-height: 250px !important;
+    overflow-y: scroll;
+  }
+}
+
+
+.laser-zone-title {
+  color: black;
+  display: flex;
+  justify-content: center;
+}

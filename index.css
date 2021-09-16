@@ -38,10 +38,6 @@ a {
 	text-decoration: inherit;
 }
 
-.page-container {
-  min-height: 100vh;
-  /* background-color: aliceblue; */
-}
 
 .side-nav {
   border-right: 1px solid rgb(92, 96, 105);
@@ -192,10 +188,6 @@ span.side-nav-section:hover {
     background-color: #fff9f6;
 }
 
-@media screen and (min-width: 1000px) {
-  
-}
-
 @media screen and (max-width: 999px) {
   .side-nav-container, .side-nav {
     display: none;
@@ -203,22 +195,18 @@ span.side-nav-section:hover {
   .content-container {
     padding: 20px 10px !important;
   }
-  .map {
-    padding: 0 !important;
-
-  }
 }
 
 .content-container {
-      /* background: #fffdf3; */
-      color: rgb(29 66 66);
-      padding: 40px 80px;
-      font-feature-settings: "liga" 0;
-      line-height: 1.7;
-      /* font-family: "IBM Plex Mono", monospace; */
-      font-weight: 300;
+  /* background: #fffdf3; */
+  color: rgb(29 66 66);
+  padding: 40px 80px;
+  font-feature-settings: "liga" 0;
+  line-height: 1.7;
+  /* font-family: "IBM Plex Mono", monospace; */
+  font-weight: 300;
 }
-section {
+#intro {
   display: flex;
   -webkit-box-pack: center;
   justify-content: center;
@@ -343,48 +331,4 @@ table th.PrimaryFont {
   max-width: 100%;
   display: flex;
   justify-content: center;
-}
-
-.map {
-    display: flex;
-    -ms-flex:100%;
-    flex: 100%;
-    padding: 2em 0 2em 1em;
-    z-index: 1;
-}
-.view{
-    -ms-flex:100%;
-    flex: 100%;
-    margin: 1em;
-    height: 100%;
-    overflow: hidden;
-    z-index: 0;
-}
-#mapid { 
-    height: 100vh; 
-}
-
-.my-label {
-    font-size: 12px;
-    /* background: #8c2626 !important; */
-    background: #000 !important;
-    color: white !important;
-    border: none !important;
-    font-family: monospace !important;
-}
-
-.img-tooltip {
-    display: flex;
-    width: 200px;
-    border-radius: 10px;
-}
-.leaflet-popup-content-wrapper, .leaflet-popup-tip {
-    /* width: 100% !important; */
-}
-@media only screen and (max-width: 400px) {
-  .leaflet-popup-content-wrapper, .leaflet-popup-tip {
-    max-width: 250px !important;
-    max-height: 250px !important;
-    overflow-y: scroll;
-  }
 }
