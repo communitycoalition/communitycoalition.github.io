@@ -1,3 +1,6 @@
+body {
+  background-color: #16191d !important;
+}
 
 .map {
     display: flex;
@@ -16,13 +19,13 @@
     z-index: 0;
 }
 #mapid {
-    height: 650px;
+    height: 850px;
     border-radius: 0 10px 10px 0;
 }
 #gentry-list {
     padding: 0px 14px;
     background-color: #fdfdfc;
-    height: 650px;
+    height: 850px;
     overflow: scroll;
     border-radius: 10px 0 0 10px;
 }
@@ -79,6 +82,16 @@ hr {
   margin: -13px 3px;
 }
 
+.laser-police-killings-icon {
+  display: inline-flex;
+  object-fit:scale-down;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  float: right;
+  margin: -25px 3px;
+}
 #csp , #predpol{
   line-height: 16px;
   padding: 10px 0 5px;
@@ -109,7 +122,7 @@ hr {
   color: #183b7e;
   border: 2px dotted #183b7e;
   padding: 8px 4px;
-  background: #183b7e10;
+  background: #4c586e10;
   float: right;
   margin: -9px 3px 0 3px;
 }
