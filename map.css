@@ -18,6 +18,32 @@ body {
     /* border-radius: 0 10px 10px 0; */
     z-index: 0;
 }
+
+.map-legend {
+  font-family: karla, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 12px 0;
+  color: #000;
+  font-size: 28px;
+}
+
+.map-legend-details {
+  font-family: karla, sans-serif;
+  margin: 12px 0;
+  color: #000;
+  font-size: 14px;
+}
+.map-legend-details strong {
+  font-weight: 900;
+  font-size: 18p
+}
+
+#click-icon {
+  width: 18px;
+  height: 18px;
+}
+
 #mapid {
     height: 850px;
     border-radius: 0 10px 10px 0;
@@ -26,6 +52,7 @@ body {
     padding: 0px 14px;
     background-color: #fdfdfc;
     height: 850px;
+    max-width: 350px;
     overflow: scroll;
     border-radius: 10px 0 0 10px;
 }
