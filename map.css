@@ -1,5 +1,5 @@
 body {
-  background-color: #16191d !important;
+  background-color: #1c1c1c !important;
 }
 
 .map {
@@ -317,4 +317,18 @@ hr {
   color: black;
   display: flex;
   justify-content: center;
+}
+
+.map-cover {
+  max-width: 100vw;
+  overflow: hidden;
+  margin: 50px 25vw 0;
+
+}
+.map-cover-graphic {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
