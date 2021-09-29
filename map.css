@@ -297,13 +297,17 @@ hr {
   }
   #mapid {
     height: 500px;
+    border-radius: 0;
+    margin: 0 5px;
   }
   .view {
     margin: 0;
   }
   #gentry-list {
-    margin: 20px;
-    padding: 0; 
+    margin: 0 5px;
+    padding: 20px;
+    border-radius: 0;
+    max-width: 100%;
   }
   .leaflet-popup-content-wrapper, .leaflet-popup-tip {
     max-width: 250px !important;
@@ -323,7 +327,6 @@ hr {
   max-width: 100vw;
   overflow: hidden;
   margin: 50px 25vw 0;
-
 }
 .map-cover-graphic {
   display: flex;
@@ -332,3 +335,10 @@ hr {
   margin: 0;
   padding: 0;
 }
+
+@media only screen and (max-width: 1150px) { 
+  .map-cover {
+    margin: 50px 10vw 0
+  }
+}
+
