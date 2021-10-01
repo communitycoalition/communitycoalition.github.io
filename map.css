@@ -1,6 +1,6 @@
 body {
   background-color: #1c1c1c !important;
-  overflow-x: hidden;
+  width: 100vw;
 }
 
 .map {
@@ -290,14 +290,14 @@ hr {
     border-radius: 10px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 700px) {
   .map {
     flex-direction: column-reverse;
     margin: 0;
     padding: 0;
   }
   #mapid {
-    height: 500px;
+    height: 550px;
     border-radius: 0;
     margin: 0 5px;
   }
@@ -350,7 +350,6 @@ hr {
 }
 
 .back-navigation {
-  width: 100vw;
   padding: 12px;
   font-size: 21px;
   color: #fff;
