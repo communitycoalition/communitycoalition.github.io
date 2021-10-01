@@ -154,7 +154,7 @@ span.side-nav-section:hover {
     z-index: 10;
     position: relative;
     display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    grid-template-columns: 1fr  1fr 1fr 1fr;
     height: 80px;
     background-color: #fff9f6;
 }
@@ -172,6 +172,7 @@ span.side-nav-section:hover {
   /* font-family: monospace; */
   font-weight: initial;
   text-decoration: none;
+  text-align: center;
 }
 
 .pagination-link:hover {
