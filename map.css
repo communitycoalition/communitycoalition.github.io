@@ -1,5 +1,6 @@
 body {
   background-color: #1c1c1c !important;
+  overflow-x: hidden;
 }
 
 .map {
@@ -342,3 +343,21 @@ hr {
   }
 }
 
+@media only screen and (max-width: 800px) { 
+  .map-cover {
+    margin: 50px 0 0;
+  }
+}
+
+.back-navigation {
+  width: 100vw;
+  padding: 12px;
+  font-size: 21px;
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.back-navigation a:hover {
+  color: #edc944;
+}
