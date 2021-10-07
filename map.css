@@ -1,5 +1,6 @@
 body {
-  background-color: #1c1c1c !important;
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #1c1c1c 74%);
   width: 100vw;
 }
 
@@ -292,7 +293,7 @@ hr {
 
 @media only screen and (max-width: 700px) {
   .map {
-    flex-direction: column-reverse;
+    flex-direction: column;
     margin: 0;
     padding: 0;
   }
@@ -305,10 +306,11 @@ hr {
     margin: 0;
   }
   #gentry-list {
-    margin: 0 5px;
-    padding: 20px;
+    margin: 20px 5px 0;
+    padding: 0 20px 25px;
     border-radius: 0;
     max-width: 100%;
+    height: 100%;
   }
   .leaflet-popup-content-wrapper, .leaflet-popup-tip {
     max-width: 250px !important;

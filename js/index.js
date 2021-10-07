@@ -493,9 +493,9 @@ function anchor_points() {
       }
     }); //end for loop
     let anchor_point_li = document.getElementById('anchor-point');
-    // anchor_point_li.addEventListener('mouseover', function () {
-    //   mymap.setView([33.99357184171194, -118.27030284749365], 11);
-    // });
+    anchor_point_li.addEventListener('mouseover', function () {
+      mymap.setView([33.99357184171194, -118.27030284749365], 10);
+    });
 
     let anchor_point_visible = true;
     anchor_point_li.addEventListener('click', function () {
@@ -555,6 +555,8 @@ function lapd_killings_stories() {
 }
 
 function csp_sites() {
+
+  let csp_sites = [];
   d3.csv('csp_sites.csv', function (error, data) {
 
     if (error) throw error;
@@ -575,8 +577,39 @@ function csp_sites() {
       let divisionName = row['When deemed a CSP site? '] ? row['Site Name'] + " became CSP site in " + row['When deemed a CSP site? '] : row['Site Name'] + " CSP site";
       polyline.bindTooltip(divisionName, { direction: 'bottom', opacity: 1, permanent: false, className: "my-label", offset: [0, 0] });
       polyline.openPopup();
-
+      csp_sites.push(polyline);
     }); //end for loop
+
+    let csp_li = document.getElementById('csp');
+    csp_li.addEventListener('mouseover', function () {
+      for (let i = 0; i < csp_sites.length; i++) {
+        csp_sites[i].openTooltip();
+        mymap.setView([33.99357184171194, -118.27030284749365], 12.5);
+      }
+    });
+    csp_li.addEventListener('mouseout', function () {
+      for (let i = 0; i < csp_sites.length; i++) {
+        csp_sites[i].closeTooltip();
+      }
+    });
+
+    let csp_visible = true;
+    csp_li.addEventListener('click', function () {
+      if (csp_visible) {
+        for (let i = 0; i < csp_sites.length; i++) {
+          mymap.removeLayer(csp_sites[i]);
+        }
+        csp_li.style.color = "grey";
+        csp_li.style.textDecoration = "line-through";
+        csp_visible = false;
+      } else {
+        for (let i = 0; i < csp_sites.length; i++) {
+          mymap.addLayer(csp_sites[i]);
+        }
+        csp_li.style = "";
+        csp_visible = true;
+      }
+    });
 
   }); //end d3
 }
@@ -663,9 +696,12 @@ function predpol_hotspots() {
 
       let latlon = row.lat + " , " + row.lon;
       if (uniqueRow.indexOf(latlon) === -1) {
-        // console.log("WHAA");
         uniqueRow.push(latlon);
-        // let marker = L.circleMarker([row.lat, row.lon], { radius: counts[latlon], opacity: '0.7', color: 'red' }).addTo(mymap);
+
+        switch(row.full_address) {
+          case "": 
+          break;
+        }
         let marker = L.circleMarker([row.lat, row.lon], { stroke: true, weight: 1, radius: 10, fillOpacity: counts[latlon] / 20, color: 'red' }).addTo(mymap);
         // (counts[latlon] / 10).toFixed(2)
 
