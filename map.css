@@ -36,6 +36,15 @@ body {
   color: #000;
   font-size: 14px;
 }
+.map-legend-details-centered {
+  font-family: karla, sans-serif;
+  margin: 12px 0;
+  color: #000;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
 .map-legend-details strong {
   font-weight: 900;
   font-size: 18p
@@ -45,6 +54,13 @@ body {
   width: 18px;
   height: 18px;
 }
+
+#lapd-icon {
+  width: 40px;
+  height: 49px;
+  align-self: center;
+}
+
 
 #mapid {
     height: 850px;
@@ -361,4 +377,13 @@ hr {
 
 .back-navigation a:hover {
   color: #edc944;
+}
+
+.sr-only {
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
 }
