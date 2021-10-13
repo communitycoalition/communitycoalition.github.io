@@ -16,10 +16,6 @@ var redIcon = L.icon({
   iconUrl: 'anchor_point_icon.svg',
   iconSize: [20, 20], // size of the icon
   });
-var k_icon = L.icon({
-  iconUrl: 'candle_final.png',
-  iconSize: [35, 35], // size of the icon
-});
 
 var jesse_icon = L.icon({
   iconUrl: 'JESSE.png',
@@ -519,34 +515,40 @@ function anchor_points() {
 }
 
 function lapd_killings_stories() {
-  d3.csv('lapd_killings.csv', function (error, data) {
+  d3.csv('lapd_shootings_laser_zones.csv', function (error, data) {
 
     if (error) throw error;
 
     data.forEach(function (row) {
-      let x = row['LATITUDE '];
-      let y = row['LONGITUDE'];
-      let jesse = null;
+      let x = row.lat
+      let y = row.lon
+      let k_marker;
       if (row['NAME'] === "Jesse Romero") {
-        jesse = jesse_icon;
-      }
-      if (x != null && y != null) {
-        let k_marker = L.marker([x, y], {
-          icon: jesse ? jesse_icon : k_icon,
+        k_marker = L.marker([x, y], {
+          icon: jesse_icon
         }).addTo(mymap);
-
-        k_marker.bindPopup(
-          "<b>Name: </b>" + row['NAME'] +
-          "<br><b>Age: </b>" + row['AGE'] +
-          "<br><b>Date: </b>" + row['DATE'] +
-          "<br><b>Killer Officer Type: </b>" + row['OFFICER-TYPE'] +
-          "<br><b>Division: </b>" + row['DIVISION'] + (jesse ? "<br><img class='img-tooltip' src='JESSE_xs.jpg'/>" : "")
-
-        );
-        k_marker.addEventListener('mouseover', function () {
-          k_marker.openPopup();
-        })
+      } else {
+        console.log(row['NAME'])
+        k_marker = L.marker([x, y], { opacity: 0 });
+        k_marker.bindTooltip(row['NAME'], { direction: 'center', opacity: 1, permanent: true, className: "my-label", offset: [0, 0] });
+        k_marker.addTo(mymap);
+        k_marker.openTooltip();
       }
+      
+      k_marker.bindPopup(
+        "<h1>Police Shootings in or around LASER Zone</h1>" +
+        "<b>Name: </b>" + row['NAME'] +
+        "<br><b>Age: </b>" + row['AGE'] +
+        "<br><b>Date: </b>" + row['DATE'] +
+        "<br><b>LAPD Officer: </b>" + row['OFFICER'] +
+        "<br><b>Address: </b>" + row['Address'] +
+        "<br><b>Account: </b>" + row['ACCOUNT'] 
+      );
+      
+      k_marker.addEventListener('mouseover', function () {
+        k_marker.openPopup();
+      })
+      
 
 
     }); //end for loop
@@ -615,33 +617,45 @@ function csp_sites() {
 }
 
 function all_police_killings() {
+
+  let hide = [
+  "redel-kentel-jones",
+  "keith-myron-bursey-jr",
+  "grechario-tyzavian-mack",
+  "jose-juan-mendez",
+  "robert-mark-diaz",
+  "richard-che-risher",
+  "jesse-james-romero",
+  "kenney-watkins",
+  "daniel-enrique-perez"
+  ]
   d3.csv('/data/los-angeles-police-killings.csv', function (error, data) {
 
     if (error) throw error;
 
     let police_killings = [];
     data.forEach(function (row) {
+      if (hide.indexOf(row.slug) == -1) {
+        let marker = L.circleMarker([row.y, row.x], { radius: '1', opacity: '0.7', color: '#000' });
+        police_killings.push(marker);
+        marker.bindPopup(
+          "<b>Cause of Death: </b>" + "Police " + row.cause +
+          "<br><b>Name: </b>" + row.first + " " + row.middle + " " + row.last +
+          "<br><b>Age: </b>" + row.age +
+          "<br><b>Race: </b>" + row.race +
+          "<br><b>Date: </b>" + row.death_date +
+          "<br><b>Neighborhood: </b>" + row.neighborhood
+          , { autoClose: true });
+        marker.addEventListener('mouseover', function () {
+          marker.openPopup();
+        })
+        // marker.addEventListener('mouseout', function () {
+        //   // setTimeout(function () {
+        //   marker.closePopup();
+        //   // }, 1000);
 
-      let marker = L.circleMarker([row.y, row.x], { radius: '1', opacity: '0.7', color: '#000' });
-      police_killings.push(marker);
-      marker.bindPopup(
-        "<b>Cause of Death: </b>" + "Police " + row.cause +
-        "<br><b>Name: </b>" + row.first + " " + row.middle + " " + row.last +
-        "<br><b>Age: </b>" + row.age +
-        "<br><b>Race: </b>" + row.race +
-        "<br><b>Date: </b>" + row.death_date +
-        "<br><b>Neighborhood: </b>" + row.neighborhood
-        , { autoClose: true });
-      marker.addEventListener('mouseover', function () {
-        marker.openPopup();
-      })
-      marker.addEventListener('mouseout', function () {
-        // setTimeout(function () {
-          marker.closePopup();
-        // }, 1000);
-        
-      })
-
+        // })
+      }
     }); //end for loop
 
     let police_killings_li = document.getElementById('police-killings');
