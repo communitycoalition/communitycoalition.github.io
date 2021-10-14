@@ -529,7 +529,6 @@ function lapd_killings_stories() {
           icon: jesse_icon
         }).addTo(mymap);
       } else {
-        console.log(row['NAME'])
         k_marker = L.marker([x, y], { opacity: 0 });
         k_marker.bindTooltip(row['NAME'], {direction: 'center', opacity: 1, permanent: true, className: "say-their-name-label", offset: [0, 0] });
         k_marker.addTo(mymap);
@@ -552,7 +551,6 @@ function lapd_killings_stories() {
       );
       
       k_marker.addEventListener('mouseover', function (e) {
-        console.log(e.target.getLatLng());
         mymap.setView(e.target.getLatLng());
         k_marker.openPopup();
       });
@@ -1056,6 +1054,55 @@ function predpol_hotspots() {
   }); //end d3
 }
 
+function mission_sheets() {
+
+  d3.csv('/map/mission_sheets_data.csv', function (error, data) {
+
+    if (error) throw error;
+    var customOptions =
+    {
+      'width': '50vw',
+      'className': 'mission'
+    }
+    data.forEach(function (row) {
+
+      let marker = L.circleMarker([row.lat, row.lon], { stroke: true, weight: 1, radius: 20, fillOpacity: 1, color: '#000' }).addTo(mymap);
+      let segments = null;
+      if (row.mission_sheet_image.indexOf(',') != -1) {
+        segments = row.mission_sheet_image.split(',');
+        segments = "<img src='/map/" + segments[0] + "'/> <img src='/map/" + segments[1] + "'/>"
+      }
+      let mission_image = segments ? segments : "<img src='/map/" + row.mission_sheet_image + "'/>";
+      console.log(mission_image);
+      // row.embed ? row.embed : ""
+      marker.bindPopup(
+        "<h1>LAPD MISSION SHEET</h1>" +
+        "<b>Location: </b>" + row.location +
+        "<br><b>Details: </b>" + row.details +
+        mission_image,  customOptions
+        );
+      marker.addEventListener('mouseover', function (e) {
+        // mymap.setView(e.target.getLatLng(), 12);
+        marker.openPopup();
+      });
+
+      // mymap.on('popupopen', function () {
+      //   console.log('doing somethings');
+      //   var el = document.getElementById('fullScreenInfo');
+      //   var popup = marker.getPopup()
+      //   el.innerHTML = popup.getContent();
+      //   el.classList.add('visible');
+      // });
+      // mymap.on('popupclose', function () {
+      //   var el = document.getElementById('fullScreenInfo');
+      //   el.classList.remove('visible');
+      // });
+
+    }); //end for loop
+   
+  }); //end d3
+}
+
 function load_layers() {
   laser_zones();
   lapd_zones();
@@ -1064,6 +1111,7 @@ function load_layers() {
   anchor_points();
   all_police_killings();
   lapd_killings_stories();
+  mission_sheets();
 }
 
 load_layers();
