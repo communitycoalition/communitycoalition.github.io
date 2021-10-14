@@ -1,17 +1,9 @@
 //set up base map
 var mymap = L.map('mapid').setView([33.99357184171194, -118.27030284749365], 12.5);
 
-// L.tileLayer.provider('Stamen.TonerLite', {
-//   id: 'mapbox.streets',
-//   minZoom: 1,  
-//   maxBounds: bounds,
-//   trackResize: true,
-//   accessToken: 'pk.eyJ1IjoibWFkZWJ5YyIsImEiOiJjampwOWYyNnA3d240M3ZsZnIwODN4ZGl5In0.XFXCZd4wqKFsB7jjH0dUOQ'
-//   }).addTo(mymap);
 L.tileLayer('https://api.mapbox.com/styles/v1/madebyc/cktg76z573z8q17n2a3lzlncr/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibWFkZWJ5YyIsImEiOiJjampwOWYyNnA3d240M3ZsZnIwODN4ZGl5In0.XFXCZd4wqKFsB7jjH0dUOQ').addTo(mymap);
-//L.tileLayer('https://api.mapbox.com/styles/v1/madebyc/cjjp9qx7zahic2rthupyi6zzw/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibWFkZWJ5YyIsImEiOiJjampwOWYyNnA3d240M3ZsZnIwODN4ZGl5In0.XFXCZd4wqKFsB7jjH0dUOQ').addTo(mymap);
-// https://api.mapbox.com/styles/v1/madebyc/cktg76z573z8q17n2a3lzlncr/tiles/256/{level}/{col}/{row}@2x?access_token=pk.eyJ1IjoibWFkZWJ5YyIsImEiOiJjampwOWYyNnA3d240M3ZsZnIwODN4ZGl5In0.XFXCZd4wqKFsB7jjH0dUOQ
-// https://api.mapbox.com/styles/v1/madebyc/cjjp9qx7zahic2rthupyi6zzw/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibWFkZWJ5YyIsImEiOiJjampwOWYyNnA3d240M3ZsZnIwODN4ZGl5In0.XFXCZd4wqKFsB7jjH0dUOQ
+// L.tileLayer('https://api.mapbox.com/styles/v1/madebyc/cktg7st2l3zy519qtb4qv7ifs/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibWFkZWJ5YyIsImEiOiJjampwOWYyNnA3d240M3ZsZnIwODN4ZGl5In0.XFXCZd4wqKFsB7jjH0dUOQ').addTo(mymap);
+
 var redIcon = L.icon({
   iconUrl: 'anchor_point_icon.svg',
   iconSize: [20, 20], // size of the icon
@@ -22,15 +14,15 @@ var jesse_icon = L.icon({
   iconSize: [35, 35], // size of the icon
 });
 
-let newton_laser = [];
-let southwest_laser = [];
-let harbor_laser = [];
-let hollenbeck_laser = [];
-let seventy_seven_laser = [];
-let southeast_laser = [];
-let central_laser = [];
-
 function laser_zones() {
+  let newton_laser = [];
+  let southwest_laser = [];
+  let harbor_laser = [];
+  let hollenbeck_laser = [];
+  let seventy_seven_laser = [];
+  let southeast_laser = [];
+  let central_laser = [];
+
   d3.csv('laser_zones.csv', function (error, data) {
 
     if (error) throw error;
@@ -68,11 +60,7 @@ function laser_zones() {
         fillOpacity: .10,
       }).addTo(mymap);
       let divisionName = row['DIVISION'] + " " + row['LASER ID']
-      polyline.bindTooltip(divisionName, { direction: 'top', opacity: 1, permanent: false, className: "my-label", offset: [0, 0] });
-      // if(row['DIVISION'] == "NEWTON") {
-      //   console.log("here");
-      //   laser = polyline;
-      // }
+      polyline.bindTooltip(divisionName, { direction: 'top', opacity: 1, permanent: false, className: "tooltip-label", offset: [0, 0] });
       switch (row['DIVISION']) {
         case "NEWTON":
           newton_laser.push(polyline);
@@ -489,9 +477,9 @@ function anchor_points() {
       }
     }); //end for loop
     let anchor_point_li = document.getElementById('anchor-point');
-    anchor_point_li.addEventListener('mouseover', function () {
-      mymap.setView([33.99357184171194, -118.27030284749365], 10);
-    });
+    // anchor_point_li.addEventListener('mouseover', function () {
+    //   mymap.setView([33.99357184171194, -118.27030284749365], 10);
+    // });
 
     let anchor_point_visible = true;
     anchor_point_li.addEventListener('click', function () {
@@ -519,6 +507,19 @@ function lapd_killings_stories() {
 
     if (error) throw error;
 
+    let jamar = [];
+    let redel = [];
+    let keith = [];
+    let gilbert = [];
+    let grechario = [];
+    let jose = [];
+    let robert = [];
+    let richard = [];
+    let jesse = [];
+    let kenney = [];
+    let daniel = [];
+    
+
     data.forEach(function (row) {
       let x = row.lat
       let y = row.lon
@@ -530,11 +531,16 @@ function lapd_killings_stories() {
       } else {
         console.log(row['NAME'])
         k_marker = L.marker([x, y], { opacity: 0 });
-        k_marker.bindTooltip(row['NAME'], { direction: 'center', opacity: 1, permanent: true, className: "my-label", offset: [0, 0] });
+        k_marker.bindTooltip(row['NAME'], {direction: 'center', opacity: 1, permanent: true, className: "say-their-name-label", offset: [0, 0] });
         k_marker.addTo(mymap);
         k_marker.openTooltip();
       }
-      
+      var customOptions =
+      {
+        'width': '50vw',
+        'className': 'custom'
+      }
+
       k_marker.bindPopup(
         "<h1>Police Shootings in or around LASER Zone</h1>" +
         "<b>Name: </b>" + row['NAME'] +
@@ -542,16 +548,308 @@ function lapd_killings_stories() {
         "<br><b>Date: </b>" + row['DATE'] +
         "<br><b>LAPD Officer: </b>" + row['OFFICER'] +
         "<br><b>Address: </b>" + row['Address'] +
-        "<br><b>Account: </b>" + row['ACCOUNT'] 
+        "<br><b>Account: </b>" + row['ACCOUNT'], customOptions
       );
       
-      k_marker.addEventListener('mouseover', function () {
+      k_marker.addEventListener('mouseover', function (e) {
+        console.log(e.target.getLatLng());
+        mymap.setView(e.target.getLatLng());
         k_marker.openPopup();
-      })
-      
+      });
 
+      switch(row.key) {
+        case "jamar-nicholson":
+          jamar.push(k_marker);
+          break;
+        case "redel-kentel-jones":
+          redel.push(k_marker);
+          break;
+        case "keith-myron-bursey-jr":
+          keith.push(k_marker);
+          break;
+        case "gilbert-henry":
+          gilbert.push(k_marker);
+          break;
+        case "grechario-tyzavian-mack":
+          grechario.push(k_marker);
+          break;
+        case "jose-juan-mendez":
+          jose.push(k_marker);
+          break;
+        case "robert-mark-diaz":
+          robert.push(k_marker);
+          break;
+        case "richard-che-risher":
+          richard.push(k_marker);
+          break;
+        case "jesse-james-romero":
+          jesse.push(k_marker);
+          break;
+        case "kenney-watkins":
+          kenney.push(k_marker);
+          break;
+        case "daniel-enrique-perez":
+          daniel.push(k_marker);
+          break;
+      }
 
     }); //end for loop
+    console.log(jamar[0].getLatLng());
+    let jamar_li = document.getElementById('jamar');
+    jamar_li.addEventListener('mouseover', function () {
+      mymap.setView(jamar[0].getLatLng(), 15);
+      jamar[0].openPopup();
+    });
+    jamar_li.addEventListener('mouseout', function () {
+      jamar[0].closePopup();
+    });
+
+    let jamar_visible = true;
+    jamar_li.addEventListener('click', function () {
+      if (jamar_visible) {
+        mymap.removeLayer(jamar[0]);
+        jamar_li.style.color = "grey";
+        jamar_li.style.textDecoration = "line-through";
+        jamar_visible = false;
+      } else {
+        mymap.addLayer(jamar[0]);
+        jamar_li.style = "";
+        jamar_visible = true;
+      }
+    });
+
+    let redel_li = document.getElementById('redel');
+    redel_li.addEventListener('mouseover', function () {
+      mymap.setView(redel[0].getLatLng(), 15);
+      redel[0].openPopup();
+    });
+    redel_li.addEventListener('mouseout', function () {
+      redel[0].closePopup();
+    });
+
+    let redel_visible = true;
+    redel_li.addEventListener('click', function () {
+      if (redel_visible) {
+        mymap.removeLayer(redel[0]);
+        redel_li.style.color = "grey";
+        redel_li.style.textDecoration = "line-through";
+        redel_visible = false;
+      } else {
+        mymap.addLayer(redel[0]);
+        redel_li.style = "";
+        redel_visible = true;
+      }
+    });
+
+    let keith_li = document.getElementById('keith');
+    keith_li.addEventListener('mouseover', function () {
+      mymap.setView(keith[0].getLatLng(), 15);
+      keith[0].openPopup();
+    });
+    keith_li.addEventListener('mouseout', function () {
+      keith[0].closePopup();
+    });
+
+    let keith_visible = true;
+    keith_li.addEventListener('click', function () {
+      if (keith_visible) {
+        mymap.removeLayer(keith[0]);
+        keith_li.style.color = "grey";
+        keith_li.style.textDecoration = "line-through";
+        keith_visible = false;
+      } else {
+        mymap.addLayer(keith[0]);
+        keith_li.style = "";
+        keith_visible = true;
+      }
+    });
+
+    let gilbert_li = document.getElementById('gilbert');
+    gilbert_li.addEventListener('mouseover', function () {
+      mymap.setView(gilbert[0].getLatLng(), 15);
+      gilbert[0].openPopup();
+    });
+    gilbert_li.addEventListener('mouseout', function () {
+      gilbert[0].closePopup();
+    });
+
+    let gilbert_visible = true;
+    gilbert_li.addEventListener('click', function () {
+      if (gilbert_visible) {
+        mymap.removeLayer(gilbert[0]);
+        gilbert_li.style.color = "grey";
+        gilbert_li.style.textDecoration = "line-through";
+        gilbert_visible = false;
+      } else {
+        mymap.addLayer(gilbert[0]);
+        gilbert_li.style = "";
+        gilbert_visible = true;
+      }
+    });
+
+    let grechario_li = document.getElementById('grechario');
+    grechario_li.addEventListener('mouseover', function () {
+      grechario[0].openPopup();
+    });
+    grechario_li.addEventListener('mouseout', function () {
+      grechario[0].closePopup();
+    });
+
+    let grechario_visible = true;
+    grechario_li.addEventListener('click', function () {
+      if (grechario_visible) {
+        mymap.removeLayer(grechario[0]);
+        grechario_li.style.color = "grey";
+        grechario_li.style.textDecoration = "line-through";
+        grechario_visible = false;
+      } else {
+        mymap.addLayer(grechario[0]);
+        grechario_li.style = "";
+        grechario_visible = true;
+      }
+    });
+
+    let jose_li = document.getElementById('jose');
+    jose_li.addEventListener('mouseover', function () {
+      mymap.setView(jose[0].getLatLng(), 15);
+      jose[0].openPopup();
+    });
+    jose_li.addEventListener('mouseout', function () {
+      jose[0].closePopup();
+    });
+
+    let jose_visible = true;
+    jose_li.addEventListener('click', function () {
+      if (jose_visible) {
+        mymap.removeLayer(jose[0]);
+        jose_li.style.color = "grey";
+        jose_li.style.textDecoration = "line-through";
+        jose_visible = false;
+      } else {
+        mymap.addLayer(jose[0]);
+        jose_li.style = "";
+        jose_visible = true;
+      }
+    });
+
+    let robert_li = document.getElementById('robert');
+    robert_li.addEventListener('mouseover', function () {
+      mymap.setView(robert[0].getLatLng(), 15);
+      robert[0].openPopup();
+    });
+    robert_li.addEventListener('mouseout', function () {
+      robert[0].closePopup();
+    });
+
+    let robert_visible = true;
+    robert_li.addEventListener('click', function () {
+      if (robert_visible) {
+        mymap.removeLayer(robert[0]);
+        robert_li.style.color = "grey";
+        robert_li.style.textDecoration = "line-through";
+        robert_visible = false;
+      } else {
+        mymap.addLayer(robert[0]);
+        robert_li.style = "";
+        robert_visible = true;
+      }
+    });
+
+    // richard 
+    let richard_li = document.getElementById('richard');
+    richard_li.addEventListener('mouseover', function () {
+      mymap.setView(richard[0].getLatLng(), 15);
+      richard[0].openPopup();
+    });
+    richard_li.addEventListener('mouseout', function () {
+      richard[0].closePopup();
+    });
+
+    let richard_visible = true;
+    richard_li.addEventListener('click', function () {
+      if (richard_visible) {
+        mymap.removeLayer(richard[0]);
+        richard_li.style.color = "grey";
+        richard_li.style.textDecoration = "line-through";
+        richard_visible = false;
+      } else {
+        mymap.addLayer(richard[0]);
+        richard_li.style = "";
+        richard_visible = true;
+      }
+    });
+
+    // jesse
+    let jesse_li = document.getElementById('jesse');
+    jesse_li.addEventListener('mouseover', function () {
+      mymap.setView(jesse[0].getLatLng(), 15);
+      jesse[0].openPopup();
+    });
+    jesse_li.addEventListener('mouseout', function () {
+      jesse[0].closePopup();
+    });
+
+    let jesse_visible = true;
+    jesse_li.addEventListener('click', function () {
+      if (jesse_visible) {
+        mymap.removeLayer(jesse[0]);
+        jesse_li.style.color = "grey";
+        jesse_li.style.textDecoration = "line-through";
+        jesse_visible = false;
+      } else {
+        mymap.addLayer(jesse[0]);
+        jesse_li.style = "";
+        jesse_visible = true;
+      }
+    });
+
+    // kenney
+    let kenney_li = document.getElementById('kenney');
+    kenney_li.addEventListener('mouseover', function () {
+      mymap.setView(kenney[0].getLatLng(), 15);
+      kenney[0].openPopup();
+    });
+    kenney_li.addEventListener('mouseout', function () {
+      kenney[0].closePopup();
+    });
+
+    let kenney_visible = true;
+    kenney_li.addEventListener('click', function () {
+      if (kenney_visible) {
+        mymap.removeLayer(kenney[0]);
+        kenney_li.style.color = "grey";
+        kenney_li.style.textDecoration = "line-through";
+        kenney_visible = false;
+      } else {
+        mymap.addLayer(kenney[0]);
+        kenney_li.style = "";
+        kenney_visible = true;
+      }
+    });
+
+    // daniel
+    let daniel_li = document.getElementById('daniel');
+    daniel_li.addEventListener('mouseover', function () {
+      mymap.setView(daniel[0].getLatLng(), 15);
+      daniel[0].openPopup();
+    });
+    daniel_li.addEventListener('mouseout', function () {
+      daniel[0].closePopup();
+    });
+
+    let daniel_visible = true;
+    daniel_li.addEventListener('click', function () {
+      if (daniel_visible) {
+        mymap.removeLayer(daniel[0]);
+        daniel_li.style.color = "grey";
+        daniel_li.style.textDecoration = "line-through";
+        daniel_visible = false;
+      } else {
+        mymap.addLayer(daniel[0]);
+        daniel_li.style = "";
+        daniel_visible = true;
+      }
+    });
 
   }); //end d3
 }
@@ -577,7 +875,7 @@ function csp_sites() {
         lineCap: 'square'
       }).addTo(mymap);
       let divisionName = row['When deemed a CSP site? '] ? row['Site Name'] + " became CSP site in " + row['When deemed a CSP site? '] : row['Site Name'] + " CSP site";
-      polyline.bindTooltip(divisionName, { direction: 'bottom', opacity: 1, permanent: false, className: "my-label", offset: [0, 0] });
+      polyline.bindTooltip(divisionName, { direction: 'bottom', opacity: 1, permanent: false, className: "tooltip-label", offset: [0, 0] });
       polyline.openPopup();
       csp_sites.push(polyline);
     }); //end for loop
