@@ -1066,37 +1066,24 @@ function mission_sheets() {
     }
     data.forEach(function (row) {
 
-      let marker = L.circleMarker([row.lat, row.lon], { stroke: true, weight: 1, radius: 20, fillOpacity: 1, color: '#000' }).addTo(mymap);
+      let marker = L.circleMarker([row.lat, row.lon], { stroke: true, weight: 4, radius: 15, fillOpacity: .60, color: '#000' }).addTo(mymap);
       let segments = null;
       if (row.mission_sheet_image.indexOf(',') != -1) {
         segments = row.mission_sheet_image.split(',');
         segments = "<img src='/map/" + segments[0] + "'/> <img src='/map/" + segments[1] + "'/>"
       }
       let mission_image = segments ? segments : "<img src='/map/" + row.mission_sheet_image + "'/>";
-      console.log(mission_image);
-      // row.embed ? row.embed : ""
+
       marker.bindPopup(
         "<h1>LAPD MISSION SHEET</h1>" +
         "<b>Location: </b>" + row.location +
         "<br><b>Details: </b>" + row.details +
         mission_image,  customOptions
         );
+
       marker.addEventListener('mouseover', function (e) {
-        // mymap.setView(e.target.getLatLng(), 12);
         marker.openPopup();
       });
-
-      // mymap.on('popupopen', function () {
-      //   console.log('doing somethings');
-      //   var el = document.getElementById('fullScreenInfo');
-      //   var popup = marker.getPopup()
-      //   el.innerHTML = popup.getContent();
-      //   el.classList.add('visible');
-      // });
-      // mymap.on('popupclose', function () {
-      //   var el = document.getElementById('fullScreenInfo');
-      //   el.classList.remove('visible');
-      // });
 
     }); //end for loop
    
