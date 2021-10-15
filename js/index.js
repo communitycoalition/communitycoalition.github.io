@@ -541,13 +541,12 @@ function lapd_killings_stories() {
       }
 
       k_marker.bindPopup(
-        "<h1>Police Shootings in or around LASER Zone</h1>" +
-        "<b>Name: </b>" + row['NAME'] +
-        "<br><b>Age: </b>" + row['AGE'] +
-        "<br><b>Date: </b>" + row['DATE'] +
-        "<br><b>LAPD Officer: </b>" + row['OFFICER'] +
-        "<br><b>Address: </b>" + row['Address'] +
-        "<br><b>Account: </b>" + row['ACCOUNT'], customOptions
+        "<h1>" + row['NAME'] + ", " + row['AGE'] +".</h1>" +
+        "<b>" + row['ACCOUNT'] + "</b>" +
+        "<br><b style='color:red'>Date: </b>" + row['DATE'] +
+        "<br><b style='color:red'>LAPD Officer: </b>" + row['OFFICER'] +
+        "<br><b style='color:red'>Address: </b>" + row['Address']
+         , customOptions
       );
       
       k_marker.addEventListener('mouseover', function (e) {

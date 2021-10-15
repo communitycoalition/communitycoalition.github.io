@@ -357,7 +357,12 @@ hr {
     width: 45vw !important;
     font-size: 14px;
 }
-
+.custom .leaflet-popup-tip,
+.custom .leaflet-popup-content-wrapper {
+  height: unset !important;
+}
+.custom .leaflet-popup-tip,
+.custom .leaflet-popup-content-wrapper, 
 .mission .leaflet-popup-tip,
 .mission .leaflet-popup-content-wrapper {
     border-radius: 1px;
@@ -367,6 +372,7 @@ hr {
     color: #ffffff;
     overflow: scroll;
 }
+.custom .leaflet-popup-content ,
 .mission .leaflet-popup-content {
     width: 56vw !important;
     font-size: 15px;
@@ -375,12 +381,20 @@ hr {
     line-height: 1.8em;
     color: black;
 }
+
+.custom .leaflet-popup-content img ,
 .mission .leaflet-popup-content img{
     width: 55vw !important;
 }
+
+.custom .leaflet-popup-content h1,
 .mission .leaflet-popup-content h1{
     color: red !important;
+    text-transform: uppercase;
+    margin-bottom: 5px;
 }
+
+.custom .leaflet-popup-content b,
 .mission .leaflet-popup-content b{
     text-transform: uppercase;
     font-weight: bolder;
