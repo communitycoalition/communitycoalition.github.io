@@ -591,7 +591,7 @@ function lapd_killings_stories() {
       }
 
     }); //end for loop
-    console.log(jamar[0].getLatLng());
+
     let jamar_li = document.getElementById('jamar');
     jamar_li.addEventListener('mouseover', function () {
       mymap.setView(jamar[0].getLatLng(), 15);
@@ -1054,7 +1054,14 @@ function predpol_hotspots() {
 }
 
 function mission_sheets() {
-
+  
+  let tamarind = [];
+  let crenshaw_slauson = [];
+  let crenshaw_mall = [];
+  let crenshaw_corridor = [];
+  let crenshaw_z = [];
+  let chesapeake = []; 
+  
   d3.csv('/map/mission_sheets_data.csv', function (error, data) {
 
     if (error) throw error;
@@ -1084,8 +1091,173 @@ function mission_sheets() {
         marker.openPopup();
       });
 
+      switch(row.location) {
+        case "Tamarind and Carlos":
+          tamarind.push(marker);
+          break;
+        case "Crenshaw and Slauson":
+          crenshaw_slauson.push(marker);
+          break;
+        case "Crenshaw Mall":
+          crenshaw_mall.push(marker);
+          break;
+        case "Crenshaw Corridor":
+          crenshaw_corridor.push(marker);
+          break;
+        case "Crenshaw between Coliseum and 48th":
+          crenshaw_z.push(marker);
+          break;
+        case "Chesapeake Apartments (4616 West Rodeo Road)":
+          chesapeake.push(marker);
+          break;
+      }
+
     }); //end for loop
-   
+
+    // tamarind
+    let tamarind_li = document.getElementById('tamarind');
+    tamarind_li.addEventListener('mouseover', function () {
+      mymap.setView(tamarind[0].getLatLng(), 15);
+      tamarind[0].openPopup();
+    });
+    tamarind_li.addEventListener('mouseout', function () {
+      tamarind[0].closePopup();
+    });
+
+    let tamarind_visible = true;
+    tamarind_li.addEventListener('click', function () {
+      if (tamarind_visible) {
+        mymap.removeLayer(tamarind[0]);
+        tamarind_li.style.color = "grey";
+        tamarind_li.style.textDecoration = "line-through";
+        tamarind_visible = false;
+      } else {
+        mymap.addLayer(tamarind[0]);
+        tamarind_li.style = "";
+        tamarind_visible = true;
+      }
+    });
+
+    // crenshaw_slauson
+    let crenshaw_slauson_li = document.getElementById('crenshaw_slauson');
+    crenshaw_slauson_li.addEventListener('mouseover', function () {
+      mymap.setView(crenshaw_slauson[0].getLatLng(), 15);
+      crenshaw_slauson[0].openPopup();
+    });
+    crenshaw_slauson_li.addEventListener('mouseout', function () {
+      crenshaw_slauson[0].closePopup();
+    });
+
+    let crenshaw_slauson_visible = true;
+    crenshaw_slauson_li.addEventListener('click', function () {
+      if (crenshaw_slauson_visible) {
+        mymap.removeLayer(crenshaw_slauson[0]);
+        crenshaw_slauson_li.style.color = "grey";
+        crenshaw_slauson_li.style.textDecoration = "line-through";
+        crenshaw_slauson_visible = false;
+      } else {
+        mymap.addLayer(crenshaw_slauson[0]);
+        crenshaw_slauson_li.style = "";
+        crenshaw_slauson_visible = true;
+      }
+    });
+
+    // crenshaw_mall
+    let crenshaw_mall_li = document.getElementById('crenshaw_mall');
+    crenshaw_mall_li.addEventListener('mouseover', function () {
+      mymap.setView(crenshaw_mall[0].getLatLng(), 15);
+      crenshaw_mall[0].openPopup();
+    });
+    crenshaw_mall_li.addEventListener('mouseout', function () {
+      crenshaw_mall[0].closePopup();
+    });
+
+    let crenshaw_mall_visible = true;
+    crenshaw_mall_li.addEventListener('click', function () {
+      if (crenshaw_mall_visible) {
+        mymap.removeLayer(crenshaw_mall[0]);
+        crenshaw_mall_li.style.color = "grey";
+        crenshaw_mall_li.style.textDecoration = "line-through";
+        crenshaw_mall_visible = false;
+      } else {
+        mymap.addLayer(crenshaw_mall[0]);
+        crenshaw_mall_li.style = "";
+        crenshaw_mall_visible = true;
+      }
+    });
+
+    // crenshaw_corridor
+    let crenshaw_corridor_li = document.getElementById('crenshaw_corridor');
+    crenshaw_corridor_li.addEventListener('mouseover', function () {
+      mymap.setView(crenshaw_corridor[0].getLatLng(), 15);
+      crenshaw_corridor[0].openPopup();
+    });
+    crenshaw_corridor_li.addEventListener('mouseout', function () {
+      crenshaw_corridor[0].closePopup();
+    });
+
+    let crenshaw_corridor_visible = true;
+    crenshaw_corridor_li.addEventListener('click', function () {
+      if (crenshaw_corridor_visible) {
+        mymap.removeLayer(crenshaw_corridor[0]);
+        crenshaw_corridor_li.style.color = "grey";
+        crenshaw_corridor_li.style.textDecoration = "line-through";
+        crenshaw_corridor_visible = false;
+      } else {
+        mymap.addLayer(crenshaw_corridor[0]);
+        crenshaw_corridor_li.style = "";
+        crenshaw_corridor_visible = true;
+      }
+    });
+
+    // crenshaw_z
+    let crenshaw_z_li = document.getElementById('crenshaw_z');
+    crenshaw_z_li.addEventListener('mouseover', function () {
+      mymap.setView(crenshaw_z[0].getLatLng(), 15);
+      crenshaw_z[0].openPopup();
+    });
+    crenshaw_z_li.addEventListener('mouseout', function () {
+      crenshaw_z[0].closePopup();
+    });
+
+    let crenshaw_z_visible = true;
+    crenshaw_z_li.addEventListener('click', function () {
+      if (crenshaw_z_visible) {
+        mymap.removeLayer(crenshaw_z[0]);
+        crenshaw_z_li.style.color = "grey";
+        crenshaw_z_li.style.textDecoration = "line-through";
+        crenshaw_z_visible = false;
+      } else {
+        mymap.addLayer(crenshaw_z[0]);
+        crenshaw_z_li.style = "";
+        crenshaw_z_visible = true;
+      }
+    });
+
+    // chesapeake
+    let chesapeake_li = document.getElementById('chesapeake');
+    chesapeake_li.addEventListener('mouseover', function () {
+      mymap.setView(chesapeake[0].getLatLng(), 15);
+      chesapeake[0].openPopup();
+    });
+    chesapeake_li.addEventListener('mouseout', function () {
+      chesapeake[0].closePopup();
+    });
+
+    let chesapeake_visible = true;
+    chesapeake_li.addEventListener('click', function () {
+      if (chesapeake_visible) {
+        mymap.removeLayer(chesapeake[0]);
+        chesapeake_li.style.color = "grey";
+        chesapeake_li.style.textDecoration = "line-through";
+        chesapeake_visible = false;
+      } else {
+        mymap.addLayer(chesapeake[0]);
+        chesapeake_li.style = "";
+        chesapeake_visible = true;
+      }
+    });
+
   }); //end d3
 }
 
