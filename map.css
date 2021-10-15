@@ -25,7 +25,7 @@ body {
   font-family: karla, sans-serif;
   display: flex;
   justify-content: center;
-  margin: 12px 0;
+  margin: 12px 0 0;
   color: #000;
   font-size: 28px;
 }
@@ -38,11 +38,13 @@ body {
 }
 .map-legend-details-centered {
   font-family: karla, sans-serif;
-  margin: 12px 0;
+  margin: 0 0 12px;
   color: #000;
   font-size: 14px;
   display: flex;
   flex-direction: column;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .map-legend-details strong {
@@ -59,6 +61,7 @@ body {
   width: 40px;
   height: 49px;
   align-self: center;
+  margin-top: 12px;
 }
 
 

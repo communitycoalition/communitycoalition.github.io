@@ -1066,7 +1066,7 @@ function mission_sheets() {
     }
     data.forEach(function (row) {
 
-      let marker = L.circleMarker([row.lat, row.lon], { stroke: true, weight: 4, radius: 15, fillOpacity: .60, color: '#000' }).addTo(mymap);
+      let marker = L.circleMarker([row.lat, row.lon], { stroke: true, weight: 4, radius: 25, fillOpacity: .60, color: '#000' }).addTo(mymap);
       let segments = null;
       if (row.mission_sheet_image.indexOf(',') != -1) {
         segments = row.mission_sheet_image.split(',');
