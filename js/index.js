@@ -437,12 +437,12 @@ function lapd_zones() {
     }]
   };
   var layerStyle = { "stroke": true, "color": "#2960ff", "weight": 1, "fill": true, "fillOpacity": 0.03, }
-  var onEachFeature = function (feature, layer) {
-    if (feature.properties) {
-      layer.bindPopup(feature.properties.name);
-    }
-  };
-  L.geoJSON(lapdDivisions, {style: layerStyle, onEachFeature: onEachFeature}).addTo(mymap);
+  // var onEachFeature = function (feature, layer) {
+  //   if (feature.properties) {
+  //     layer.bindPopup(feature.properties.name);
+  //   }
+  // };  {onEachFeature: onEachFeature}
+  L.geoJSON(lapdDivisions, {style: layerStyle}).addTo(mymap);
 }
 
 function anchor_points() {
@@ -452,7 +452,11 @@ function anchor_points() {
     if (error) throw error;
 
     let anchor_point = [];
-
+    var customOptions =
+    {
+      'className': 'anchor-points',
+      'autoClose': true
+    }
     data.forEach(function (row) {
       let coordinates = row['COORDINATES'].split(',');
       if (coordinates[0] !== null && coordinates[1] != null) {
@@ -461,19 +465,20 @@ function anchor_points() {
         }).addTo(mymap);
 
         marker.bindPopup(
+          "<h1> Anchor Point </h1>" + 
           "<b>Division: </b>" + row['Division'] +
           "<br><b>Address: </b>" + row['AP Address'] +
           "<br><b>Type: </b>" + row['Property type'] +
           "<br><b>Details: </b>" + row['Property detail/name']
-          , { autoClose: true });
+          , customOptions);
         
         anchor_point.push(marker);
         marker.addEventListener('mouseover', function () {
           marker.openPopup();
         })
-        marker.addEventListener('mouseout', function () {
-          marker.closePopup();
-        })
+        // marker.addEventListener('mouseout', function () {
+        //   marker.closePopup();
+        // })
       }
     }); //end for loop
     let anchor_point_li = document.getElementById('anchor-point');
@@ -597,9 +602,9 @@ function lapd_killings_stories() {
       mymap.setView(jamar[0].getLatLng(), 15);
       jamar[0].openPopup();
     });
-    jamar_li.addEventListener('mouseout', function () {
-      jamar[0].closePopup();
-    });
+    // jamar_li.addEventListener('mouseout', function () {
+    //   jamar[0].closePopup();
+    // });
 
     let jamar_visible = true;
     jamar_li.addEventListener('click', function () {
@@ -620,9 +625,9 @@ function lapd_killings_stories() {
       mymap.setView(redel[0].getLatLng(), 15);
       redel[0].openPopup();
     });
-    redel_li.addEventListener('mouseout', function () {
-      redel[0].closePopup();
-    });
+    // redel_li.addEventListener('mouseout', function () {
+    //   redel[0].closePopup();
+    // });
 
     let redel_visible = true;
     redel_li.addEventListener('click', function () {
@@ -643,9 +648,9 @@ function lapd_killings_stories() {
       mymap.setView(keith[0].getLatLng(), 15);
       keith[0].openPopup();
     });
-    keith_li.addEventListener('mouseout', function () {
-      keith[0].closePopup();
-    });
+    // keith_li.addEventListener('mouseout', function () {
+    //   keith[0].closePopup();
+    // });
 
     let keith_visible = true;
     keith_li.addEventListener('click', function () {
@@ -666,10 +671,10 @@ function lapd_killings_stories() {
       mymap.setView(gilbert[0].getLatLng(), 15);
       gilbert[0].openPopup();
     });
-    gilbert_li.addEventListener('mouseout', function () {
-      gilbert[0].closePopup();
-    });
-
+    // gilbert_li.addEventListener('mouseout', function () {
+    //   gilbert[0].closePopup();
+    // });
+ 
     let gilbert_visible = true;
     gilbert_li.addEventListener('click', function () {
       if (gilbert_visible) {
@@ -711,9 +716,9 @@ function lapd_killings_stories() {
       mymap.setView(jose[0].getLatLng(), 15);
       jose[0].openPopup();
     });
-    jose_li.addEventListener('mouseout', function () {
-      jose[0].closePopup();
-    });
+    // jose_li.addEventListener('mouseout', function () {
+    //   jose[0].closePopup();
+    // });
 
     let jose_visible = true;
     jose_li.addEventListener('click', function () {
@@ -734,9 +739,9 @@ function lapd_killings_stories() {
       mymap.setView(robert[0].getLatLng(), 15);
       robert[0].openPopup();
     });
-    robert_li.addEventListener('mouseout', function () {
-      robert[0].closePopup();
-    });
+    // robert_li.addEventListener('mouseout', function () {
+    //   robert[0].closePopup();
+    // });
 
     let robert_visible = true;
     robert_li.addEventListener('click', function () {
@@ -758,9 +763,9 @@ function lapd_killings_stories() {
       mymap.setView(richard[0].getLatLng(), 15);
       richard[0].openPopup();
     });
-    richard_li.addEventListener('mouseout', function () {
-      richard[0].closePopup();
-    });
+    // richard_li.addEventListener('mouseout', function () {
+    //   richard[0].closePopup();
+    // });
 
     let richard_visible = true;
     richard_li.addEventListener('click', function () {
@@ -782,9 +787,9 @@ function lapd_killings_stories() {
       mymap.setView(jesse[0].getLatLng(), 15);
       jesse[0].openPopup();
     });
-    jesse_li.addEventListener('mouseout', function () {
-      jesse[0].closePopup();
-    });
+    // jesse_li.addEventListener('mouseout', function () {
+    //   jesse[0].closePopup();
+    // });
 
     let jesse_visible = true;
     jesse_li.addEventListener('click', function () {
@@ -806,9 +811,9 @@ function lapd_killings_stories() {
       mymap.setView(kenney[0].getLatLng(), 15);
       kenney[0].openPopup();
     });
-    kenney_li.addEventListener('mouseout', function () {
-      kenney[0].closePopup();
-    });
+    // kenney_li.addEventListener('mouseout', function () {
+    //   kenney[0].closePopup();
+    // });
 
     let kenney_visible = true;
     kenney_li.addEventListener('click', function () {
@@ -830,9 +835,9 @@ function lapd_killings_stories() {
       mymap.setView(daniel[0].getLatLng(), 15);
       daniel[0].openPopup();
     });
-    daniel_li.addEventListener('mouseout', function () {
-      daniel[0].closePopup();
-    });
+    // daniel_li.addEventListener('mouseout', function () {
+    //   daniel[0].closePopup();
+    // });
 
     let daniel_visible = true;
     daniel_li.addEventListener('click', function () {
@@ -1120,9 +1125,9 @@ function mission_sheets() {
       mymap.setView(tamarind[0].getLatLng(), 15);
       tamarind[0].openPopup();
     });
-    tamarind_li.addEventListener('mouseout', function () {
-      tamarind[0].closePopup();
-    });
+    // tamarind_li.addEventListener('mouseout', function () {
+    //   tamarind[0].closePopup();
+    // });
 
     let tamarind_visible = true;
     tamarind_li.addEventListener('click', function () {
@@ -1144,9 +1149,9 @@ function mission_sheets() {
       mymap.setView(crenshaw_slauson[0].getLatLng(), 15);
       crenshaw_slauson[0].openPopup();
     });
-    crenshaw_slauson_li.addEventListener('mouseout', function () {
-      crenshaw_slauson[0].closePopup();
-    });
+    // crenshaw_slauson_li.addEventListener('mouseout', function () {
+    //   crenshaw_slauson[0].closePopup();
+    // });
 
     let crenshaw_slauson_visible = true;
     crenshaw_slauson_li.addEventListener('click', function () {
@@ -1168,9 +1173,9 @@ function mission_sheets() {
       mymap.setView(crenshaw_mall[0].getLatLng(), 15);
       crenshaw_mall[0].openPopup();
     });
-    crenshaw_mall_li.addEventListener('mouseout', function () {
-      crenshaw_mall[0].closePopup();
-    });
+    // crenshaw_mall_li.addEventListener('mouseout', function () {
+    //   crenshaw_mall[0].closePopup();
+    // });
 
     let crenshaw_mall_visible = true;
     crenshaw_mall_li.addEventListener('click', function () {
@@ -1192,9 +1197,9 @@ function mission_sheets() {
       mymap.setView(crenshaw_corridor[0].getLatLng(), 15);
       crenshaw_corridor[0].openPopup();
     });
-    crenshaw_corridor_li.addEventListener('mouseout', function () {
-      crenshaw_corridor[0].closePopup();
-    });
+    // crenshaw_corridor_li.addEventListener('mouseout', function () {
+    //   crenshaw_corridor[0].closePopup();
+    // });
 
     let crenshaw_corridor_visible = true;
     crenshaw_corridor_li.addEventListener('click', function () {
@@ -1216,9 +1221,9 @@ function mission_sheets() {
       mymap.setView(crenshaw_z[0].getLatLng(), 15);
       crenshaw_z[0].openPopup();
     });
-    crenshaw_z_li.addEventListener('mouseout', function () {
-      crenshaw_z[0].closePopup();
-    });
+    // crenshaw_z_li.addEventListener('mouseout', function () {
+    //   crenshaw_z[0].closePopup();
+    // });
 
     let crenshaw_z_visible = true;
     crenshaw_z_li.addEventListener('click', function () {
@@ -1240,9 +1245,9 @@ function mission_sheets() {
       mymap.setView(chesapeake[0].getLatLng(), 15);
       chesapeake[0].openPopup();
     });
-    chesapeake_li.addEventListener('mouseout', function () {
-      chesapeake[0].closePopup();
-    });
+    // chesapeake_li.addEventListener('mouseout', function () {
+    //   chesapeake[0].closePopup();
+    // });
 
     let chesapeake_visible = true;
     chesapeake_li.addEventListener('click', function () {
