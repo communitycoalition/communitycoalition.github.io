@@ -1084,11 +1084,12 @@ function mission_sheets() {
         segments = "<img src='/map/" + segments[0] + "'/> <img src='/map/" + segments[1] + "'/>"
       }
       let mission_image = segments ? segments : "<img src='/map/" + row.mission_sheet_image + "'/>";
-
+      embed = row.embed ? row.embed : " ";
       marker.bindPopup(
         "<h1>LAPD MISSION SHEET</h1>" +
         "<b>Location: </b>" + row.location +
         "<br><b>Details: </b>" + row.details +
+        embed + 
         mission_image,  customOptions
         );
 
