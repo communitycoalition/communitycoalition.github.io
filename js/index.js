@@ -86,7 +86,7 @@ function laser_zones() {
     }); //end for loop
 
     let central_li = document.getElementById('central');
-    central_li.addEventListener('click', function () {
+    central_li.addEventListener('mouseover', function () {
       for (let i = 0; i < central_laser.length; i++) {
         central_laser[i].openTooltip();
         mymap.setView([34.04192210315219, -118.246022169184], 16);
@@ -117,7 +117,7 @@ function laser_zones() {
     });
     
     let newton_li = document.getElementById('newton');
-    newton_li.addEventListener('click', function () {
+    newton_li.addEventListener('mouseover', function () {
       for (let i = 0; i < newton_laser.length; i++) {
         newton_laser[i].openTooltip();
         mymap.setView([33.994687, -118.280534], 13);
@@ -148,7 +148,7 @@ function laser_zones() {
     });
 
     let southwest_li = document.getElementById('southwest');
-    southwest_li.addEventListener('click', function () {
+    southwest_li.addEventListener('mouseover', function () {
       for (let i = 0; i < southwest_laser.length; i++) {
         southwest_laser[i].openTooltip();
         mymap.setView([34.022805, -118.308963], 13);
@@ -179,7 +179,7 @@ function laser_zones() {
     });
 
     let harbor_li = document.getElementById('harbor');
-    harbor_li.addEventListener('click', function () {
+    harbor_li.addEventListener('mouseover', function () {
       for (let i = 0; i < harbor_laser.length; i++) {
         harbor_laser[i].openTooltip();
         mymap.setView([33.77645414152006, -118.27432207738882], 13);
