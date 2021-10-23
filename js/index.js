@@ -86,7 +86,7 @@ function laser_zones() {
     }); //end for loop
 
     let central_li = document.getElementById('central');
-    central_li.addEventListener('mouseover', function () {
+    central_li.addEventListener('click', function () {
       for (let i = 0; i < central_laser.length; i++) {
         central_laser[i].openTooltip();
         mymap.setView([34.04192210315219, -118.246022169184], 16);
@@ -117,7 +117,7 @@ function laser_zones() {
     });
     
     let newton_li = document.getElementById('newton');
-    newton_li.addEventListener('mouseover', function () {
+    newton_li.addEventListener('click', function () {
       for (let i = 0; i < newton_laser.length; i++) {
         newton_laser[i].openTooltip();
         mymap.setView([33.994687, -118.280534], 13);
@@ -148,7 +148,7 @@ function laser_zones() {
     });
 
     let southwest_li = document.getElementById('southwest');
-    southwest_li.addEventListener('mouseover', function () {
+    southwest_li.addEventListener('click', function () {
       for (let i = 0; i < southwest_laser.length; i++) {
         southwest_laser[i].openTooltip();
         mymap.setView([34.022805, -118.308963], 13);
@@ -179,7 +179,7 @@ function laser_zones() {
     });
 
     let harbor_li = document.getElementById('harbor');
-    harbor_li.addEventListener('mouseover', function () {
+    harbor_li.addEventListener('click', function () {
       for (let i = 0; i < harbor_laser.length; i++) {
         harbor_laser[i].openTooltip();
         mymap.setView([33.77645414152006, -118.27432207738882], 13);
@@ -473,7 +473,7 @@ function anchor_points() {
           , customOptions);
         
         anchor_point.push(marker);
-        marker.addEventListener('mouseover', function () {
+        marker.addEventListener('click', function () {
           marker.openPopup();
         })
         // marker.addEventListener('mouseout', function () {
@@ -554,7 +554,7 @@ function lapd_killings_stories() {
          , customOptions
       );
       
-      k_marker.addEventListener('mouseover', function (e) {
+      k_marker.addEventListener('click', function (e) {
         mymap.setView(e.target.getLatLng());
         k_marker.openPopup();
       });
@@ -946,7 +946,7 @@ function all_police_killings() {
           "<br><b>Date: </b>" + row.death_date +
           "<br><b>Neighborhood: </b>" + row.neighborhood
           , { autoClose: true });
-        marker.addEventListener('mouseover', function () {
+        marker.addEventListener('click', function () {
           marker.openPopup();
         })
         // marker.addEventListener('mouseout', function () {
@@ -1025,7 +1025,7 @@ function predpol_hotspots() {
           "<br><b>Code: </b>" + row.code +
           "<br><b>Number of times this address was labeled a hotspot: </b>" + counts[latlon]
           , { autoClose: true });
-        marker.addEventListener('mouseover', function () {
+        marker.addEventListener('click', function () {
           marker.openPopup();
         })
         predpol.push(marker);
@@ -1092,7 +1092,7 @@ function mission_sheets() {
         mission_image,  customOptions
         );
 
-      marker.addEventListener('mouseover', function (e) {
+      marker.addEventListener('click', function (e) {
         marker.openPopup();
       });
 
