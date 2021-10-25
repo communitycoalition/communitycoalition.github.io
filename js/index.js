@@ -305,6 +305,31 @@ function laser_zones() {
   }); //end d3
 }
 
+function skid_row() {
+  let skidRowGeo = [[34.04953228758827, -118.24590216943407],
+  [34.04390509915228, -118.25136851106528],[34.03501286704546, -118.2386333602481],
+  [34.045534329364365, -118.23801223864267],[34.04902796347384, -118.24560825433058],
+  [34.04953228758827, -118.24590216943407]];
+  var skidrowLines = L.polyline(skidRowGeo, {
+    color: '#0f6756',
+    weight: 2,
+    lineJoin: 'round',
+    fill: true,
+    fillOpacity: .10,
+  }).addTo(mymap);
+
+  let ix1_zone = [[34.036821841266885, -118.24127380442764], [34.03788872462334, -118.24024383625111], 
+    [34.04285844607104, -118.23978786047364], [34.042098337592975, -118.24050132801261], 
+    [34.04420111720587, -118.24387155996426], [34.04228086039584, -118.24526630871415], 
+    [34.040707284208224, -118.24675761690244], [34.036821841266885, -118.24127380442764], [34.03788872462334, -118.24024383625111]];
+  var ix1Lines = L.polyline(ix1_zone, {
+    color: '#535487',
+    weight: 3,
+    lineJoin: 'round',
+    fill: true,
+    fillOpacity: .10,
+  }).addTo(mymap);
+}
 function lapd_zones() {
   var lapdDivisions = {
     type: "FeatureCollection",
@@ -1276,6 +1301,7 @@ function load_layers() {
   all_police_killings();
   lapd_killings_stories();
   mission_sheets();
+  skid_row();
 }
 
 load_layers();
