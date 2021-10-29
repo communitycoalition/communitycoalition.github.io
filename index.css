@@ -96,6 +96,33 @@ header {
   display: block;
   margin-bottom: 4px;
 }
+
+#introduction:before {
+  content: " ";
+}
+#introduction {
+  text-align: center;
+  color: #fff;
+}
+#part-one:before {
+	content: "1. ";
+}
+#part-two:before {
+	content: "2. ";
+}
+#part-three:before {
+	content: "3. ";
+}
+#part-four:before {
+	content: "4. ";
+}
+#part-five:before {
+	content: "5. ";
+}
+#part-six:before {
+	content: "6. ";
+}
+
 .side-nav-container li:before {
   content: "- ";
   vertical-align: top;
@@ -152,7 +179,8 @@ span.side-nav-section:hover {
 .top-nav {
     border-bottom: 1px solid rgb(92, 96, 105);
     z-index: 10;
-    position: relative;
+    top: 0;
+    position: sticky;
     display: grid;
     grid-template-columns: 1fr  1fr 1fr 1fr;
     height: 80px;
@@ -203,13 +231,6 @@ span.side-nav-section:hover {
   font-feature-settings: "liga" 0;
   line-height: 1.7;
   font-weight: 300;
-}
-#intro {
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  /* margin: 40px 0px; */
-  flex-direction: column;
 }
 
 p a {
@@ -329,4 +350,13 @@ table th.PrimaryFont {
   max-width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.cover-photo-container {
+  display: flex;
+  justify-content: center;
+}
+.cover-photo {
+  height: calc(100vh - 120px);
+  object-fit: contain;
 }
