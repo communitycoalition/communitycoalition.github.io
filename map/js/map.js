@@ -4,13 +4,13 @@ var mymap = L.map('mapid').setView([33.99357184171194, -118.27030284749365], 12.
 L.tileLayer('https://api.mapbox.com/styles/v1/madebyc/cktg76z573z8q17n2a3lzlncr/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibWFkZWJ5YyIsImEiOiJjampwOWYyNnA3d240M3ZsZnIwODN4ZGl5In0.XFXCZd4wqKFsB7jjH0dUOQ').addTo(mymap);
 // L.tileLayer('https://api.mapbox.com/styles/v1/madebyc/cktg7st2l3zy519qtb4qv7ifs/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibWFkZWJ5YyIsImEiOiJjampwOWYyNnA3d240M3ZsZnIwODN4ZGl5In0.XFXCZd4wqKFsB7jjH0dUOQ').addTo(mymap);
 
-var redIcon = L.icon({
-  iconUrl: 'anchor_point_icon.svg',
+var anchorPointIcon = L.icon({
+  iconUrl: 'img/anchor_point_icon.svg',
   iconSize: [20, 20], // size of the icon
   });
 
 var jesse_icon = L.icon({
-  iconUrl: 'JESSE.png',
+  iconUrl: 'img/JESSE.png',
   iconSize: [35, 35], // size of the icon
 });
 
@@ -23,7 +23,7 @@ function laser_zones() {
   let southeast_laser = [];
   let central_laser = [];
 
-  d3.csv('laser_zones.csv', function (error, data) {
+  d3.csv('data/laser_zones.csv', function (error, data) {
 
     if (error) throw error;
     
@@ -472,7 +472,7 @@ function lapd_zones() {
 
 function anchor_points() {
 
-  d3.csv('anchor_points.csv', function (error, data) {
+  d3.csv('data/anchor_points.csv', function (error, data) {
 
     if (error) throw error;
 
@@ -486,7 +486,7 @@ function anchor_points() {
       let coordinates = row['COORDINATES'].split(',');
       if (coordinates[0] !== null && coordinates[1] != null) {
         let marker = L.marker([coordinates[0], coordinates[1]], {
-          icon: redIcon
+          icon: anchorPointIcon
         }).addTo(mymap);
 
         marker.bindPopup(
@@ -533,7 +533,7 @@ function anchor_points() {
 }
 
 function lapd_killings_stories() {
-  d3.csv('lapd_shootings_laser_zones.csv', function (error, data) {
+  d3.csv('data/lapd_shootings_laser_zones.csv', function (error, data) {
 
     if (error) throw error;
 
@@ -884,7 +884,7 @@ function lapd_killings_stories() {
 function csp_sites() {
 
   let csp_sites = [];
-  d3.csv('csp_sites.csv', function (error, data) {
+  d3.csv('data/csp_sites.csv', function (error, data) {
 
     if (error) throw error;
 
@@ -954,7 +954,7 @@ function all_police_killings() {
   "kenney-watkins",
   "daniel-enrique-perez"
   ]
-  d3.csv('/data/los-angeles-police-killings.csv', function (error, data) {
+  d3.csv('data/los-angeles-police-killings.csv', function (error, data) {
 
     if (error) throw error;
 
@@ -1014,7 +1014,7 @@ function all_police_killings() {
 
 function predpol_hotspots() {
 
-  d3.csv('predpol_hotspots_2018.csv', function (error, data) {
+  d3.csv('data/predpol_hotspots_2018.csv', function (error, data) {
 
     if (error) throw error;
 
@@ -1083,6 +1083,61 @@ function predpol_hotspots() {
   }); //end d3
 }
 
+function predpol_hotspots_2015() {
+
+  d3.csv('data/prepol_hotspots_2015.csv', function (error, data) {
+
+    if (error) throw error;
+
+    const counts = {};
+
+    data.forEach(function (row) {
+
+      let latlon = row.lat + " , " + row.lon;
+      counts[latlon] = (counts[latlon] || 0) + 1;
+
+    }); //end for loop
+
+    const uniqueRow = [];
+
+    let predpol = [];
+
+    data.forEach(function (row) {
+
+      let latlon = row.lat + " , " + row.lon;
+      if (uniqueRow.indexOf(latlon) === -1) {
+        uniqueRow.push(latlon);
+        let marker = L.circleMarker([row.lat, row.lon], { stroke: true, weight: 1, radius: 10, fillOpacity: counts[latlon] / 20, color: 'orange' }).addTo(mymap);
+        predpol.push(marker);
+      }
+
+    }); //end for loop
+    let predpol_li = document.getElementById('predpol');
+    predpol_li.addEventListener('mouseover', function () {
+      mymap.setView([34.048854063902425, -118.2483245514302], 14);
+    });
+
+    let predpol_visible = true;
+    predpol_li.addEventListener('click', function () {
+      if (predpol_visible) {
+        for (let i = 0; i < predpol.length; i++) {
+          mymap.removeLayer(predpol[i]);
+        }
+        predpol_li.style.color = "grey";
+        predpol_li.style.textDecoration = "line-through";
+        predpol_visible = false;
+      } else {
+        for (let i = 0; i < predpol.length; i++) {
+          mymap.addLayer(predpol[i]);
+        }
+        predpol_li.style = "";
+        predpol_visible = true;
+      }
+    });
+
+  }); //end d3
+}
+
 function mission_sheets() {
   
   let tamarind = [];
@@ -1092,7 +1147,7 @@ function mission_sheets() {
   let crenshaw_z = [];
   let chesapeake = []; 
   
-  d3.csv('/map/mission_sheets_data.csv', function (error, data) {
+  d3.csv('data/mission_sheets_data.csv', function (error, data) {
 
     if (error) throw error;
     var customOptions =
@@ -1297,6 +1352,7 @@ function load_layers() {
   lapd_zones();
   csp_sites();
   predpol_hotspots();
+  // predpol_hotspots_2015();
   anchor_points();
   all_police_killings();
   lapd_killings_stories();

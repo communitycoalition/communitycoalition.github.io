@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
 
-    <title>Whose Land?</title>
+    <title>Automating Banishment</title>
 
     <script type="module">
         document.documentElement.classList.remove('no-js');
         document.documentElement.classList.add('js');
     </script>
 
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/index.css">
     <link rel="stylesheet" href="map.css">
 
 
@@ -28,10 +28,7 @@
     <meta property="og:url" content="https://stoplapdspying.org">
     <link rel="canonical" href="https://stoplapdspying.org">
 
-    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <!-- <link rel="manifest" href="/my.webmanifest"> -->
-    <meta name="theme-color" content="#FF00FF">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css" rel="stylesheet">
     <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js">
     </script>
@@ -46,12 +43,12 @@
 
 <body>
 <nav class="back-navigation">
-  <a href="./index.html" aria-label="Go back to homepage"> ← back to the report</a>
+  <a href="/index.html" aria-label="Go back to homepage"> ← back to the report</a>
 </nav>
 <section class="map-cover">
-  <img class="map-cover-graphic" src="/map/AutomatedDisplacement_Cover.png" alt="Automated Displacement: Uncovering LAPDs ‘predictive’ policing programs that control, displace and criminalize people and places."/>
+  <img class="map-cover-graphic" src="img/AutomatedDisplacement_Cover.png" alt="Automated Displacement: Uncovering LAPDs ‘predictive’ policing programs that control, displace and criminalize people and places."/>
   <div class="sr-only">Automating Displacement: Uncovering LAPDs data-driven policing programs that control, displace and criminalize people and places.</div>
-  <img class="map-cover-graphic" src="/map/AutomatedDisplacement_Detail_1.png" alt="Automated Displacement: Uncovering LAPDs ‘predictive’ policing programs that control, displace and criminalize people and places."/>
+  <img class="map-cover-graphic" src="img/AutomatedDisplacement_Detail_1.png" alt="Automated Displacement: Uncovering LAPDs ‘predictive’ policing programs that control, displace and criminalize people and places."/>
   <div class="sr-only">In 2017 we filed public records act requests to investigate the relationship of surveillance and policing to land. below
   are some of the programs we uncovered. Los Angeles Strategic Extraction and Restoration
   From 2011 to 2019, LAPD terrorized neighborhoods through the Operation LASER program, including by deeming areas “LASER
@@ -66,7 +63,7 @@
   either because the killing happened within a LASER zone or during a police pursuit that began in a LASER zone. The
   killings we’ve marked in this way likely represent only a portion of the full number. Since the program operated in
   secrecy for nearly ten years, the true number of lives impacted and stolen may never be known.</div>
-  <img class="map-cover-graphic" src="/map/AutomatedDisplacement_Detail_2.png" alt="Automated Displacement: Uncovering LAPDs ‘predictive’ policing programs that control, displace and criminalize people and places."/>
+  <img class="map-cover-graphic" src="img/AutomatedDisplacement_Detail_2.png" alt="Automated Displacement: Uncovering LAPDs ‘predictive’ policing programs that control, displace and criminalize people and places."/>
   <div class="sr-only">PredPol Hotspots
   From 2011 to 2020, LAPD used a “predictive policing” system called PredPol, which used algorithms to guess where crime
   would occur. These guesses were labelled PredPol “hotspots” and maps were sent daily to local cops. In 2018, we obtained
@@ -76,7 +73,7 @@
   These were locations LAPD targeted for a “community policing” program, first launched in 2011 primarily in public
   housing complexes. In 2020, the CSP program was expanded citywide with the creation of a full Community Safety
   Partnerships Bureau within LAPD.</div>
-  <img class="map-cover-graphic" src="/map/AutomatedDisplacement_Detail_3.png" alt="Automated Displacement: Uncovering LAPDs ‘predictive’ policing programs that control, displace and criminalize people and places."/>
+  <img class="map-cover-graphic" src="img/AutomatedDisplacement_Detail_3.png" alt="Automated Displacement: Uncovering LAPDs ‘predictive’ policing programs that control, displace and criminalize people and places."/>
   <div class="sr-only">We now introduce the interactive map below that displays these harmful l.a.p.d. deployments onto our neighborhoods. this
   map allows us to clearly see overlaps and relationships between these programs and its deadly effects. we ask, what do
   we experience when our local markets, parks, and community centers become ever-going targets for police harassment...</div>
@@ -91,10 +88,10 @@
       <img id="click-icon" src="zoom-icon.svg" />  Zoom in on the map, then mouse-over or click on each icon, zone or boundary to get the full details! 
     </h2> -->
     <h2 class="map-legend-details-centered">
-      The programs exposed are all in LAPD's harrasment jurisdiction.<img id="lapd-icon" src="lapd_patrol_area_blue2.png" />
+      The programs exposed are all in LAPD's harrasment jurisdiction.<img id="lapd-icon" src="img/lapd_patrol_area_blue2.png" />
     </h2>
     <hr>
-    <li id="predpol">2018 CENTRAL DIVISION<br>PREDPOL HOTSPOTS <img class="predpol-icon" src="/hotspot-icon.png" /></li>
+    <li id="predpol">2018 CENTRAL DIVISION<br>PREDPOL HOTSPOTS <img class="predpol-icon" src="img/hotspot-icon.png" /></li>
     <hr>
     <li id="central">CENTRAL DIVISION<span class="central-laser">LASER</span></li>
     <li id="hollenbeck">HOLLENBECK DIVISION<span class="hollenbeck-laser">LASER</span></li>
@@ -106,9 +103,9 @@
     <hr>
     <li id="csp">COMMUNITY SAFETY<br> PARTNERSHIP ZONES <span class="csp-site">C.S.P</span></li>
     <hr>
-    <li id="anchor-point">ANCHOR POINTS<img class="anchor-points-icon" src="/surveillance.svg"/></li>
+    <li id="anchor-point">ANCHOR POINTS<img class="anchor-points-icon" src="img/surveillance.svg"/></li>
     <hr>
-    <li id="police-killings">ALL PEOPLE KILLED BY POLICE<br>FROM 2000 - CURRENT <img class="police-killings-icon" src="/police-killings-icon.png"/></li>
+    <li id="police-killings">ALL PEOPLE KILLED BY POLICE<br>FROM 2000 - CURRENT <img class="police-killings-icon" src="img/police-killings-icon.png"/></li>
     <hr>
     <h2 class="legend-sub-header">People shot or killed by LAPD in or around LASER Zones</h2>
     <li id="jamar">Jamar Nicholson, 15 <span class="police-shooting-icon-label">SHOT</span></li>
@@ -124,12 +121,12 @@
     <li id="daniel">Daniel Perez, 16 <span class="police-shooting-icon-label">KILLED</span></li>
     <hr>
     <h2 class="legend-sub-header">L.A.P.D Mission Sheets</h2>
-    <li id="tamarind">Tamarind Ave and Carlos Ave <img class="mission-sheet-icon" src="/mission-sheet-icon.png"/></li>
-    <li id="crenshaw_slauson">Crenshaw and Slauson (nipsey) <img class="mission-sheet-icon" src="/mission-sheet-icon.png" /></li>
-    <li id="crenshaw_mall">Crenshaw Mall <img class="mission-sheet-icon" src="/mission-sheet-icon.png" /></li>
-    <li id="crenshaw_corridor">Crenshaw Corridor <img class="mission-sheet-icon" src="/mission-sheet-icon.png" /></li>
-    <li id="crenshaw_z">Crenshaw - "Z Cars"<img class="mission-sheet-icon" src="/mission-sheet-icon.png" /></li>
-    <li id="chesapeake">Chesapeake Apartments <img class="mission-sheet-icon" src="/mission-sheet-icon.png" /></li>
+    <li id="tamarind">Tamarind Ave and Carlos Ave <img class="mission-sheet-icon" src="img/mission-sheet-icon.png"/></li>
+    <li id="crenshaw_slauson">Crenshaw and Slauson (nipsey) <img class="mission-sheet-icon" src="img/mission-sheet-icon.png" /></li>
+    <li id="crenshaw_mall">Crenshaw Mall <img class="mission-sheet-icon" src="img/mission-sheet-icon.png" /></li>
+    <li id="crenshaw_corridor">Crenshaw Corridor <img class="mission-sheet-icon" src="img/mission-sheet-icon.png" /></li>
+    <li id="crenshaw_z">Crenshaw - "Z Cars"<img class="mission-sheet-icon" src="img/mission-sheet-icon.png" /></li>
+    <li id="chesapeake">Chesapeake Apartments <img class="mission-sheet-icon" src="img/mission-sheet-icon.png" /></li>
     <hr>
     <br>
 
@@ -139,7 +136,7 @@
   </div>
 </section>
 
-<script src="js/index.js"></script>
+<script src="js/map.js"></script>
 </body>
 
 </html>
