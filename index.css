@@ -182,7 +182,7 @@ span.side-nav-section:hover {
     top: 0;
     position: sticky;
     display: grid;
-    grid-template-columns: 1fr  1fr 1fr 1fr;
+    grid-template-columns: 2fr  1fr 1fr;
     height: 80px;
     background-color: #fff9f6;
 }
@@ -358,5 +358,6 @@ table th.PrimaryFont {
 }
 .cover-photo {
   height: calc(100vh - 120px);
+  max-width: 100%;
   object-fit: contain;
 }
