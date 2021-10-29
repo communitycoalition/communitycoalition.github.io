@@ -137,19 +137,19 @@ span.side-nav-section:hover {
 
 }
 
-.main-pagination {
+.main-content {
   display: flex;
   flex-direction: column;
   
 }
 
 @media screen and (min-width: 1000px) {
-  .main-pagination {
+  .main-content {
      margin-left: 370px;
   }
 }
 
-.pagination-container {
+.top-nav {
     border-bottom: 1px solid rgb(92, 96, 105);
     z-index: 10;
     position: relative;
@@ -159,7 +159,7 @@ span.side-nav-section:hover {
     background-color: #fff9f6;
 }
 
-.pagination-link {
+.top-nav-link {
   display: flex;
   -webkit-box-pack: center;
   justify-content: center;
@@ -175,16 +175,15 @@ span.side-nav-section:hover {
   text-align: center;
 }
 
-.pagination-link:hover {
+.top-nav-link:hover {
   background-color: rgb(42, 45, 51);
   color: #ffb2b2;
 }
 
-.main-content {
+.report-container {
     -webkit-box-flex: 1;
     flex-grow: 1;
     overflow: hidden visible;
-    /* flex-direction: row-reverse; */
     min-height: 100vh;
     background-color: #fff9f6;
 }
@@ -193,18 +192,16 @@ span.side-nav-section:hover {
   .side-nav-container, .side-nav {
     display: none;
   }
-  .content-container {
+  .paragraph-container {
     padding: 20px 10px !important;
   }
 }
 
-.content-container {
-  /* background: #fffdf3; */
+.paragraph-container {
   color: rgb(29 66 66);
   padding: 40px 80px;
   font-feature-settings: "liga" 0;
   line-height: 1.7;
-  /* font-family: "IBM Plex Mono", monospace; */
   font-weight: 300;
 }
 #intro {
