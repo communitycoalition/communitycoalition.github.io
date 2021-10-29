@@ -361,3 +361,12 @@ table th.PrimaryFont {
   max-width: 100%;
   object-fit: contain;
 }
+
+@media screen and (max-width: 999px) {
+  .cover-photo {
+	  height: auto;
+	  margin: 15px 0;
+	  max-width: 100%;
+	  object-fit: contain;
+    }
+}
