@@ -141,7 +141,7 @@ header {
   vertical-align: top;
 }
 
-.side-nav-container li:hover {
+.side-nav-container li:hover, .side-nav-container li.side-nav-active {
   border-bottom: 1px solid #fff;
 }
 
