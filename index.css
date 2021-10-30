@@ -370,3 +370,28 @@ table th.PrimaryFont {
 	  object-fit: contain;
     }
 }
+
+.report-photo-container {
+  display: flex;
+  justify-content: center;
+}
+.report-photo {
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 999px) {
+  .report-photo {
+	  height: auto;
+	  max-width: 100%;
+	  object-fit: contain;
+    }
+}
+
+p strong u {
+	font-size: 24px;
+	font-weight: 900;
+	color: #000;
+	text-transform: uppercase;
+}
