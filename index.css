@@ -221,6 +221,40 @@ span.side-nav-section:hover {
   color: #ffb2b2;
 }
 
+.bottom-nav {
+    border: 1px solid rgb(92, 96, 105);
+    z-index: 10;
+    top: 0;
+    position: sticky;
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    height: 80px;
+    background-color: #fff9f6;
+}
+
+.bottom-nav-link {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  border-right: 1px solid rgb(92, 96, 105);
+  color: black;
+  padding: 0 33%;
+  font-weight: initial;
+  text-decoration: none;
+  text-align: center;
+}
+
+.bottom-nav.one-section {
+  grid-template-columns: 1fr;
+}
+
+.bottom-nav-link:hover {
+  background-color: rgb(42, 45, 51);
+  color: #ffb2b2;
+}
+
 .report-container {
     -webkit-box-flex: 1;
     flex-grow: 1;
