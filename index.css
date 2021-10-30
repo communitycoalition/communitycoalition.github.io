@@ -442,3 +442,18 @@ p strong u {
 	color: #000;
 	text-transform: uppercase;
 }
+
+.anchor:target::before {
+    content: '';
+    display: block;
+    height:      80px;
+    margin-top: -80px;
+}
+
+.footer {
+  margin-top: 2em;
+}
+.footer p {
+  font-size: 14px;
+  margin: 0;
+}
