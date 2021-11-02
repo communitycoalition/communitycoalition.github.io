@@ -1141,7 +1141,7 @@ function predpol_hotspots_2015() {
       }
 
     }); //end for loop
-    let predpol_li = document.getElementById('predpol');
+    let predpol_li = document.getElementById('predpol-2015');
     predpol_li.addEventListener('mouseover', function () {
       mymap.setView([34.048854063902425, -118.2483245514302], 14);
     });
