@@ -490,13 +490,10 @@ function anchor_points() {
         }).addTo(mymap);
 
         marker.bindPopup(
-          "<h1> Anchor Point </h1>" + 
+          "<h1>Operation LASER <br> Anchor Point </h1>" + 
           "<b>Division: </b>" + row['Division'] +
-          "<br><b>Address: </b>" + row['AP Address'] +
-          "<br><b>Type: </b>" + row['Property type'] +
-          "<br><b>Details: </b>" + row['Property detail/name']
+          "<br><b>Address: </b>" + row['AP Address']
           , customOptions);
-        
         anchor_point.push(marker);
         marker.addEventListener('click', function () {
           marker.openPopup();
@@ -1013,6 +1010,11 @@ function all_police_killings() {
 }
 
 function predpol_hotspots() {
+  var customOptions =
+  {
+    'className': 'anchor-points',
+    'autoClose': true
+  }
 
   d3.csv('data/predpol_hotspots_2018.csv', function (error, data) {
 
@@ -1045,11 +1047,10 @@ function predpol_hotspots() {
         // (counts[latlon] / 10).toFixed(2)
 
         marker.bindPopup(
+          "<h1>2018 PredPol Hotspot</h1>" +
           "<b>Address: </b>" + row.full_address +
-          "<br><b>Date: </b>" + row.date +
-          "<br><b>Code: </b>" + row.code +
           "<br><b>Number of times this address was labeled a hotspot: </b>" + counts[latlon]
-          , { autoClose: true });
+          , customOptions);
         marker.addEventListener('click', function () {
           marker.openPopup();
         })
@@ -1161,9 +1162,9 @@ function mission_sheets() {
       let segments = null;
       if (row.mission_sheet_image.indexOf(',') != -1) {
         segments = row.mission_sheet_image.split(',');
-        segments = "<img src='/map/" + segments[0] + "'/> <img src='/map/" + segments[1] + "'/>"
+        segments = "<img src='/map/img/" + segments[0] + "'/> <img src='/map/img/" + segments[1] + "'/>"
       }
-      let mission_image = segments ? segments : "<img src='/map/" + row.mission_sheet_image + "'/>";
+      let mission_image = segments ? segments : "<img src='/map/img/" + row.mission_sheet_image + "'/>";
       embed = row.embed ? row.embed : " ";
       marker.bindPopup(
         "<h1>LAPD MISSION SHEET</h1>" +
@@ -1348,16 +1349,17 @@ function mission_sheets() {
 }
 
 function load_layers() {
+  
   laser_zones();
   lapd_zones();
   csp_sites();
   predpol_hotspots();
-  // predpol_hotspots_2015();
+  
   anchor_points();
   all_police_killings();
   lapd_killings_stories();
   mission_sheets();
   skid_row();
 }
-
+predpol_hotspots_2015();
 load_layers();
