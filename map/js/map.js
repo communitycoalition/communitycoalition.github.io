@@ -1040,11 +1040,23 @@ function predpol_hotspots() {
         uniqueRow.push(latlon);
 
         switch(row.full_address) {
-          case "": 
-          break;
+          case "123 W12Th St, Los Angeles, CA":
+            row.lat = 34.03803141812223; row.lon = -118.26014671696778;
+            break;
+          case "360 W 3rd St, Los Angeles, CA":
+            row.lat = 34.05134765603432; row.lon = -118.24903660162119;
+            break;
+          case "1501 S Figueroa St, Los Angeles, CA":
+            row.lat = 34.03826591309499; row.lon = -118.26956557778003;
+            break;  
+          case "12th & Los Angeles , Los Angeles, CA":
+            row.lat = 34.03695705808876; row.lon = -118.25836276757596;
+            break;  
+          case "11 Th & Los Angeles, Los Angeles, CA":
+            row.lat = 34.03838112768566; row.lon = -118.25714230162149;
+            break;
         }
         let marker = L.circleMarker([row.lat, row.lon], { stroke: true, weight: 1, radius: 10, fillOpacity: counts[latlon] / 20, color: 'red' }).addTo(mymap);
-        // (counts[latlon] / 10).toFixed(2)
 
         marker.bindPopup(
           "<h1>2018 PredPol Hotspot</h1>" +
@@ -1085,7 +1097,11 @@ function predpol_hotspots() {
 }
 
 function predpol_hotspots_2015() {
-
+  var customOptions =
+  {
+    'className': 'anchor-points',
+    'autoClose': true
+  }
   d3.csv('data/prepol_hotspots_2015.csv', function (error, data) {
 
     if (error) throw error;
@@ -1104,11 +1120,23 @@ function predpol_hotspots_2015() {
     let predpol = [];
 
     data.forEach(function (row) {
-
       let latlon = row.lat + " , " + row.lon;
       if (uniqueRow.indexOf(latlon) === -1) {
         uniqueRow.push(latlon);
+        switch (row.Full_Address) {
+          case "285 W 6th St, Los Angeles, CA":
+            row.lat = 34.04327915077344; row.lon = -118.2470473117428;
+            break;
+        }
         let marker = L.circleMarker([row.lat, row.lon], { stroke: true, weight: 1, radius: 10, fillOpacity: counts[latlon] / 20, color: 'orange' }).addTo(mymap);
+        marker.bindPopup(
+          "<h1>2015 PredPol Hotspot</h1>" +
+          "<b>Address: </b>" + row.Full_Address +
+          "<br><b>Number of times this address was labeled a hotspot: </b>" + counts[latlon]
+          , customOptions);
+        marker.addEventListener('click', function () {
+          marker.openPopup();
+        })
         predpol.push(marker);
       }
 
