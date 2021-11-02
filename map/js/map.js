@@ -1,5 +1,7 @@
 //set up base map
 var mymap = L.map('mapid').setView([33.99357184171194, -118.27030284749365], 12.5);
+mymap.getRenderer(mymap).options.padding = 100;
+
 
 L.tileLayer('https://api.mapbox.com/styles/v1/madebyc/cktg76z573z8q17n2a3lzlncr/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibWFkZWJ5YyIsImEiOiJjampwOWYyNnA3d240M3ZsZnIwODN4ZGl5In0.XFXCZd4wqKFsB7jjH0dUOQ').addTo(mymap);
 // L.tileLayer('https://api.mapbox.com/styles/v1/madebyc/cktg7st2l3zy519qtb4qv7ifs/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibWFkZWJ5YyIsImEiOiJjampwOWYyNnA3d240M3ZsZnIwODN4ZGl5In0.XFXCZd4wqKFsB7jjH0dUOQ').addTo(mymap);
