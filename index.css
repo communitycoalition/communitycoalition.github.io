@@ -5,7 +5,12 @@
 
  @font-face {
      font-family: karla-bold;
-     src: url('/assets/karla-font/Karla/karla-bold');
+     src: url('/assets/karla-font/Karla-Bold.ttf');
+} 
+
+@font-face {
+     font-family: karla-bold-italic;
+     src: url('/assets/karla-font/Karla-BoldItalic.ttf');
 }
 
 * {
@@ -115,7 +120,7 @@ header {
   color: #fff;
 }
 #part-zero:before {
-	content: "0. ";
+	content: "";
 }
 #part-one:before {
 	content: "1. ";
@@ -421,11 +426,21 @@ table th.PrimaryFont {
 .report-photo-container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #000;
 }
+
 .report-photo {
   height: 100%;
   max-width: 100%;
   object-fit: contain;
+  max-height: 85vh;
+  margin: 0 3em;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 999px) {
@@ -436,11 +451,14 @@ table th.PrimaryFont {
     }
 }
 
-p strong u {
+.report-section-title {
 	font-size: 24px;
 	font-weight: 900;
 	color: #000;
 	text-transform: uppercase;
+  font-family: karla-bold-italic;
+  text-decoration: none;
+  background-color: #fdc5c5 !important;
 }
 
 .anchor:target::before {
@@ -450,10 +468,16 @@ p strong u {
     margin-top: -80px;
 }
 
-.footer {
-  margin-top: 2em;
+.anchor {
+  background-color: #fff9f6;
+  text-decoration: none;
 }
+
 .footer p {
   font-size: 14px;
   margin: 0;
+}
+
+p a sup {
+  font-family: karla-bold;
 }

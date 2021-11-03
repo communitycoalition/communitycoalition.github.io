@@ -1,0 +1,1872 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Automating Banishment: The Architecture of Data-Driven Policing</title>
+
+    <script type="module">
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <link rel="stylesheet" href="/index.css">
+
+    <meta name="description" content="The Architecture of Data-Driven Policing">
+    <meta property="og:title" content="Automating Banishment: The Architecture of Data-Driven Policing">
+    <meta property="og:description" content="The Architecture of Data-Driven Policing: The Surveillance and Policing of Stolen Land">
+    <meta property="og:image" content="">
+    <meta property="og:image:alt" content="Automating Banishment: The Architecture of Data-Driven Policing">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:dnt" content="on">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+</head>
+
+<body>
+
+  <div class="page-container">
+    <nav class="side-nav">
+      <img class="side-nav-title" src="/assets/img/logo.png">
+      <div class="side-nav-container">
+        <ul>
+          <a href="../index.html"><li id="landing">Automating Banishment</li></a>
+          <a href="/section/0-automating-banishment-introduction"><li id="part-zero">Introduction</li></a>
+          <a href="/section/1-not-a-moment-in-time"><li id="part-one">Not a Moment in Time</li></a>
+          <a href="/section/2-architecture-of-data-driven-policing"><li class="side-nav-active" id="part-two">The Architecture of Data-Driven Policing</li></a>
+          <li id="part-three">
+            <a href="/section/3-real-estate-and-capitalist-crisis/"><span class="side-nav-section">Real Estate and Capitalist Crisis</span></a>
+            <ul class="nested-nav">
+              <a href="/section/3a-cnap/"><li>What is a "nuisance abatement" and how is LAPD involved?</li></a>
+              <a href="/section/3b-landlords-neighborhoods/"><li>How are these landlords transforming these neighborhoods?</li></a>
+              <a href="/section/3c-business-improvent-districts/"><li>Business Improvement Districts</li></a>
+            </ul>
+          </li>
+          <li id="part-four">
+          <a href="/section/4-containment-development-fight-for-freedom-in-skid-row/"><span class="side-nav-section">Containment, Development, and the Fight for Freedom in Skid Row</span></a>
+            <ul class="nested-nav">
+              <a href="/section/3a-spy-garrisons/"><li>Spy Garrisons: Data, Analytic Center Fusion, CSOCs, and ACCICs</li></a>
+              <a href="/section/3b-operation-laser/"><li>Operation LASER</li></a>
+              <a href="/section/3c-laserzones-anchorpoints/"><li>LASER Zones and Anchor Points</li></a>
+              <a href="/section/3d-laser-bulletins/"><li>LASER's "Chronic Offender" Bulletins</li></a>
+              <a href="/section/3e-predpol/"><li>PredPol</li></a>
+            </ul>
+          </li>
+          <li id="part-five">
+          <a href="/section/5-racial-terror-and-white-wealth-in-south-central/"><span class="side-nav-section">Racial Terror and White Wealth in South Central</span></a>
+            <ul class="nested-nav">
+              <a href="/section/4a-southcentral-laser-crenshaw-corridor/"><li>LASER Zones and Anchor Points in Crenshaw Corridor</li></a>
+              <a href="/section/4b-land-development-crenshaw/"><li>Land Development in Crenshaw Corridor: Local Entrepreneurs & Opportunity Zones</li></a>
+              <a href="/section/4c-nipsey-hussle-police/"><li>Nipsey Hussle and Police</li></a>
+              <a href="/section/4d-land-development-crenshaw-investors/"><li>Land Development in Crenshaw: Outside Investors</li></a>
+              <a href="/section/4e-opportunity-zones-south-central/"><li>Opportunity Zones in South Central LA</li></a>
+              <a href="/section/4f-outside-investors-actors/"><li>Outside Investors & Actors of Note</li></a>
+            </ul>
+          </li>
+          <a href="/section/5-predictive-policing-data-informed-community-policing/"><li id="part-six">"Reform" of Data-Driven Policing and "Predictive Policing 2.0"</li></a>
+        </ul>
+      </div>
+    </nav>
+    <main class="main-content">
+      <section class="top-nav">
+        <a class="top-nav-link" href="/map">INTERACTIVE MAP</a>
+        <a class="top-nav-link" href="/pdf">DOWNLOAD PDF</a>
+        <a class="top-nav-link" href="/glossary">GLOSSARY</a>
+      </section>
+      <section class="report-container">
+        <div class="paragraph-container">
+          <p style="text-align: center;">
+            <strong>
+              <u class="report-section-title">The Architecture of Data-Driven Policing</u>
+            </strong>
+          </p>
+          <p>This part introduces the LAPD architecture, weaponry, and experiments that data-driven policing is built on. By
+            &ldquo;architecture&rdquo; we mean not just technologies but also police strategies and legal instruments.
+            Data-driven policing enables unprecedented coordination of these weapons.</p>
+          <p>Our story here begins with Bill Bratton, LAPD&rsquo;s chief from 2002 and 2009. Under Bratton&rsquo;s leadership
+            LAPD built up a number of practices that are now woven together as data-driven policing, including &ldquo;broken
+            windows&rdquo; policing; &ldquo;intelligence-led&rdquo; policing; collection and mining of mass data; and
+            behavioral surveillance. After examining those practices, this section turns to LAPD&rsquo;s testing of
+            surveillance technologies that came to form the inputs of data-driven policing, as well as the Palantir data
+            platform and the build-up of &ldquo;fusion centers&rdquo; that exchange police intelligence and coordinate mass
+            surveillance. Next we examine LAPD&rsquo;s Operation LASER and PredPol &ldquo;predictive policing&rdquo; programs;
+            LAPD&rsquo;s notion of &ldquo;Designing Out Crime&rdquo;; and the Citywide Nuisance Abatement Program (CNAP),
+            which was used to target properties and displace people within Operation LASER.</p>
+          <p style="text-align: center;">
+            <strong>
+              <u class="report-section-title">&ldquo;Broken Windows&rdquo; and Intelligence-Led Policing</u>
+            </strong>
+          </p>
+          <figure>
+            <blockquote>
+              “The department is not organized to fight crime. It's organized to circle the
+              wagons. I'm trying to have it move towards being a proactive, risk-taking organization.”
+              <figcaption>—LAPD Chief Bill Bratton, December 2002</figcaption>
+            </blockquote>
+          </figure>
+
+          <p>In the late 1990s through the post-911 era, LAPD began adopting tactics and technology centering around
+            &ldquo;intelligence-led policing,&rdquo; a model of speculative and hunch-based policing that encompasses behavioral
+            surveillance and police data-mining. These changes accelerated with the appointment of Bill Bratton in 2002 as LAPD
+            chief. Bratton looked to intelligence-led policing as one of the &ldquo;reforms&rdquo; he would use to claim that
+            police violence was scientific and based on data.</p>
+          <p>As many of us remember, the 1990s featured both extreme police brutality and a presidential administration that
+            accelerated mass incarceration through the infamous 1994 Crime Bill, written by then Senator Joe Biden. As L.A.
+            watched LAPD&rsquo;s violent beating of Rodney King and the Christopher Commission attempted to lay a path for
+            &ldquo;reform,&rdquo; LAPD became engulfed in the Rampart Scandal, exposing further police brutality and corruption.
+            This and other LAPD scandals culminated in a 2001 consent decree with the U.S. Department of Justice, placing LAPD
+            under federal oversight due to patterns of false arrests, extreme violence, and other illegalities. <a class="anchor"
+              id="_ftn13" href="#_ftnref13">
+              <sup>
+                <sup>[13]</sup>
+              </sup>
+            </a>
+          </p>
+          <p>Bill Bratton was appointed police chief following those scandals. Before taking that job, Bratton was a
+            &ldquo;leading member&rdquo; of the consulting team hired under a five-year, $11 million contract with the city to
+            implement the consent decree reforms. <a class="anchor" id="_ftn14" href="#_ftnref14">
+              <sup>
+                <sup>[14]</sup>
+              </sup>
+            </a> After just five months on that team, Bratton applied for the job of LAPD chief. Though police reformers declared
+            the consent decree a victory and turning point for an embattled police department, ultimately this moment served as
+            another LAPD power grab for new police resources and powers. Using the consent decree as a justification for new
+            investments, Bratton pursued a series of experiments that expanded LAPD&rsquo;s data-collection and surveillance
+            powers, including community policing, &ldquo;broken window&rdquo; policing, behavioral surveillance programs, and
+            integration of military surveillance technologies. Skid Row in particular became a testing ground for how
+            counterterrorism and counterinsurgency programs would become integrated into everyday policing. </p>
+          <p>Two significant changes came to LAPD before &ldquo;predictive policing&rdquo; launched, both forming the foundation
+            for LAPD&rsquo;s data-driven policing programs: &ldquo;broken windows&rdquo; policing and Compstat. The term
+            &ldquo;broken windows&rdquo; was popularized by a 1982 article published by George Kelling and James Q. Wilson. <a
+              class="anchor" id="_ftn15" href="#_ftnref15">
+              <sup>
+                <sup>[15]</sup>
+              </sup>
+            </a> The basic idea is that draconian criminalization of trivially harmful behaviors like public intoxication,
+            littering, and jaywalking &ldquo;prevents&rdquo; larger crimes. This practice was nothing new to Skid Row, as
+            discussed in detail in part 5 of this report. But turning this policing into a criminological theory popularized the
+            idea that poverty should be dealt with by criminalizing individual &ldquo;behavior,&rdquo; ignoring the systemic
+            failings of white supremacist capitalist society. Bratton made this view explicit in a 2007 interview: </p>
+          <p>&ldquo;The one thing I have learned&mdash;and now strongly advocate&mdash;is that the police, properly resourced and
+            directed, can control behavior to such a degree that we can change behavior. Many social scientists are wedded to what
+            I believe to be the failed and never proven idea that crime is caused by the structural features of a capitalist-based
+            democratic society&mdash;especially demographics, economic imbalance, racism, and poverty.&rdquo; <a class="anchor"
+              id="_ftn16" href="#_ftnref16">
+              <sup>
+                <sup>[16]</sup>
+              </sup>
+            </a>
+          </p>
+          <p>Bratton also led the effort to build Compstat, a program he first popularized as chief of NYPD in the 1990s. Compstat
+            is a data system that generates regular summaries of what a police department is doing. These summaries are reviewed
+            at meetings where police leadership determine policing strategies and priorities. Compstat helped organize
+            &ldquo;broken windows&rdquo; policing. George Kelling, who popularized &ldquo;broken windows&rdquo; policing, once
+            called Compstat &ldquo;the most important administrative policing development of the past 100 years.&rdquo; <a
+              class="anchor" id="_ftn17" href="#_ftnref17">
+              <sup>
+                <sup>[17]</sup>
+              </sup>
+            </a>
+          </p>
+          <p>Compstat also furthered the collection and legitimization of crime data, treating it as scientific fact rather than a
+            reflection of racist and subjective enforcement choices of police. Bratton&rsquo;s confederation of Compstat and
+            &ldquo;broken windows&rdquo; policing also laid the groundwork for expansion of behavioral surveillance, which refers
+            to police practices of speculatively monitoring behaviors that may be indicative of future crime. This kind of
+            intelligence-gathering, according to Bratton, is &ldquo;what police have always done, to observe and identify changing
+            patterns of behavior.&rdquo; <a class="anchor" id="_ftn18" href="#_ftnref18">
+              <sup>
+                <sup>[18]</sup>
+              </sup>
+            </a>
+          </p>
+          <p>Bratton was not only successful in promoting police brutality as public policy, he also wedded police data to the
+            notion of &ldquo;community policing.&rdquo; The objective here was to strengthen cooperation, communication, and
+            partnership between police, city officials, and private &ldquo;stakeholders&rdquo; like real estate developers and
+            businesses. In fact, the U.S. Department of Justice&rsquo;s Community Oriented Policing Services (COPS) office used
+            data collected in part from LAPD while Bratton was chief to promote the "co-implementation" of Compstat and community
+            policing, calling them both "powerful engines of police reform." <a class="anchor" id="_ftn19" href="#_ftnref19">
+              <sup>
+                <sup>[19]</sup>
+              </sup>
+            </a>The broader relationship of police data to &ldquo;community policing&rdquo; is examined in detail in part 6 of
+            this report, where we dissect LAPD&rsquo;s current &ldquo;Data-Informed Community-Focused Policing&rdquo; framework.
+          </p>
+          <p style="text-align: center;">
+            <strong>
+              <u class="anchor report-section-title" id="Surveillance-Inputs-LAPDS-Eyes-and-Ears">Surveillance Inputs: LAPD&rsquo;s Eyes and Ears</u>
+            </strong>
+          </p>
+          <p>LAPD has long been one of the most technologically resourced police forces in the country, with a yearly budget of
+            over $3.2 billion that consumes half the city&rsquo;s discretionary spending. Over the years, LAPD&rsquo;s expansion
+            of its architecture of surveillance has taken the form both of new digital technologies and mass surveillance
+            equipment as well as campaigns of racial profiling, pretextual street and vehicle stops, and &ldquo;broken
+            windows&rdquo; policing that generate mass troves of police data for LAPD&rsquo;s Record Management System and other
+            databases. These surveillance inputs fuel data-driven policing. For more of our research into LAPD&rsquo;s
+            architecture of surveillance, visit <a href="https://thestalkerstate.org/architecture-of-surveillance/">
+              <strong>
+                <span style="color: windowtext;">thestalkerstate.org/architecture-of-surveillanc</span>
+              </strong>
+            </a>
+            <a href="#_msocom_1">[1]</a>
+            <a href="#_msocom_2">[2]</a>
+            <strong>
+              <u>e/</u>
+            </strong>.
+          </p>
+          <p>In part 5 of this report, we explore in greater detail how Skid Row is a place where LAPD has long experimented with
+            new forms of policing. This too is characteristic of colonization. As we&rsquo;ve written elsewhere, LAPD&rsquo;s
+            testing, refinement, and &ldquo;reform&rdquo; of surveillance technologies &ldquo;continues the legacy of colonial
+            experimentation in service of white supremacist political ends &mdash; much in the same way colonial administrators
+            used legal bureaucracy, surveillance technology, and even scientific study to dominate people they considered
+            seditious or politically threatening.&rdquo; <a class="anchor" id="_ftn20" href="#_ftnref20">
+              <sup>
+                <sup>[20]</sup>
+              </sup>
+            </a>
+          </p>
+          <p>Skid Row along with MacArthur Park are some of the places where LAPD first tests new surveillance technologies. For
+            example, in November 2007, LAPD implemented a <strong>
+              <u>Closed Circuit Televisions (CCTV)</u>
+            </strong> camera system, paid for by the Central City East Association (CCEA), which is funded by businesses interests
+            downtown. <a class="anchor" id="_ftn21" href="#_ftnref21">
+              <sup>
+                <sup>[21]</sup>
+              </sup>
+            </a> Skid Row was the third location LAPD put up CCTVs, following deployment in <a
+              href="https://www.lapdonline.org/february_2005/news_view/19849">
+              <span style="color: windowtext;">MacArthur Park</span>
+            </a>
+            <a class="anchor" id="_ftn22" href="#_ftnref22">
+              <sup>
+                <sup>[22]</sup>
+              </sup>
+            </a> and <a href="https://www.latimes.com/archives/la-xpm-2004-oct-28-me-watching28-story.html">
+              <span style="color: windowtext;">Hollywood</span>
+            </a>. <a class="anchor" id="_ftn23" href="#_ftnref23">
+              <sup>
+                <sup>[23]</sup>
+              </sup>
+            </a> Later, in 2011, the L.A. Police Foundation &ldquo;donated&rdquo; $210,173 worth of <strong>
+              <u>Automatic License Plate Readers (ALPR)</u>
+            </strong> for LAPD to use in Skid Row. These systems, which scan license plates to track people&rsquo;s movements, <a
+              class="anchor" id="_ftn24" href="#_ftnref24">
+              <sup>
+                <sup>[24]</sup>
+              </sup>
+            </a> were previously tested around MacArthur Park along with facial recognition and &ldquo;intelligent&rsquo; video
+            capabilities. <a class="anchor" id="_ftn25" href="#_ftnref25">
+              <sup>
+                <sup>[25]</sup>
+              </sup>
+            </a> Another camera technology tested in Skid Row was <strong>
+              <u>Body-Worn Video</u>
+            </strong>(BWV or body-cams). In 2014, LAPD launched a BWV pilot run with officers assigned to the Safer Cities
+            Initiative (SCI) &ldquo;broken windows&rdquo; policing program. These officers were chosen because their policing
+            includes foot beats and constant enforcement contacts with people in the community. <a class="anchor" id="_ftn26"
+              href="#_ftnref26">
+              <sup>
+                <sup>[26]</sup>
+              </sup>
+            </a> LAPD also tested phone surveillance technology in Skid Row, including <strong>
+              <u>Stingrays and Digital Receiver Technology (aka &ldquo;Dirt Box&rdquo;)</u>. </strong>These devices mimic cell
+            phone towers to connect and monitor mobile devices. In 2011, the Los Angeles Police Foundation gave almost $25,000 to
+            upgrade &ldquo;Stingray&rdquo; devices placed in Skid Row. <a class="anchor" id="_ftn27" href="#_ftnref27">
+              <sup>
+                <sup>[27]</sup>
+              </sup>
+            </a>
+          </p>
+          <p>Of course, technology isn&rsquo;t the only way LAPD gathers mass surveillance data. Some of the most critical and
+            dangerous surveillance occurs face to face. Every time police stop or question people, they can fill out <strong>
+              <u>Field Interview (FI) cards</u>
+            </strong> that generate data for LAPD&rsquo;s records systems. A person does not have to be suspected of any crime to
+            have an FI card filled out. A large number of these cards are filled out by LAPD&rsquo;s proactive policing Metro
+            units as well as the HOPE (Homeless Outreach Proactive Engagement) and RESET (Resources Enhancement Services
+            Enforcement Team) units that target unhoused communities. In the first half of 2018, HOPE and RESET completed over
+            7,800 FI cards on unhoused people. <a class="anchor" id="_ftn28" href="#_ftnref28">
+              <sup>
+                <sup>[28]</sup>
+              </sup>
+            </a>
+          </p>
+          <p>FI cards used to be paper but became digitized in 2015 under the Connected Officer Initiative, which also expanded
+            the Skid Row body cam pilot department-wide. <a class="anchor" id="_ftn29" href="#_ftnref29">
+              <sup>
+                <sup>[29]</sup>
+              </sup>
+            </a> That same year, LAPD also started using the cards to collect social media, social security numbers, and email
+            addresses. <a class="anchor" id="_ftn30" href="#_ftnref30">
+              <sup>
+                <sup>[30]</sup>
+              </sup>
+            </a> Police use this data to map people&rsquo;s social networks, including who you were seen or stopped with as well
+            as social media friend lists and who you appear with in photos online. This information about your associations can
+            show up in &ldquo;conspiracy&rdquo; prosecutions as well as for gang labeling. Craig Uchida, who built the
+            &ldquo;predictive policing&rdquo; program Operation LASER, described in more detail below, explained that the purpose
+            of LAPD stops is not always to investigate or determine anything but to generate data: &ldquo;Most of the time it
+            didn&rsquo;t lead to anything,&rdquo; he explained about police stops producing FI cards, &ldquo; <strong>but it was
+              data that went into the system, and that&rsquo;s what I wanted.</strong>&rdquo; <a class="anchor" id="_ftn31"
+              href="#_ftnref31">
+              <sup>
+                <sup>[31]</sup>
+              </sup>
+            </a>
+          </p>
+          <p>Another system of critical importance is the <strong>
+              <u>Homeless Management Information System / Coordinated Entry System (HMIS/CES)</u>
+            </strong>, a database of information collected from people who receive services from federally funded nonprofits and
+            agencies. This is the first federal database of people experiencing homelessness, storing extremely personal
+            information like social security numbers, race and ethnicity, prior residency, what services a person has used, health
+            status (including disabilities, pregnancy status, HIV status, mental health), education, employment, and whether they
+            have experienced domestic violence. Anyone using the services is placed into the database, no matter the length of
+            time one was in a program, and the information is kept for years. All this information is shared to federal agencies
+            like HUD, HHS, and the VA without personal identifiers, and the risk of these databases being accessed by local law
+            enforcement and DHS including ICE is very high. In 2017, LAPD told the <a
+              href="https://www.ohchr.org/SP/NewsEvents/Pages/DisplayNews.aspx?NewsID=22533">
+              <span style="color: windowtext;">U.N. </span>
+            </a>Special Rapporteur on Extreme Poverty and Human Rights that CES was a &ldquo;gold mine&rdquo; of information that
+            was &ldquo;only one policy decision away&rdquo; from police mining. <a class="anchor" id="_ftn32" href="#_ftnref32">
+              <sup>
+                <sup>[32]</sup>
+              </sup>
+            </a>
+          </p>
+          <p style="text-align: center;">
+            <strong>
+              <u class="anchor report-section-title" id="Palantir">Palantir</u>
+            </strong>
+          </p>
+          <p>Palantir is the data-mining platform that LAPD uses to run automated profiling, hotspot maps, AI models, and other
+            search tools on data from the surveillance inputs listed above, including FI cards, along with data from other
+            government agencies as well as commercial brokers. LAPD built its Operation LASER &ldquo;predictive policing&rdquo;
+            program on the Palantir platform, and Palantir generates the data-driven &ldquo;missions&rdquo; of racial terror that
+            we examine in part 5 of this report. Today LAPD is &ldquo;the only major metropolitan force using Palantir,&rdquo;
+            after police in New York City and New Orleans ended their use. <a class="anchor" id="_ftn33" href="#_ftnref33">
+              <sup>
+                <sup>[33]</sup>
+              </sup>
+            </a> LAPD also uses Palantir Mobile, a phone application that puts mass surveillance data at police fingertips and
+            sends officers real-time notifications, for example about nearby people to monitor or stop. </p>
+          <p>Palantir is a private company founded by billionaire white supremacist Peter Thiel with funding and guidance from the
+            CIA, which used the software for intelligence missions and drone assassinations. <a class="anchor" id="_ftn34"
+              href="#_ftnref34">
+              <sup>
+                <sup>[34]</sup>
+              </sup>
+            </a> The system first arrived in Los Angeles in 2007, when &ldquo; Bill Bratton persuaded Target to donate $200,000
+            for LAPD to buy Palantir technology.&rdquo; <a class="anchor" id="_ftn35" href="#_ftnref35">
+              <sup>
+                <sup>[35]</sup>
+              </sup>
+            </a> As LAPD built up their architecture of racial profiling and mass surveillance using the software, the City
+            Controller&rsquo;s website shows payments of $15.8 million to Palantir from 2012 to 2021.
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+          <p>Over the years, Palantir has &ldquo;helped the LAPD construct a vast database that indiscriminately lists the names,
+            addresses, phone numbers, license plates, friendships, romances, jobs of Angelenos.&rdquo; <a class="anchor"
+              id="_ftn36" href="#_ftnref36">
+              <sup>
+                <sup>[36]</sup>
+              </sup>
+            </a> LAPD uses Palantir to identify people&rsquo;s friends, relatives, colleagues and other relations, &ldquo;pulling
+            people into the LAPD&rsquo;s surveillance system who otherwise wouldn&rsquo;t have been,&rdquo; <a class="anchor"
+              id="_ftn37" href="#_ftnref37">
+              <sup>
+                <sup>[37]</sup>
+              </sup>
+            </a>as well as to &ldquo;track vehicles using data from the Automated License Plate Reader&rdquo; and &ldquo;to
+            examine social networks.&rdquo; <a class="anchor" id="_ftn38" href="#_ftnref38">
+              <sup>
+                <sup>[38]</sup>
+              </sup>
+            </a>Officers are trained to search for people to target using attributes like race, gender, and physical features, as
+            well as to track any phone call&rsquo;s &ldquo;recipient phone number, the date, duration of the call, and the
+            latitude and longitude of all the cell towers used.&rdquo; <a class="anchor" id="_ftn39" href="#_ftnref39">
+              <sup>
+                <sup>[39]</sup>
+              </sup>
+            </a>
+          </p>
+          <p style="text-align: center;">
+            <strong>
+              <u class="ancho report-section-title" id="Fusion-Centers">Fusion Centers</u>
+            </strong>
+          </p>
+          <p>Another key part of the infrastructure that data-driven policing is built on are so-called &ldquo;fusion
+            centers,&rdquo; the data analytic centers police use for real-time processing, analysis, and sharing of surveillance
+            data. These spy garrisons received heavy investment in the post-9/11 expansion of local policing to encompass mass
+            suspicion, data-gathering, and surveillance. These tactics relied on collecting and integrating law enforcement data
+            into what federal spy agencies have called the Information Sharing Environment (ISE). <a class="anchor" id="_ftn40"
+              href="#_ftnref40">
+              <sup>
+                <sup>[40]</sup>
+              </sup>
+            </a>
+          </p>
+          <p>There are over several dozen federal fusion centers in the U.S. The one used to police Los Angeles is named the Joint
+            Regional Intelligence Center (JRIC) and located on Imperial Highway &ndash;&nbsp;a fitting name&nbsp;&ndash; in
+            Norwalk. Fusion centers were part of police efforts to neutralize the Occupy Movement including through infiltration,
+            monitoring political activity, and tracking social media. <a class="anchor" id="_ftn41" href="#_ftnref41">
+              <sup>
+                <sup>[41]</sup>
+              </sup>
+            </a> In 2012, the U.S. Senate Committee on Homeland Security and Governmental Affairs released a highly critical
+            report warning about &ldquo;waste at state and local intelligence fusion centers.&rdquo; <a class="anchor" id="_ftn42"
+              href="#_ftnref42">
+              <sup>
+                <sup>[42]</sup>
+              </sup>
+            </a> Our 2013 <a
+              href="https://stoplapdspying.org/wp-content/uploads/2013/04/PEOPLES-AUDIT-UPDATED-APRIL-2-2013-A.pdf">People&rsquo;s
+              Audit of LAPD Special Order </a>
+            <a href="https://stoplapdspying.org/wp-content/uploads/2013/04/PEOPLES-AUDIT-UPDATED-APRIL-2-2013-A.pdf">1</a>
+            documents the operation and harm of federal fusion centers. <a class="anchor" id="_ftn43" href="#_ftnref43">
+              <sup>
+                <sup>[43]</sup>
+              </sup>
+            </a>
+          </p>
+          <p>LAPD has also built a network of its own fusion centers called <strong>Community Safety Operation Centers
+              (CSOCs)</strong>. These spy centers feature conference rooms with rows of computers and a large screen displaying a
+            color-shifting map of the city. <a class="anchor" id="_ftn44" href="#_ftnref44">
+              <sup>
+                <sup>[44]</sup>
+              </sup>
+            </a> In 2016, the first CSOC was established in LAPD&rsquo;s South Bureau to coordinate and concentrate surveillance
+            across the 77th, Southwest, Southeast, and Harbor Divisions. Today, there is a CSOC in each of LAPD&rsquo;s four
+            operational bureaus. </p>
+          <p>LAPD recently launched even more localized fusion centers called <strong>Area Crime and Community Intelligence
+              Centers (ACCICs). </strong>These hyper-local spy garrisons produce &ldquo;daily mission maps&rdquo; (the brutal
+            violence of which we document in part 5 of this report), perform &ldquo;social media monitoring&rdquo; and
+            &ldquo;surveillance camera video pulls,&rdquo; and search the Palantir, Lexis-Nexis, ParoleLEADS, LInx, CalGangs,
+            VeriTrack, and CCHRS data systems. <a class="anchor" id="_ftn45" href="#_ftnref45">
+              <sup>
+                <sup>[45]</sup>
+              </sup>
+            </a> An internal LAPD document we obtained indicates that ACCICs produce daily hotspot maps with symbols marking
+            locations as &ldquo;gang related,&rdquo; &ldquo;gang member - suspect,&rdquo; &ldquo;gang member - victim,&rdquo;
+            &ldquo;transient - victim,&rdquo; &ldquo;transient - suspect,&rdquo; and &ldquo;domestic violence.&rdquo; <a
+              class="anchor" id="_ftn46" href="#_ftnref46">
+              <sup>
+                <sup>[46]</sup>
+              </sup>
+            </a> It&rsquo;s hard to imagine why LAPD needs daily maps of domestic violence complaints and unhoused residents
+            besides to speculatively criminalize neighborhoods and communities. </p>
+          <p style="text-align: center;">
+            <strong>
+              <u class="anchor report-section-title" id="Operation-LASER">Operation LASER</u>
+            </strong>
+          </p>
+          <figure>
+            <blockquote>
+              &ldquo;The program is analogous to laser surgery, where a trained medical doctor uses
+              modern technology to remove tumors . . . . Extraction of offenders takes place in a &lsquo;non-invasive&rsquo; manner
+              (no task forces or saturation patrol activities), and the result produces less disruption in neighborhoods. Continuing
+              with the medical analogy, by extracting offenders surgically, recovery time of the neighborhood is
+              faster.&rdquo;&nbsp;
+              <figcaption>—Operation LASER&rsquo;s architects, including Craig Uchida (2012)</figcaption>
+            </blockquote>
+          </figure>
+
+          <figure>
+            <blockquote>
+              &ldquo;I don&rsquo;t think the public is too concerned with us using technology to
+              prevent crime. People don&rsquo;t get upset when doctors use technology to prevent illness.&rdquo;
+              <figcaption>—Former LAPD Chief Bill Bratton (2015)</figcaption>
+            </blockquote>
+          </figure>
+
+          <p>LAPD&rsquo;s homegrown predictive policing program Operation LASER (Los Angeles Strategic Extraction and Restoration)
+            was first launched in 2009 with a Smart Policing Initiative (SPI) grant of $899,959 from the Bureau of Justice
+            Assistance. <a class="anchor" id="_ftn47" href="#_ftnref47">
+              <sup>
+                <sup>[47]</sup>
+              </sup>
+            </a> LAPD used the grant to hire its long-time research partner Justice and Security Strategies (JSS), the police
+            consulting firm headed by Craig Uchida. At LAPD, Deputy Chief Sean Malinowski was the lead investigator for the SPI
+            research grant. LAPD and JSS worked together to develop LASER, which targeted both specific locations (which police
+            deemed &ldquo;LASER zones&rdquo; or &ldquo;Anchor Points&rdquo;) and specific community members (who police deemed
+            &ldquo;chronic offenders&rdquo;).&nbsp;&nbsp; </p>
+          <p style="text-align: center;">
+            <u>LASER Zones and Anchor Points</u>
+          </p>
+          <p>In 2018, we filed a PRA requesting LAPD&rsquo;s policies, analysis, maps, and reports for targeting locations under
+            LASER. The records we obtained confirmed what the community had suspected: while promoted as a scientific
+            "breakthrough,&rdquo; LASER was yet another campaign of racial profiling and territorial enforcement.</p>
+          <p>To select LASER zones, LAPD and JSS analysts combined hot spot mapping of crime reports with recommendations from
+            local officers. Within each zone police also identified Anchor Points, which were locations considered &ldquo;possibly
+            being responsible for crime.&rdquo; <a class="anchor" id="_ftn48" href="#_ftnref48">
+              <sup>
+                <sup>[48]</sup>
+              </sup>
+            </a> While this designation was potentially devastating, there was no standard process or criteria for selecting the
+            locations, which included businesses, residences, and community gathering places. JSS even noted that &ldquo;public
+            transportation centers, shopping centers, fast food restaurants, and other types of establishments . . . can be
+            &lsquo;crime attractors&rsquo; or &lsquo;crime generators&rsquo; and are often at the center of hot spots in
+            crime.&rdquo; Below is a map from LAPD&rsquo;s 77th Division marking LASER zones and Anchor Points. <a class="anchor"
+              id="_ftn49" href="#_ftnref49">
+              <sup>[49]</sup>
+            </a>
+          </p>
+        </div>
+        <figure class="report-photo-container">
+          <img class="report-photo" src="77thDivision_violent_crime_map_LASER.jpg"
+            alt="77th Division Violent Crime Map Generated by LAPD's LASER PROGRAM." />
+          <figcaption>LAPD 77th Division “Violent Crime Map” showing LASER zones and Anchor Points (AP).</figcaption>
+        </figure>
+        <div class="paragraph-container">
+          <p>Locations marked Anchor Points became data-driven targets for displacement. According to LAPD training documents,
+            officers were directed to &ldquo;prepare strategies to address the issues&rdquo; including through the Citywide
+            Nuisance Abatement Program, which is described in more detail later in part this section, as well &ldquo;Crime
+            Prevention Through Environmental Design&rdquo; and changes to &ldquo;licensing/conditional use permits&rdquo; &ndash;
+            all potential levers of gentrification. <a class="anchor" id="_ftn50" href="#_ftnref50">
+              <sup>
+                <sup>[50]</sup>
+              </sup>
+            </a> Former Deputy Chief Dennis Kato confirmed that once a location was designated as an Anchor Point, LAPD could then
+            employ &ldquo; <span style="color: #222222;">all the other city tools and the City Attorney's office to really abate
+              the location, and to gain compliance by those property owners to really fix that problem.&rdquo;</span>
+            <a class="anchor" id="_ftn51" href="#_ftnref51">
+              <sup>
+                <sup>[51]</sup>
+              </sup>
+            </a>
+          </p>
+          <p>These data-driven &ldquo;hotspots&rdquo; also became targets for extreme police brutality, as detailed in part 6 of
+            this report. By speculatively criminalizing areas and then sending officers on missions to &ldquo;suppress
+            crime&rdquo; in these areas with vague profiles of who to look for, these programs ensured lethal and racialized
+            police violence. LAPD killed 21 people in 2016, the year Operation LASER expanded. Of these, we have identified six
+            killings linked to LASER zones in just a short six month period in 2016. All of the men and boys killed were Black or
+            Latino, four were shot in the back, four were teenagers, and two were under age 18:</p>
+          <p>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <u>February 6</u>: 16-year old <strong>Jos&eacute; Juan M&eacute;ndez</strong> was
+            killed by Hollenbeck Division officers Josue Merida and Jeremy Wagner <a class="anchor" id="_ftn52" href="#_ftnref52">
+              <sup>
+                <sup>[52]</sup>
+              </sup>
+            </a> during a traffic stop in what LAPD designated as the Estrada CLEAR area, a &ldquo;problem area&rdquo; and a LASER
+            zone. <a class="anchor" id="_ftn53" href="#_ftnref53">
+              <sup>
+                <sup>[53]</sup>
+              </sup>
+            </a>
+          </p>
+          <p>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <u>May 13</u>: 28-year old <strong>Robert Diaz </strong>was killed by Hollenbeck
+            Division Gang Enforcement Detail (GED) officer Miguel Ruano on a &ldquo;crime suppression&rdquo; mission also in the
+            Estrada CLEAR area. Robert is remembered for his ability to defuse tense situations with his warmth and his love of
+            animals. </p>
+          <p>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <u>June 10</u>: 31-year old <strong>Keith Bursey</strong> was killed by 77th Division
+            GED officer Charles Kumlander on Slauson Avenue, in a LASER zone and Anchor Point. Police shot him in the back. <a
+              class="anchor" id="_ftn54" href="#_ftnref54">
+              <sup>
+                <sup>[54]</sup>
+              </sup>
+            </a>
+          </p>
+          <p>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <u>July 25</u>: 18-year-old <strong>Richard Risher </strong>was killed by Southeast
+            Division GED officers Francisco Zaragoza, Isaac Fernandez, and Joseph Chavez on a &ldquo;crime suppression&rdquo;
+            mission inside a LASER zone. <a class="anchor" id="_ftn55" href="#_ftnref55">
+              <sup>
+                <sup>[55]</sup>
+              </sup>
+            </a> Police shot him in the back. <a class="anchor" id="_ftn56" href="#_ftnref56">
+              <sup>
+                <sup>[56]</sup>
+              </sup>
+            </a>
+          </p>
+          <p>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <u>August 9</u>: 14-year-old <strong>Jesse Romero</strong> was killed by GED officer
+            and two-time killer cop Eden Medina inside a LASER zone, following a &ldquo;vandalism call.&rdquo; <a class="anchor"
+              id="_ftn57" href="#_ftnref57">
+              <sup>
+                <sup>[57]</sup>
+              </sup>
+            </a> Police shot him in the back. <a class="anchor" id="_ftn58" href="#_ftnref58">
+              <sup>
+                <sup>[58]</sup>
+              </sup>
+            </a>
+          </p>
+          <p>●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <u>August 16</u>: 18-year-old <strong>Kenney Watkins</strong> was killed by officer
+            Evan Urias, assigned to the South Bureau CSOC in LASER Zone 5. <a class="anchor" id="_ftn59" href="#_ftnref59">
+              <sup>
+                <sup>[59]</sup>
+              </sup>
+            </a> Urias claimed he was making a traffic stop for a missing front plate, tinted windows, and &ldquo;possibly a paper
+            back plate.&rdquo; <a class="anchor" id="_ftn60" href="#_ftnref60">
+              <sup>
+                <sup>[60]</sup>
+              </sup>
+            </a> Police shot him in the back. </p>
+          <p>As these murders harm a community, LAPD and its collaborators characterize this violence as necessary simply because
+            an algorithm labeled our people&rsquo;s communities, streets, stores, or homes a place where crime &ldquo;will&rdquo;
+            happen.</p>
+          <p style="text-align: center;">
+            <u>LASER&rsquo;s &ldquo;Chronic Offender&rdquo; Bulletins</u>
+          </p>
+          <p>In addition to the location-based aspects noted above, LAPD&rsquo;s data-driven programs also include person-based
+            targeting. True to the term &ldquo;Extraction&rdquo; in the LASER acronym, the program used data-mining to target
+            individuals for banishment. LAPD generated hit lists called &ldquo;Chronic Offender&rdquo; bulletins, which police
+            appeared to use as targets whenever there was an open case or suspicion. Police subjected these individuals to
+            criminalization, coercive prosecution, and enforcement of parole and probation conditions to remove them from their
+            communities, including the neighborhoods where people had grown up or had always lived with their families.</p>
+          <p>The way LASER&rsquo;s individualized targeting was purported to work was that LAPD&rsquo;s Crime Intelligence Details
+            (CIDs, division units comprised of three sworn officers and a crime analyst) used Palantir technology to harvest data
+            collected through FI cards, arrest records, the CalGang database, and &ldquo;crime&rdquo; history to give individuals
+            risk scores. The scores generated through Palantir were used to assemble Chronic Offender bulletins, essentially
+            &ldquo;most wanted&rdquo; fliers showing a person&rsquo;s picture and personal information that were shared across
+            LAPD divisions and units as people the police should target and harass proactively. Even though LAPD claimed to use a
+            point system to standardize this process, a 2019 audit by the Office of the Inspector General uncovered that 112 of
+            637 people who were in the &ldquo;Chronic Offender&rdquo; database at the time had zero points under the LAPD
+            criteria. <a class="anchor" id="_ftn61" href="#_ftnref61">
+              <sup>
+                <sup>[61]</sup>
+              </sup>
+            </a>
+          </p>
+          <p>Once people were marked as Chronic Offenders, special units were to go knock on their doors and tell whoever was
+            there that police are watching them. <a class="anchor" id="_ftn62" href="#_ftnref62">
+              <sup>
+                <sup>[62]</sup>
+              </sup>
+            </a> These units also served warrants, conducted parole and probation checks (even though they were not probation and
+            parole officers), and pulled over or stopped people whenever they would see them. In 2019, a lawsuit we filed forced
+            the release of lists of the people who LAPD targeted. Our analysis of these lists revealed that nearly half the people
+            targeted are Black (even though Black people are 9% of the city&rsquo;s population), some were as young as 16, and
+            many are unhoused. </p>
+          <p>We recently began reaching out to the individuals on these lists and speaking to them. None knew they were being
+            targeted, but they all lived lives of daily police abuse. After we explained what LASER was, the first thing nearly
+            all of them told us was some version of &ldquo;it all makes sense now.&rdquo; Police constantly harassed them and
+            broke into their homes, terrorizing their families and arresting them over nothing. &ldquo;Why can&rsquo;t I feel safe
+            in my house?&rdquo; one person said, &ldquo;I just feel helpless. I can&rsquo;t even walk to the bus stop without
+            being pulled over.&rdquo; Another person on the lists told us officers breaking into his home warned him that they
+            &ldquo;wouldn&rsquo;t rest until they sent me away for good.&rdquo;&nbsp;</p>
+          <p>LASER was intended to make life intolerable for people in their own communities to the point where they would either
+            abandon their neighborhoods or end up in prison. In this way, these programs apply the &ldquo;attrition through
+            enforcement&rdquo; and &ldquo;self-deportation&rdquo; approaches that have long been the basis of federal treatment of
+            Indigenous people as well as how state and local governments treat migrants. <a class="anchor" id="_ftn63"
+              href="#_ftnref63">
+              <sup>
+                <sup>[63]</sup>
+              </sup>
+            </a> We have long known that policing of Skid Row applies this same tactic, coercing people through a flood of
+            citations. <a class="anchor" id="_ftn64" href="#_ftnref64">
+              <sup>
+                <sup>[64]</sup>
+              </sup>
+            </a> More broadly, these tactics were the latest form of speculative criminalization of entire communities, in the
+            lineage of gang injunctions, gang databases, and stop-and-frisk &ndash;&nbsp;all of which have been instrumental to
+            dispossession, banishment, and racial segregation. Many of the people we reached out to from the lists are now
+            incarcerated in state prisons far from home, leaving behind families who have told us the stories of how their loved
+            ones were targeted. </p>
+          <p>We are continuing to research LASER&rsquo;s personal toll, meeting with and learning from people whose names were in
+            the Chronic Offender database when the program was suspended in summer 2018 before it was completely ended in 2019. We
+            have heard nothing from the majority of the people on the Chronic Offender lists. LASER&rsquo;s experimentation with
+            &ldquo;removing&rdquo; people no doubt ended in death for some.</p>
+          <p style="text-align: center;">
+            <strong>
+              <u class="anchor report-section-title" id="PredPol">PredPol</u>
+            </strong>
+          </p>
+
+          <figure>
+            <blockquote>
+              "The behaviors that a hunter-gatherer uses to choose a wildebeest versus a gazelle are
+              the same calculations a criminal uses to choose a Honda versus a Lexus."
+              <figcaption>—Jeffrey Brantingham (2010)</figcaption>
+            </blockquote>
+          </figure>
+
+          <p>Another location-based algorithmic policing program was PredPol, first deployed by LAPD as &ldquo;field tests&rdquo;
+            in 2011 and ended in 2020 following a campaign of community pressure. <a class="anchor" id="_ftn65" href="#_ftnref65">
+              <sup>
+                <sup>[65]</sup>
+              </sup>
+            </a> PredPol is a for-profit business co-founded by UCLA professor Jeffrey Brantingham and funded early on by UCLA
+            Ventures as the company&rsquo;s &ldquo;lead investor.&rdquo; <a class="anchor" id="_ftn66" href="#_ftnref66">
+              <sup>
+                <sup>[66]</sup>
+              </sup>
+            </a> A PRA request we submitted to UCLA in 2021 revealed that the UCLA Foundation (the university&rsquo;s endowment)
+            purchased over 80,000 private shares of PredPol stock at the behest of UCLA Ventures (the university&rsquo;s venture
+            capital arm). <a class="anchor" id="_ftn67" href="#_ftnref67">
+              <sup>
+                <sup>[67]</sup>
+              </sup>
+            </a> PredPol now tells customers that its business &ldquo;grew out of a research project between the Los Angeles
+            Police Department and UCLA&rdquo; and that their products are today used to police &ldquo;one out of every 33 people
+            in the United States.&rdquo; <a class="anchor" id="_ftn68" href="#_ftnref68">
+              <sup>
+                <sup>[68]</sup>
+              </sup>
+            </a>
+          </p>
+          <p>PredPol developed its algorithms through Branthingham&rsquo;s academic research and field tests in collaboration with
+            LAPD, along with technology developed to predict &ldquo;insurgency&rdquo; in Iraq and Afghanistan. <a class="anchor"
+              id="_ftn69" href="#_ftnref69">
+              <sup>
+                <sup>[69]</sup>
+              </sup>
+            </a> An anthropologist, Brantingham earlier&rsquo;s research focus was data-driven paleoanthropology. From that work,
+            he began using predictive analytics to compare the choices of ancient hunter-gatherers looking for food and current
+            day patterns of how people &ldquo;forage for opportunities to commit crimes.&rdquo; <a class="anchor" id="_ftn70"
+              href="#_ftnref70">
+              <sup>
+                <sup>[70]</sup>
+              </sup>
+            </a> In 2006 Brantingham and his colleagues, including a UCLA mathematician named Andrea Bertozzi and a postdoctoral
+            fellow named Greg Mohler, extended the foraging analogy to insurgents in Iraq. That year the researchers obtained the
+            first of multiple U.S. Army Research Office grants to develop algorithms to predict insurgent activity. Brantingham
+            has claimed that &ldquo;the mathematics underlying the insurgent activity and the criminal activity is very much the
+            same.&rdquo; <a class="anchor" id="_ftn71" href="#_ftnref71">
+              <sup>
+                <sup>[71]</sup>
+              </sup>
+            </a> In slides presented to the Air Force Research Laboratory, he drove this point home through images comparing
+            &ldquo;Afghan men and other Arab or Muslim men with their faces wrapped in scarves, gathered around a cache of
+            automatic rifle&rdquo; to &ldquo;images of Latino youths in Los Angeles, labeled &lsquo;gang members.&rsquo;&rdquo; <a
+              class="anchor" id="_ftn72" href="#_ftnref72">
+              <sup>
+                <sup>[72]</sup>
+              </sup>
+            </a>
+          </p>
+          <p>PredPol&rsquo;s guesses about future crimes were driven by three elements of historical crime data: crime type, crime
+            location, and a crime timestamp. This reported crime data originated from crime reports filed by police along with
+            calls for service, both of which can be entirely unsubstantiated allegations. LAPD provided PredPol &ldquo;an
+            automated data dump that happened every 2 hours,&rdquo; also characterized by LAPD as &ldquo;a &lsquo;direct injection
+            information transfer,&rsquo; meaning the automated data stream was compiled and sent directly to the PredPol website
+            for consumption.&rdquo; <a class="anchor" id="_ftn73" href="#_ftnref73">
+              <sup>
+                <sup>[73]</sup>
+              </sup>
+            </a> PredPol used this data to make algorithmic predictions about which 500 x 500 square foot areas, called &ldquo;hot
+            spots,&rdquo; had the highest expected crime rate within the city. These reports were distributed to officers to guide
+            their patrols. </p>
+          <p>The mainstream critique of PredPol has been centered on the feedback loop that results from collecting biased and
+            &ldquo;bad&rdquo; data, automating the same results. As this theory goes, when police target an area it generates more
+            crime reports, arrests, and stops at that location and the subsequent crime data will lead the algorithm to direct
+            police back to the same area. While this feedback effect from policing&rsquo;s own activity perpetuating itself has
+            been proven (and should be no surprise), other logics also appeared when we began to map PredPol hot spots, LASER
+            zones, and Anchor Points. We discuss these findings in part 4 of this report, situating them in the broader history of
+            how Skid Row has been policed.</p>
+          <p>The academic community has begun to reject the harmful research behind PredPol. In 2019, a group of 68 UCLA
+            professors and graduate students wrote to LAPD condemning Brantingham&rsquo;s work on &ldquo;predictive&rdquo;
+            policing technologies. <a class="anchor" id="_ftn74" href="#_ftnref74">
+              <sup>
+                <sup>[74]</sup>
+              </sup>
+            </a> And in June 2020, over 1,400 academic mathematicians joined a public letter condemning mathematical research that
+            contributes to racist policing, singling out Brantingham&rsquo;s work with LAPD, and naming PredPol&rsquo;s
+            &ldquo;racist consequences.&rdquo; <a class="anchor" id="_ftn75" href="#_ftnref75">
+              <sup>
+                <sup>[75]</sup>
+              </sup>
+            </a> In part 6 of this report, we discuss how PredPol recently now markets itself as a &ldquo;community
+            policing&rdquo; and &ldquo;data accountability&rdquo; company, a transformation that had first been promoted by other
+            academics who are working to expand data-driven policing. </p>
+          <p style="text-align: center;">
+            <strong>
+              <u class="anchor report-section-title" id="Crime-Prevention-Through-Environmental-Design">&ldquo;Crime Prevention Through Environmental Design&rdquo;</u>
+            </strong>
+          </p>
+          <p>Another way land is controlled to criminalize communities is what police call &ldquo;Crime Prevention Through
+            Environmental Design&rdquo; (CPTED). Also promoted by LAPD as &ldquo;Design Out Crime,&rdquo; the goal is usually to
+            install or remove physical and natural structures in order to facilitate policing and surveillance. According to an
+            LAPD press release from 2001, &ldquo;Design Out Crime makes &lsquo;community policing&rsquo; more than a mere
+            buzzword.&rdquo; <a class="anchor" id="_ftn76" href="#_ftnref76">
+              <sup>
+                <span style="color: #222222;">
+                  <sup>[76]</sup>
+                </span>
+              </sup>
+            </a> The same press release also proposes CPTED as a solution to problems like &ldquo;decaying public housing
+            projects&rdquo; and &ldquo;abandoned public spaces.&rdquo; Instead of actually funding investments in public housing
+            or shared green spaces, the city&rsquo;s answer is changing the environment to facilitate policing and surveillance.
+          </p>
+          <p>In a 1997 video about CPTED&nbsp; described by LAPD as &ldquo;a landmark video on this subject,&rdquo; <a
+              class="anchor" id="_ftn77" href="#_ftnref77">
+              <sup>
+                <span style="color: #222222;">
+                  <sup>[77]</sup>
+                </span>
+              </sup>
+            </a> an LAPD &ldquo;Crime Prevention&rdquo; officer who is shown surveilling an area explains how greenery makes his
+            work less efficient: </p>
+          <p>Design Out Crime principles help me as a patrol officer by affording the opportunity to see into areas that would
+            normally be concealed. I&rsquo;ll give you an example. If I&rsquo;m patrolling past this building, I&rsquo;m going to
+            be able to patrol by here and look into this mall area and be able to see a greater area in a shorter amount of time,
+            which translates into me going down the street and patrolling another area. If I have to stop, get out of the vehicle,
+            get out of my vehicle and walk over to this area because it&rsquo;s concealed by walls and shrubbery and
+            [unintelligible] then it&rsquo;s going to take more of my time. <a class="anchor" id="_ftn78" href="#_ftnref78">
+              <sup>
+                <sup>[78]</sup>
+              </sup>
+            </a>
+          </p>
+          <p>Trading trees for cops can be deadly in more ways than one. In addition to all the direct harms of policing and
+            surveillance, environmental research has confirmed that historical lack of tree cover is a reason why segregated Black
+            neighborhoods face worse temperatures and air quality today. <a class="anchor" id="_ftn79" href="#_ftnref79">
+              <sup>
+                <sup>[79]</sup>
+              </sup>
+            </a>
+          </p>
+          <p>This environmental racism has now become part of data-driven policing, with LAPD&rsquo;s new Data-Informed
+            Community-Focused Policing framework including a section on CPTED that specifically recommends &ldquo;the removal of
+            hiding spots or physical barriers&rdquo; to facilitate data-driven policing. <a class="anchor" id="_ftn80"
+              href="#_ftnref80">
+              <sup>
+                <sup>[80]</sup>
+              </sup>
+            </a> Likewise, Craig Uchida, the consultant who built LAPD&rsquo;s LASER program, asserted in 2016 that &ldquo;Crime
+            Prevention Through Environmental Design (CPTED) assessments are necessary ingredients for data driven crime
+            prevention&rdquo; and recommended that this information &ldquo;should be collected and analyzed especially within
+            specific neighborhoods.&rdquo; <a class="anchor" id="_ftn81" href="#_ftnref81">
+              <sup>
+                <sup>[81]</sup>
+              </sup>
+            </a>
+          </p>
+          <p>After LAPD&rsquo;s Data-Informed Community-Focused Policing framework launched in April 2020, we filed a PRA request
+            seeking any CPTED assessments produced under the program. In response, LAPD disclosed nine assessments conducted in
+            late 2020 for Community Safety Partnership (CSP) &ldquo;community policing&rdquo; sites, which are discussed in
+            greater detail in part 6 of this report. On first glance, large portions of these assessments hardly seem tailored to
+            &ldquo;specific neighborhoods,&rdquo; instead repeating boilerplate recommendations about the need to install more
+            surveillance. <a class="anchor" id="_ftn82" href="#_ftnref82">
+              <sup>
+                <sup>[82]</sup>
+              </sup>
+            </a> Even where the assessments note that some of the infrastructural changes were requested by local residents, we
+            have learned that these same proposals had been made years earlier by residents who were told by city officials that
+            the changes would not be possible. For example, a community organizer who worked in the Pueblo Del Rio public housing
+            complex told us that residents had years ago convened walkthroughs with city officials to recommend some of the same
+            proposals for crosswalks and curb cuts that now show up in LAPD&rsquo;s new CPTED assessments. At the time these
+            proposals were denied or ignored, with city officials citing costs or other excuses. But now LAPD sweeps in to propose
+            delivering these same solutions via the institution of policing. This dynamic of &ldquo;community policing&rdquo;
+            programs holding communities hostgage by offering vital resources and services that the city otherwise denies is
+            examined in more detail in part 6 of this report. </p>
+          <p style="text-align: center;">
+            <strong>
+              <u class="anchor report-section-title" id="Citywide-Nuisance-Abatement-Program">Citywide Nuisance Abatement Program</u>
+            </strong>
+          </p>
+          <p>What is known today as the Citywide Nuisance Abatement Program (CNAP) is an extension of a decades-long history and
+            evolution of nuisance abatement laws and programs. CNAP targets buildings identified by LAPD to target for nuisance
+            abatement actions. These enforcement actions aim to coerce the owners of the property to make significant changes to
+            the property that further the LAPD&rsquo;s surveillance programs and often displace tenants in the building, which can
+            break up communities and fuel gentrification of the area.</p>
+          <p>CNAP is staffed by five core agencies: LAPD, the City Attorney, the Department of Building and Safety, the Planning
+            Department, and the Housing Department. Three of these agencies (LAPD, the City Attorney, and the Department of
+            Building and Safety) had worked together since 1990 through the FALCON (Focused Attack Linking Community Organizations
+            and Neighborhoods) Narcotics Abatement Unit, funded by federal grants. FALCON expanded on a previous city abatement
+            program that relied on the Uniform Controlled Substances Act of 1972 and California Health and Safety Code dealing
+            specifically with narcotics abatement. Those laws were, in turn, an extension of the Red Light Abatement of 1953. <a
+              class="anchor" id="_ftn83" href="#_ftnref83">
+              <sup>
+                <sup>[83]</sup>
+              </sup>
+            </a>
+          </p>
+          <p>Today, CNAP enforcement operates through data-sharing between the city agencies who run the program along with
+            whatever stakeholders and private interests these agencies each engage. LAPD works to criminalize, track, and surveil
+            residents. This data goes to the City Attorney, which can open an investigation and then send a demand letter or meet
+            with the property owner to discuss changes to the building. <a class="anchor" id="_ftn84" href="#_ftnref84">
+              <sup>
+                <sup>[84]</sup>
+              </sup>
+            </a> If the City Attorney determines the landlord or property owner is compliant with their proposals, then the
+            building has &ldquo;self-abated.&rdquo; But if the City Attorney is unsatisfied, then they can file a nuisance
+            abatement lawsuit against the building in state court. </p>
+          <p>Much of CNAP&rsquo;s coercion occurs without a lawsuit ever being filed. Between 2018 and 2019, the City Attorney
+            opened 479 nuisance case files but only filed 30 lawsuits. <a class="anchor" id="_ftn85" href="#_ftnref85">
+              <sup>
+                <sup>[85]</sup>
+              </sup>
+            </a> Once a building is targeted for this kind of investigation, it can be subject to random inspections for
+            compliance with municipal codes or become subject to other rules, restrictions, and changes requested by police. CNAP
+            can also be used to make threats about a building&rsquo;s conditional use permits, which can exercise extreme leverage
+            over commercial properties that need those permits to operate. The Planning Department can also initiate
+            administrative Nuisance Abatement proceedings to enforce municipal codes. This enforcement extends policing powers to
+            non-police entities, expanding the city&rsquo;s ability to police vulnerable communities. </p>
+          <p>Nuisance abatement allows police and developers to strategically banish residents or businesses whose buildings are
+            targets for gentrification. The evidence of criminal activity used to target properties can be highly vague, and the
+            CNAP process lacks even the minimal transparency that occurs with criminal prosecutions. Details of the
+            &ldquo;criminal activity&rdquo; used to target properties are not made public, and most abatement efforts settle
+            without litigation, which means the city rarely advances or defends evidence before a court. <a class="anchor"
+              id="_ftn86" href="#_ftnref86">
+              <sup>
+                <sup>[86]</sup>
+              </sup>
+            </a>
+          </p>
+          <p>Although CNAP enforcement against a building can originate with information from police, politicians, neighbors, and
+            property owners, the program is driven by LAPD allegations more than any other source. According to emails obtained
+            through the PRA, a Deputy City Attorney (DCA) noted in 2019 that regardless of the source of a referral, an LAPD
+            &ldquo;gang officer&rsquo;s communication would be sufficient for the DCA to open a case on the property.&rdquo; <a
+              class="anchor" id="_ftn87" href="#_ftnref87">
+              <sup>
+                <sup>[87]</sup>
+              </sup>
+            </a> This is where data-driven policing&rsquo;s role becomes apparent. Coercion, targeting, and displacement through
+            CNAP were one of the &ldquo;strategies&rdquo; that officers were trained to use for Operation LASER&rsquo;s Anchor
+            Points, along with &ldquo;licensing/conditional use permits,&rdquo; another element of CNAP coercion. <a
+              class="anchor" id="_ftn88" href="#_ftnref88">
+              <sup>
+                <sup>[88]</sup>
+              </sup>
+            </a> And as we explain in part 3, CNAP prosecutors used LASER data to determine enforcement priorities. Part 3 also
+            looks at how developers use CNAP to displace local businesses. Further, our discussion of data-driving policing in
+            Skid Row in part 4 reveals how locations targeted as Anchor Points were key sites of displacement. </p>
+          <p>Not only is CNAP another way the city weaponizes police data, it also helps expand LAPD&rsquo;s surveillance
+            architecture. The City Attorney uses CNAP to require that residential landlords allow for LAPD walkthroughs and
+            patrols as well as warrantless and keyless 24/7 access. CNAP prosecutors have also required buildings to hire private
+            security who coordinate with police to screen visitors and check identification, excluding and banishing
+            people&rsquo;s family and associates, as well as enforce coercive rules on how people can spend time or gather in
+            common areas. For residents, all of this can amount to a takeover of their homes by police, bringing the violence of
+            &ldquo;broken windows&rdquo; policing and stop-and-frisk right onto people&rsquo;s doorsteps, all under the threat of
+            eviction.</p>
+          <p>Sometimes CNAP enforcement can require installation of CCTV cameras and other LAPD surveillance infrastructure. In
+            part 3 below, we discuss an example of CNAP targeting a business in the rapidly gentrifying neighborhood of West
+            Adams, closely coordinated with a real estate firm that was trying to buy the building that the business occupied.
+            Along the same lines, the CNAP lawsuit filed against the owner of the Chesapeake Apartments, a 425-unit complex spread
+            out across 17 acres in Baldwin Village, asked the judge to order &ldquo;the establishment of extensive security
+            systems at the property with direct access by the Los Angeles Police Department to these systems of monitoring and
+            surveillance.&rdquo; <a class="anchor" id="_ftn89" href="#_ftnref89">
+              <sup>
+                <sup>[89]</sup>
+              </sup>
+            </a> These CNAP-compelled surveillance systems expand LAPD&rsquo;s vast architecture of surveillance, which includes
+            fusion centers, facial recognition, and other data-mining initiatives. The lawsuit also demanded that the landlord
+            implement &ldquo;improved tenant screening and lease enforcement procedures&rdquo; as well as &ldquo;armed, licensed
+            security guards.&rdquo; <a class="anchor" id="_ftn90" href="#_ftnref90">
+              <sup>
+                <sup>[90]</sup>
+              </sup>
+            </a>
+          </p>
+          <p>Just as the Chesapeake Apartments CNAP lawsuit helped expand LAPD&rsquo;s surveillance and data-mining powers, the
+            buildup to the case featured data-driven policing. Below is an LAPD mission sheet generated through the Palantir
+            data-mining platform one week prior to the CNAP case being filed. The City Attorney describes the apartment complex as
+            an "alleged stronghold for the Black P-Stones street gang," and LAPD&rsquo;s mission sheet directs police to target
+            "BPS gang areas,&rdquo; even specifying that "heavy pedestrian and traffic enforcement on gang members belonging to
+            this gang is encouraged." <a class="anchor" id="_ftn91" href="#_ftnref91">
+              <sup>
+                <sup>[91]</sup>
+              </sup>
+            </a> The recap lists 105 police stops, 21 arrests, and 8 field interview cards during a one week period. </p>
+        </div>
+        <figure class="report-photo-container">
+          <img class="report-photo" src="PatrolMissionReportClear.png"
+            alt="Patrol Mission Report generated by Palantir for LAPD shows hundreds of arrests in a designated target zone." />
+        </figure>
+        <div class="paragraph-container">
+          <p>LAPD&rsquo;s links to CNAP show how data-driven policing directly plugs police into enforcement of property laws,
+            multiplying LAPD&rsquo;s powers of banishment and displacement. Beyond programs like LASER, nuisance abatement is
+            increasingly being coordinated and automated using centralized data systems. For example, City Council in 2017 enacted
+            a motion presented by council members Joe Buscaino and Bob Blumenfield directing the agencies that comprise CNAP to
+            improve the tracking and information sharing on these properties through &ldquo;the use of shared databases and other
+            technological tools to assist in the tracking of these properties.&rdquo; <a class="anchor" id="_ftn92"
+              href="#_ftnref92">
+              <sup>
+                <sup>[92]</sup>
+              </sup>
+            </a> The motion also invited LAPD to create &ldquo;additional training on identifying and tracking nuisance
+            properties.&rdquo; </p>
+          <p>In all these examples, CNAP is another way the city uses policing and police data to coordinate displacement and
+            racialized banishment. These practices are expanding to become more automated with the growth of data-driven policing.
+            In part 3 of the report, we dive into different examples of how CNAP and the other policing programs and tactics
+            introduced in this part enable coordination, collusion, and affinity between police and real estate developers.</p>
+        </div>
+        <div class="paragraph-container">
+          <div class="footer">
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref13">
+                  <sup>
+                    <sup>[13]</sup>
+                  </sup>
+                </a> Consent Decree, <a href="https://www.justice.gov/crt/file/826956/download">United States v. City of Los
+                  Angeles</a>, U.S. District Court for Central District of California, CV 00-11769 (June 15, 2001).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref14">
+                  <sup>
+                    <sup>[14]</sup>
+                  </sup>
+                </a> Tom Hayden, &ldquo; <a href="https://www.latimes.com/archives/la-xpm-2009-aug-13-oe-hayden13-story.html">Chief
+                  Concerns,</a>&rdquo; Los Angeles Times (August 13, 2009).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref15">
+                  <sup>
+                    <sup>[15]</sup>
+                  </sup>
+                </a> George L. Kelling and James Q. Wilson, &ldquo; <a
+                  href="https://www.theatlantic.com/magazine/archive/1982/03/broken-windows/304465/">Broken Windows</a>,&rdquo; The
+                Atlantic (March 1982).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref16">
+                  <sup>
+                    <sup>[16]</sup>
+                  </sup>
+                </a> &ldquo; <a
+                  href="https://nij.ojp.gov/topics/articles/lapd-chief-bratton-speaks-out-whats-wrong-criminal-justice-research-and-how-make-it#bratton-on-crime">LAPD
+                  Chief Bratton Speaks Out: What&rsquo;s Wrong With Criminal Justice Research and How to Make It Right</a>,&rdquo;
+                National Institute of Justice Journal (May 31, 2007).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref17">
+                  <sup>
+                    <sup>[17]</sup>
+                  </sup>
+                </a> Police Executive Research Forum, &ldquo; <a
+                  href="https://bja.ojp.gov/sites/g/files/xyckuh186/files/Publications/PERF-Compstat.pdf">Compstat: Its Origins,
+                  Evolutions, and Future in Law Enforcement Agencies</a>,&rdquo; U.S. Department of Justice Bureau of Justice
+                Assistance (2013).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref18">
+                  <sup>
+                    <sup>[18]</sup>
+                  </sup>
+                </a> Petra Bartosiewicz, &ldquo; <a
+                  href="https://stoplapdspying.org/wp-content/uploads/2015/04/May-Report-Bartosiewicz.pdf">Beyond the Broken
+                  Window</a>,&rdquo; Harper&rsquo;s (May 2015), pp. 48-57.
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref19">
+                  <sup>
+                    <sup>[19]</sup>
+                  </sup>
+                </a> James J. Willis, Tammy Rinehart Kochel, &amp; Stephen D. Mastrofski, <a
+                  href="https://cops.usdoj.gov/RIC/Publications/cops-w0585-pub.pdf">The Co-Implementation of Compstat and Community
+                  Policing: A National Assessment</a>, U.S. Department of Justice, Office of Community Oriented Policing Services
+                (2010), p. 9.
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref20">
+                  <sup>
+                    <sup>[20]</sup>
+                  </sup>
+                </a> Stop LAPD Spying Coalition, &ldquo; <a
+                  href="https://medium.com/a-new-ai-lexicon/a-new-ai-lexicon-surveillance-8a4231ef8359">Surveillance: The Ghosts of
+                  White Supremacy in AI Reform</a>,&rdquo; AI Now: A New AI Lexicon (September 8, 2021).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref21">
+                  <sup>
+                    <sup>[21]</sup>
+                  </sup>
+                </a> &ldquo; <a href="https://www.securitysales.com/news/los-angeles-adds-skid-row-to-public-cctv-sites/">Los
+                  Angeles Adds Skid Row to Public CCTV Sites</a>,&rdquo; Security Sales &amp; Integration (November 22, 2005).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref22">
+                  <sup>
+                    <sup>[22]</sup>
+                  </sup>
+                </a> LAPD, &ldquo; <a href="https://www.lapdonline.org/february_2005/news_view/19849">LAPD Uses New Technologies to
+                  Fight Crime</a>&rdquo; (February 1, 2005).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref23">
+                  <sup>
+                    <sup>[23]</sup>
+                  </sup>
+                </a> Jessica Garrison, &ldquo; <a
+                  href="https://www.latimes.com/archives/la-xpm-2004-oct-28-me-watching28-story.html">Cameras to Keep Watch in
+                  Hollywood</a>,&rdquo; L.A. Times (Oct. 28, 2004).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref24">
+                  <sup>
+                    <sup>[24]</sup>
+                  </sup>
+                </a> Los Angeles Police Foundation, <a
+                  href="https://www.documentcloud.org/documents/1308873-los-angeles-police-foundation-form-990-fy-2011.html">Form
+                  990</a> (FY 2011).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref25">
+                  <sup>
+                    <sup>[25]</sup>
+                  </sup>
+                </a> LAPD Media Relations, &ldquo; <a href="https://www.lapdonline.org/february_2005/news_view/19849">LAPD Uses New
+                  Technologies to Fight Crime</a>&rdquo; (Feb. 1, 2005).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref26">
+                  <sup>
+                    <sup>[26]</sup>
+                  </sup>
+                </a> LAPD, <a href="http://www.lapdpolicecom.lacity.org/033115/BPC_15-0082..pdf">City Inquiry Relative to the
+                  Implementation of Body Worn Video</a> (March 25, 2015).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref27">
+                  <sup>
+                    <sup>[27]</sup>
+                  </sup>
+                </a>&nbsp; Los Angeles Police Foundation, <a
+                  href="https://www.documentcloud.org/documents/1308873-los-angeles-police-foundation-form-990-fy-2011.html">Form
+                  990</a> (FY 2011).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref28">
+                  <sup>
+                    <sup>[28]</sup>
+                  </sup>
+                </a>
+                <a href="http://www.lapdpolicecom.lacity.org/091118/BPC_18-0295.pdf">LAPD&rsquo;s 2018 Second Quarter Report on
+                  Homelessness</a> (September 5, 2018)
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref29">
+                  <sup>
+                    <sup>[29]</sup>
+                  </sup>
+                </a> Office of Mayor, &ldquo; <a
+                  href="https://www.lamayor.org/mayor-garcetti-and-lapd-announce-body-camera-rollout">Mayor Garcetti and LAPD
+                  Announce Body Camera Rollout</a>&rdquo; (September 4, 2015); Miguel A. Santana, <a
+                  href="http://clkrep.lacity.org/onlinedocs/2015/15-1471_rpt_CAO_12-10-2015.pdf">Report from Office of the Los
+                  Angeles City Administrative Officer concerning Contracts for Body-Worn Cameras</a> (December 10, 2015).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref30">
+                  <sup>
+                    <sup>[30]</sup>
+                  </sup>
+                </a> Sam Levin, &ldquo; <a
+                  href="https://www.theguardian.com/us-news/2021/sep/08/revealed-los-angeles-police-officers-gathering-social-media">Revealed:
+                  LAPD officers told to collect social media data on every civilian they stop</a>,&rdquo; The Guardian (September 8,
+                2021).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref31">
+                  <sup>
+                    <sup>[31]</sup>
+                  </sup>
+                </a> Mark Harris, &ldquo; <a
+                  href="https://www.wired.com/story/how-peter-thiels-secretive-data-company-pushed-into-policing/">How Peter
+                  Thiel&rsquo;s Secretive Data Company Pushed Into Policing</a>,&rdquo; Wired (August 9, 2017).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref32">
+                  <sup>
+                    <sup>[32]</sup>
+                  </sup>
+                </a> United Nations Office of the High Commissioner for Human Rights, &ldquo; <a
+                  href="https://www.ohchr.org/SP/NewsEvents/Pages/DisplayNews.aspx?NewsID=22533">Statement on Visit to the USA, by
+                  Professor Philip Alston, United Nations Special Rapporteur on extreme poverty and human rights</a>&rdquo;
+                (December 15, 2017).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref33">
+                  <sup>
+                    <sup>[33]</sup>
+                  </sup>
+                </a> Michael Steinberger, &ldquo; <a
+                  href="https://www.nytimes.com/interactive/2020/10/21/magazine/palantir-alex-karp.html">Does Palantir See Too
+                  Much?</a>&rdquo; N.Y. Times (Oct. 21, 2020).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref34">
+                  <sup>
+                    <sup>[34]</sup>
+                  </sup>
+                </a> Annie Jacobsen, &ldquo; <a
+                  href="https://www.wired.com/story/palantirs-gods-eye-view-of-afghanistan/">Palantir&rsquo;s God&rsquo;s-Eye View
+                  of Afghanistan</a>,&rdquo; Wired (January 20, 2021).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref35">
+                  <sup>
+                    <sup>[35]</sup>
+                  </sup>
+                </a> Stop LAPD Spying Coalition, &ldquo; <a
+                  href="https://copwatch.media/2021/04/why-did-target-email-the-lapd-after-police-killed-george-floyd/">Why did
+                  Target email the LAPD after police killed George Floyd?</a>&rdquo; Copwatch Media (April 2021).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref36">
+                  <sup>
+                    <sup>[36]</sup>
+                  </sup>
+                </a> Caroline Haskins, &ldquo; <a
+                  href="https://www.buzzfeednews.com/article/carolinehaskins1/training-documents-palantir-lapd">Scars, Tattoos, And
+                  License Plates: This Is What Palantir And The LAPD Know About You</a>,&rdquo; Buzzfeed News (September 29, 2020).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref37">
+                  <sup>
+                    <sup>[37]</sup>
+                  </sup>
+                </a> Steinberger, &ldquo; <a
+                  href="https://www.nytimes.com/interactive/2020/10/21/magazine/palantir-alex-karp.html">Does Palantir See Too
+                  Much?</a>&rdquo;
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref38">
+                  <sup>
+                    <sup>[38]</sup>
+                  </sup>
+                </a> LAPD, &ldquo; <a
+                  href="https://stoplapdspying.org/wp-content/uploads/2018/05/June-2013-No-Cost-Extension.pdf">No-Cost Extension for
+                  Smart Policing</a>&rdquo; (June 2013).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref39">
+                  <sup>
+                    <sup>[39]</sup>
+                  </sup>
+                </a> Haskins, &ldquo; <a
+                  href="https://www.buzzfeednews.com/article/carolinehaskins1/training-documents-palantir-lapd">Scars, Tattoos, And
+                  License Plates</a>.&rdquo;
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref40">
+                  <sup>
+                    <sup>[40]</sup>
+                  </sup>
+                </a> Office of the Director of National Intelligence, <a
+                  href="https://www.dni.gov/index.php/who-we-are/organizations/national-security-partnerships/ise/about-the-ise">About
+                  the ISE</a> (last accessed October 12, 2021).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref41">
+                  <sup>
+                    <sup>[41]</sup>
+                  </sup>
+                </a>
+                <a href="https://archive.org/details/Fusion-Center-Occupy/occupy-docs-set-3/mode/2up">Fusion Center Intelligence on
+                  Occupy Wall Street</a> (2011); Colin Moynihan, &ldquo; <a
+                  href="http://www.nytimes.com/2014/05/23/us/officials-cast-wide-net-in-monitoring-occupy-protests.html">Officials
+                  Cast Wide Net in Monitoring Occupy Protests</a>,&rdquo; New York Times (May 23, 2014).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref42">
+                  <sup>
+                    <sup>[42]</sup>
+                  </sup>
+                </a> United States Senate Permanent Subcommittee on Investigations, <a
+                  href="https://www.hsgac.senate.gov/imo/media/doc/10-3-2012%20PSI%20STAFF%20REPORT%20re%20FUSION%20CENTERS.2.pdf">Federal
+                  Support for and Involvement in State and Local Fusion Centers</a> (October 3, 2012).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref43">
+                  <sup>
+                    <sup>[43]</sup>
+                  </sup>
+                </a> Stop LAPD Spying Coalition, &ldquo; <a
+                  href="https://stoplapdspying.org/wp-content/uploads/2013/04/PEOPLES-AUDIT-UPDATED-APRIL-2-2013-A.pdf">A People's
+                  Audit of the Los Angeles Police Department's Special Order 1</a>&rdquo; (March 19, 2013).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref44">
+                  <sup>
+                    <sup>[44]</sup>
+                  </sup>
+                </a> Press Play with Madeleine Brand, &ldquo; <a
+                  href="https://www.kcrw.com/news/shows/press-play-with-madeleine-brand/poverty-rates-are-down-median-income-is-up">Poverty
+                  rates are down, median income is up</a>&rdquo; KCRW (September 13, 2016), at timestamp 10:16.
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref45">
+                  <sup>
+                    <sup>[45]</sup>
+                  </sup>
+                </a> LAPD, <a href="http://lapd-assets.lapdonline.org/assets/pdf/Data-Informed-Policing.pdf">Data-Informed
+                  Community-Focused Policing</a> (April 2020) p. 47.
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref46">
+                  <sup>
+                    <sup>[46]</sup>
+                  </sup>
+                </a> LAPD, &ldquo; <a
+                  href="https://stoplapdspying.org/wp-content/uploads/2021/10/SARA-Doc-2-April-2021.pdf">Data-Informed,
+                  Community-Focused Policing Daily Operations Guide</a>&rdquo; (April 2021), p. 5 (PRA # <a
+                  href="https://lacity.nextrequest.com/requests/19-4995">19-4995</a>).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref47">
+                  <sup>
+                    <sup>[47]</sup>
+                  </sup>
+                </a> U.S. Department of Justice, Bureau of Justice Statistics, &ldquo; <a
+                  href="https://stoplapdspying.org/wp-content/uploads/2021/10/Jul-Dec-2011-PMT.pdf">GMS Report: SPI Initiative
+                  Report for Reporting Period July 1st - Dec 31st 2011</a>&rdquo; (2011).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref48">
+                  <sup>
+                    <sup>[48]</sup>
+                  </sup>
+                </a> LAPD, <a href="https://stoplapdspying.org/wp-content/uploads/2018/05/LASER.pdf">Internal presentati</a>
+                <a href="https://stoplapdspying.org/wp-content/uploads/2018/05/LASER.pdf">on on </a>
+                <a href="https://stoplapdspying.org/wp-content/uploads/2018/05/LASER.pdf">Los Angeles Strategic Extraction and
+                  Restoration</a> (2017) (PRA # C17-0500027).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref49">
+                  <sup>
+                    <sup>[49]</sup>
+                  </sup>
+                </a> LAPD, &ldquo; <a href="https://recordsrequest.lacity.org/documents/1084861/download">All In One Map</a>&rdquo;
+                (Jan. 9, 2018) ( <a href="https://lacity.nextrequest.com/requests/18-3148">CPRA 18-3148</a>).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref50">
+                  <sup>
+                    <sup>[50]</sup>
+                  </sup>
+                </a> LAPD, <a href="https://stoplapdspying.org/wp-content/uploads/2018/05/LASER.pdf">Internal presentati</a>
+                <a href="https://stoplapdspying.org/wp-content/uploads/2018/05/LASER.pdf">on on </a>
+                <a href="https://stoplapdspying.org/wp-content/uploads/2018/05/LASER.pdf">Los Angeles Strategic Extraction and
+                  Restoration</a> (PRA C17-0500027).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref51">
+                  <sup>
+                    <sup>[51]</sup>
+                  </sup>
+                </a> Strategies for Policing Innovation (now Smart Policing Initiative), &ldquo; <a
+                  href="https://www.youtube.com/watch?v=q2exgvzdOoY&amp;ab_channel=SmartPolicingInitiative">Successful Strategies to
+                  Reduce Gun Violence</a>,&rdquo; YouTube (February 28, 2018). Dennis Kato begins speaking around 30:54.
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref52">
+                  <sup>
+                    <sup>[52]</sup>
+                  </sup>
+                </a>
+                <a href="https://da.lacounty.gov/sites/default/files/pdf/JSID_OIS_06_2017_Mendez.pdf">Memorandum on Officer Involved
+                  Shooting of Jose Mendez</a>, L.A. County District Attorney&rsquo;s Office (June 12, 2017).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref53">
+                  <sup>
+                    <sup>[53]</sup>
+                  </sup>
+                </a> LAPD, <a href="https://recordsrequest.lacity.org/documents/1321883/download">Hollenbeck Problem Areas Worksheet
+                  2/5/16 &ndash; 2/8/16</a> (February 5, 2016). CLEAR refers to Community Law Enforcement And Recovery, a federally
+                funded city-county joint program created in 1995. In Operation LASER, CLEAR zones were treated as &ldquo;hot
+                spots&rdquo; or LASER zones, as they were areas where policing was already concentrated.
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref54">
+                  <sup>
+                    <sup>[54]</sup>
+                  </sup>
+                </a>
+                <a href="https://da.lacounty.gov/sites/default/files/pdf/JSID_OIS_02_2018_Bursey.pdf">Memorandum on Officer Involved
+                  Shooting of Keith Bursey</a>, Justice System Integrity Division of the L.A. County District Attorney&rsquo;s
+                Office (February 22, 2018).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref55">
+                  <sup>
+                    <sup>[55]</sup>
+                  </sup>
+                </a> Kate Mather, &ldquo; <a href="https://documents.latimes.com/lapd-chief-report-richard-risher-shooting/">LAPD
+                  chief&rsquo;s report on Richard Risher shooting in Nickerson Gardens</a>,&rdquo; Los Angeles Times (June 27,
+                2017).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref56">
+                  <sup>
+                    <sup>[56]</sup>
+                  </sup>
+                </a>
+                <a href="https://da.lacounty.gov/sites/default/files/pdf/JSID_OIS_01_2019_Risher.pdf">Memorandum on Officer Involved
+                  Shooting of Robert Risher</a>, Justice System Integrity Division of the L.A. County District Attorney&rsquo;s
+                Office (January 29, 2019).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref57">
+                  <sup>
+                    <sup>[57]</sup>
+                  </sup>
+                </a>
+                <a href="https://da.lacounty.gov/sites/default/files/pdf/JSID_OIS_02_2018_Romero.pdf">Memorandum on Officer Involved
+                  Shooting of Jesse Romero</a>, Justice System Integrity Division of the L.A. County District Attorney&rsquo;s
+                Office (February 28, 2018), p. 12.
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref58">
+                  <sup>
+                    <sup>[58]</sup>
+                  </sup>
+                </a> City News Service, &ldquo; <a
+                  href="https://www.nbclosangeles.com/news/lapd-officer-who-fatally-shot-armed-teen-free-of-charges/139204/">LAPD
+                  Officer Who Fatally Shot Teen Won&rsquo;t Be Charged</a>,&rdquo; NBC Los Angeles (March 6, 2018).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref59">
+                  <sup>
+                    <sup>[59]</sup>
+                  </sup>
+                </a> LAPD, <a href="https://recordsrequest.lacity.org/documents/1379037/download">LASER Weekly Hot Spot Map Aug
+                  15-Aug 21</a>&mdash;Southeast Area (2016).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref60">
+                  <sup>
+                    <sup>[60]</sup>
+                  </sup>
+                </a> LAPD Media Relations, &ldquo; <a href="https://www.lapdonline.org/october_2018/news_view/61195">Motorcycle
+                  Officer Confronted by Man Armed with Two Handguns</a>&rdquo; (September 7, 2016).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref61">
+                  <sup>
+                    <sup>[61]</sup>
+                  </sup>
+                </a> Los Angeles Police Commission, Office of the Inspector General, <a
+                  href="http://www.lapdpolicecom.lacity.org/031219/BPC_19-0072.pdf">Review of Selected Los Angeles Police Department
+                  Data-Driven Policing Strategies</a> (March 12, 2019), p. 15.
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref62">
+                  <sup>
+                    <sup>[62]</sup>
+                  </sup>
+                </a> Id., pp. 6-9.
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref63">
+                  <sup>
+                    <sup>[63]</sup>
+                  </sup>
+                </a> K-Sue Park, &ldquo; <a href="https://harvardlawreview.org/2019/05/self-deportation-nation/">Self-Deportation
+                  Nation</a>,&rdquo; Harvard Law Review 132.7 (May 10, 2019).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref64">
+                  <sup>
+                    <sup>[64]</sup>
+                  </sup>
+                </a> &ldquo;What You Need to Know About Special Order 11: An Interview with Hamid Khan,&rdquo; in <u>Freedom Now!
+                  Struggles for the Human Right to Housing in LA and Beyond</u>, eds. Jordan T. Camp &amp; Christina Heatherton
+                (2011).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref65">
+                  <sup>
+                    <sup>[65]</sup>
+                  </sup>
+                </a> G.O. Mohler, M.B. Short, Sean Malinowski, Mark Johnson, G.E. Tita, Andrea L. Bertozzi, &amp; P.J. Brantingham,
+                &ldquo; <a href="https://escholarship.org/content/qt1br4975j/qt1br4975j.pdf">Randomized controlled field trials of
+                  predictive policing</a>,&rdquo; Journal of the American Statistical Association 110.512 (2015), pp. 1399-1411.
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref66">
+                  <sup>
+                    <sup>[66]</sup>
+                  </sup>
+                </a> See: <a href="https://www.crunchbase.com/organization/predpol/company_financials">Funding: PredPol</a>,
+                CrunchBase (last accessed October 6, 2021), listing UCLA Ventures as PredPol&rsquo;s sole &ldquo;lead
+                investor&rdquo; alongside two other investors.
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref67">
+                  <sup>
+                    <sup>[67]</sup>
+                  </sup>
+                </a> University of California Los Angeles, <a
+                  href="https://stoplapdspying.org/wp-content/uploads/2021/10/Item-2-Responsive-Documents-21-8832.pdf">Item 2
+                  Responsive Documents (21-8832).pdf</a> (UCLA PRA 21-8832).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref68">
+                  <sup>
+                    <sup>[68]</sup>
+                  </sup>
+                </a> PredPol, <a href="https://www.predpol.com/about/">About PredPol</a> (last accessed October 13, 2021).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref69">
+                  <sup>
+                    <sup>[69]</sup>
+                  </sup>
+                </a> Ali Winston &amp; Darwin BondGraham, &ldquo; <a
+                  href="https://truthout.org/articles/predictive-policing-from-fallujah-to-the-san-fernando-valley-military-grade-software-used-to-wage-wars-abroad-is-making-its-impact-on-americas-streets/">From
+                  Fallujah to the San Fernando Valley, Police Use Analytics to Target "High-Crime" Areas</a>,&rdquo; Truthout (March
+                12th, 2014).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref70">
+                  <sup>
+                    <sup>[70]</sup>
+                  </sup>
+                </a> &ldquo; <a href="https://www.sciencedaily.com/releases/2010/02/100222094826.htm">Can math and science help
+                  solve crimes? Scientists work with Los Angeles police to identify and analyze crime 'hotspots</a>,'&rdquo;
+                ScienceDaily (February 27, 2010).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref71">
+                  <sup>
+                    <sup>[71]</sup>
+                  </sup>
+                </a> &ldquo; <a href="https://www.sciencedaily.com/releases/2010/02/100222094826.htm">Can math and science help
+                  solve crimes? Scientists work with Los Angeles police to identify and analyze crime 'hotspots</a>,'&rdquo;
+                ScienceDaily (February 27, 2010).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref72">
+                  <sup>
+                    <sup>[72]</sup>
+                  </sup>
+                </a> Winston &amp; BondGraham, &ldquo; <a
+                  href="https://truthout.org/articles/predictive-policing-from-fallujah-to-the-san-fernando-valley-military-grade-software-used-to-wage-wars-abroad-is-making-its-impact-on-americas-streets/">From
+                  Fallujah to the San Fernando Valley</a>&hellip;&rdquo;
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref73">
+                  <sup>
+                    <sup>[73]</sup>
+                  </sup>
+                </a> LAPD, <a href="https://lacity.nextrequest.com/requests/20-4830">Response to PRA # 20-4830</a> (November 20,
+                2020).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref74">
+                  <sup>
+                    <sup>[74]</sup>
+                  </sup>
+                </a>
+                <a
+                  href="https://stoplapdspying.medium.com/on-tuesday-april-2nd-2019-twenty-eight-professors-and-forty-graduate-students-of-university-of-8ed7da1a8655">Letter
+                  to Police Commission from 68 UCLA faculty and students</a> (April 4, 2019).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref75">
+                  <sup>
+                    <sup>[75]</sup>
+                  </sup>
+                </a> Davide Castelvecchi, &ldquo; <a href="https://www.nature.com/articles/d41586-020-01874-9">Mathematicians urge
+                  colleagues to boycott police work in wake of killings</a>,&rdquo; Nature (June 19, 2020).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref76">
+                  <sup>
+                    <sup>[76]</sup>
+                  </sup>
+                </a> LAPD, &ldquo; <a href="https://www.lapdonline.org/crime_prevention/content_basic_view/8852">Design Out
+                  Crime</a>&rdquo; (January 8, 2001).&nbsp;
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref77">
+                  <sup>
+                    <sup>[77]</sup>
+                  </sup>
+                </a> Id.
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref78">
+                  <sup>
+                    <sup>[78]</sup>
+                  </sup>
+                </a> The Design Out Crime Task Force, &ldquo; <a href="https://www.youtube.com/watch?v=ouzyoNzXiGI">City of Los
+                  Angeles CPTED / Design Out Crime (Long Version)</a>,&rdquo; (uploaded to YouTube May 29, 2020; last accessed
+                October 6, 2021).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref79">
+                  <sup>
+                    <sup>[79]</sup>
+                  </sup>
+                </a> Brad Plumer and Nadja Popovich, &ldquo; <a
+                  href="https://www.nytimes.com/interactive/2020/08/24/climate/racism-redlining-cities-global-warming.html">How
+                  Decades of Racist Housing Policy Left Neighborhoods Sweltering</a>,&rdquo; New York Times (Aug. 24, 2020).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref80">
+                  <sup>
+                    <sup>[80]</sup>
+                  </sup>
+                </a> LAPD, <a href="http://lapd-assets.lapdonline.org/assets/pdf/Data-Informed-Policing.pdf">Data-Informed
+                  Community-Focused Policing in the Los Angeles Police Department</a> (April 2020) p. 23.
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref81">
+                  <sup>
+                    <sup>[81]</sup>
+                  </sup>
+                </a> Craig D. Uchida and Alese Wooditch, &ldquo; <a
+                  href="https://stoplapdspying.org/wp-content/uploads/2018/05/1-FINAL-Community-Survey-Report_-min.pdf">Perceptions
+                  of Safety and Police in Los Angeles: Results of a Survey of Los Angeles Residents</a>,&rdquo; Justice and Security
+                Strategies and Hart Research Associates (August 2016), p. viii.
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref82">
+                  <sup>
+                    <sup>[82]</sup>
+                  </sup>
+                </a> These LAPD documents are available through <a href="https://lacity.nextrequest.com/requests/21-3667">PRA
+                  21-3667</a>.
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref83">
+                  <sup>
+                    <sup>[83]</sup>
+                  </sup>
+                </a> City of Los Angeles, <a href="https://www.ojp.gov/pdffiles1/Digitization/143135NCJRS.pdf">Falcon Narcotics
+                  Abatement Training Manual</a> (1991).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref84">
+                  <sup>
+                    <sup>[84]</sup>
+                  </sup>
+                </a> City Attorney Rockard Delgadillo, <a
+                  href="http://clkrep.lacity.org/onlinedocs/2005/05-2348_rpt_atty_2-10-06.pdf">Report on City Attorney&rsquo;s Gang
+                  Intervention, Prevention, Suppression Programs</a> (February 2006).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref85">
+                  <sup>
+                    <sup>[85]</sup>
+                  </sup>
+                </a> Id.
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref86">
+                  <sup>
+                    <sup>[86]</sup>
+                  </sup>
+                </a> Adrian Riskin, &ldquo; <a
+                  href="https://michaelkohlhaas.org/wp/2020/01/15/in-2018-and-2019-the-los-angeles-city-attorney-sent-out-479-demand-letters-in-nuisance-abatement-cases-and-filed-30-cases-in-court-according-to-deputy-city-attorney-bethelwel-wil/">In
+                  2018 and 2019 the Los Angeles City Attorney sent out 479 demand letters in nuisance abatement
+                  cases&hellip;.</a>,&rdquo; MichaelKohlhaas.org (January 15, 2020).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref87">
+                  <sup>
+                    <sup>[87]</sup>
+                  </sup>
+                </a>
+                <a
+                  href="https://archive.org/details/emailsfromthelosangelescityattorneysofficeabouthownuisanceabatementtargetsarechosen">Emails
+                  From The Los Angeles City Attorney's Office About How Nuisance Abatement Targets Are Chosen</a> (2020).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref88">
+                  <sup>
+                    <sup>[88]</sup>
+                  </sup>
+                </a> LAPD, <a href="https://stoplapdspying.org/wp-content/uploads/2018/05/LASER.pdf">Internal presentati</a>
+                <a href="https://stoplapdspying.org/wp-content/uploads/2018/05/LASER.pdf">on on </a>
+                <a href="https://stoplapdspying.org/wp-content/uploads/2018/05/LASER.pdf">Los Angeles Strategic Extraction and
+                  Restoration</a> (PRA C17-0500027).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref89">
+                  <sup>
+                    <sup>[89]</sup>
+                  </sup>
+                </a> Roy, Graziani, &amp; Stephens, &ldquo; <a
+                  href="https://squareonejustice.org/wp-content/uploads/2020/08/Ananya-Roy-et-al-Unhousing-the-Poor-1.pdf">Unhousing
+                  the Poor</a>.&rdquo;
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref90">
+                  <sup>
+                    <sup>[90]</sup>
+                  </sup>
+                </a> Los Angeles City Attorney, Press Release, &ldquo; <a
+                  href="https://www.lacityattorney.org/post/2017/11/27/la-city-attorney-mike-feuer-takes-action-to-curb-gang-activity-in-baldwin-village-425-uni">City
+                  Attorney Takes Action to Curb Gang Activity in 425-unit Apartment Complex in Baldwin Village</a>&rdquo; (November
+                27, 2017).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref91">
+                  <sup>
+                    <sup>[91]</sup>
+                  </sup>
+                </a> LAPD, <a href="https://recordsrequest.lacity.org/documents/1923173/download">11-15 CLEAR.pdf</a> (PRA #
+                18-3148).
+              </p>
+            </div>
+            <div>
+              <p>
+                <a class="anchor" id="_ftnref92">
+                  <sup>
+                    <sup>[92]</sup>
+                  </sup>
+                </a> Bob Blumenfield and Joe Buscaino, <a
+                  href="http://clkrep.lacity.org/onlinedocs/2017/17-0946_mot_08-22-2017.pdf">Motion on &ldquo;nuisance
+                  properties,&rdquo;</a> L.A. City Council (August 22, 2017).
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bottom-nav">
+        <a class="bottom-nav-link" href="/section/1-not-a-moment-in-time/">PREVIOUS SECTION</a>
+        <a class="bottom-nav-link" href="/section/2-architecture-of-data-driven-policing">NEXT SECTION</a>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>
