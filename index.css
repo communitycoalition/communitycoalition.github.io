@@ -53,7 +53,12 @@ strong {
 	color: #000;
 
 }
-
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
 .side-nav {
   border-right: 1px solid rgb(92, 96, 105);
   display: flex;
@@ -429,6 +434,7 @@ table th.PrimaryFont {
   flex-direction: column;
   text-align: center;
   color: #000;
+  margin: 0 15vw;
 }
 
 .report-photo {
@@ -436,29 +442,33 @@ table th.PrimaryFont {
   max-width: 100%;
   object-fit: contain;
   max-height: 85vh;
-  margin: 0 3em;
+/*   
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
 }
-
 @media screen and (max-width: 999px) {
+  .report-photo-container {
+  	margin: 0 12px;
+  }
   .report-photo {
 	  height: auto;
 	  max-width: 100%;
+    max-height: 100%;
+    margin: 12px;;
 	  object-fit: contain;
     }
 }
 
+
 .report-section-title {
-	font-size: 24px;
+	font-size: 28px;
 	font-weight: 900;
 	color: #000;
 	text-transform: uppercase;
   font-family: karla-bold-italic;
   text-decoration: none;
-  background-color: #fdc5c5 !important;
 }
 
 .anchor:target::before {
