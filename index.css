@@ -494,3 +494,11 @@ figcaption {
   margin-top: 12px;
   font-style: italic;
 }
+
+ol {
+    margin: 20px 10vw;
+    color: black;
+    font-size: 24px;
+    font-family: monospace;
+    text-align: left;
+}
