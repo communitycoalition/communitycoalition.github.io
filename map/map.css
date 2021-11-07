@@ -330,6 +330,24 @@ hr {
   float: right;
   margin: 6px 3px 0 3px;
 }
+
+.rampart-laser{
+  font-size: 12px;
+  font-weight: 800;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 16px;
+  box-sizing: border-box;
+  color: #2a5135;
+  border: 2px solid #2a5135;
+  padding: 8px 4px;
+  background: #2a513510;
+  float: right;
+  margin: 6px 3px 0 3px;
+}
+
 .say-their-name-label {
     font-size: 12px;
     background: #032c49 !important;

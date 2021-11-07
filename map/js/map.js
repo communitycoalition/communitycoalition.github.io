@@ -24,6 +24,7 @@ function laser_zones() {
   let seventy_seven_laser = [];
   let southeast_laser = [];
   let central_laser = [];
+  let rampart_laser = [];
 
   d3.csv('data/laser_zones.csv', function (error, data) {
 
@@ -49,6 +50,9 @@ function laser_zones() {
           break;
         case "Southeast":
           divisionColor = "#b59b00";
+          break;
+        case "Rampart":
+          divisionColor = "#2a5135";
           break;
         default:
           divisionColor = "#b83838";
@@ -81,6 +85,9 @@ function laser_zones() {
           break;
         case "Southeast":
           southeast_laser.push(polyline);
+          break;
+        case "Rampart":
+          rampart_laser.push(polyline);
           break;
         default:
           central_laser.push(polyline);
@@ -301,6 +308,37 @@ function laser_zones() {
         }
         southeast_li.style = "";
         southeast_visible = true;
+      }
+    });
+
+    let rampart_li = document.getElementById('rampart');
+    rampart_li.addEventListener('mouseover', function () {
+      for (let i = 0; i < rampart_laser.length; i++) {
+        rampart_laser[i].openTooltip();
+        mymap.setView([34.057316648977725, -118.27544237604425], 13);
+      }
+    });
+    rampart_li.addEventListener('mouseout', function () {
+      for (let i = 0; i < rampart_laser.length; i++) {
+        rampart_laser[i].closeTooltip();
+      }
+    });
+
+    let rampart_visible = true;
+    rampart_li.addEventListener('click', function () {
+      if (rampart_visible) {
+        for (let i = 0; i < rampart_laser.length; i++) {
+          mymap.removeLayer(rampart_laser[i]);
+        }
+        rampart_li.style.color = "grey";
+        rampart_li.style.textDecoration = "line-through";
+        rampart_visible = false;
+      } else {
+        for (let i = 0; i < rampart_laser.length; i++) {
+          mymap.addLayer(rampart_laser[i]);
+        }
+        rampart_li.style = "";
+        rampart_visible = true;
       }
     });
 
