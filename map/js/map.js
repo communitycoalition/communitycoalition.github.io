@@ -3,17 +3,16 @@ var mymap = L.map('mapid').setView([33.99357184171194, -118.27030284749365], 12.
 mymap.getRenderer(mymap).options.padding = 100;
 
 
-L.tileLayer('https://api.mapbox.com/styles/v1/madebyc/cktg76z573z8q17n2a3lzlncr/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibWFkZWJ5YyIsImEiOiJjampwOWYyNnA3d240M3ZsZnIwODN4ZGl5In0.XFXCZd4wqKFsB7jjH0dUOQ').addTo(mymap);
-// L.tileLayer('https://api.mapbox.com/styles/v1/madebyc/cktg7st2l3zy519qtb4qv7ifs/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibWFkZWJ5YyIsImEiOiJjampwOWYyNnA3d240M3ZsZnIwODN4ZGl5In0.XFXCZd4wqKFsB7jjH0dUOQ').addTo(mymap);
+L.tileLayer('https://api.mapbox.com/styles/v1/stoplapdspying/ckvpo921k271u14plggi2as3e/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic3RvcGxhcGRzcHlpbmciLCJhIjoiY2t2bXAzcjB4M2d6MDJvcDFvZDV1cnZyNCJ9.ooxdQaPGfwwZeBfL1JnC_A').addTo(mymap);
 
 var anchorPointIcon = L.icon({
   iconUrl: 'img/anchor_point_icon.svg',
-  iconSize: [20, 20], // size of the icon
+  iconSize: [20, 20], 
   });
 
 var jesse_icon = L.icon({
   iconUrl: 'img/JESSE.png',
-  iconSize: [35, 35], // size of the icon
+  iconSize: [35, 35], 
 });
 
 function laser_zones() {
@@ -544,10 +543,7 @@ function anchor_points() {
       }
     }); //end for loop
     let anchor_point_li = document.getElementById('anchor-point');
-    // anchor_point_li.addEventListener('mouseover', function () {
-    //   mymap.setView([33.99357184171194, -118.27030284749365], 10);
-    // });
-
+  
     let anchor_point_visible = true;
     anchor_point_li.addEventListener('click', function () {
       if (anchor_point_visible) {
@@ -664,9 +660,6 @@ function lapd_killings_stories() {
       mymap.setView(jamar[0].getLatLng(), 15);
       jamar[0].openPopup();
     });
-    // jamar_li.addEventListener('mouseout', function () {
-    //   jamar[0].closePopup();
-    // });
 
     let jamar_visible = true;
     jamar_li.addEventListener('click', function () {
@@ -1417,17 +1410,15 @@ function mission_sheets() {
 }
 
 function load_layers() {
-  
   laser_zones();
   lapd_zones();
   csp_sites();
   predpol_hotspots();
-  
+  predpol_hotspots_2015();
   anchor_points();
   all_police_killings();
   lapd_killings_stories();
   mission_sheets();
   skid_row();
 }
-predpol_hotspots_2015();
 load_layers();
