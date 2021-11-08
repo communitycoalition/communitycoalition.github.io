@@ -117,13 +117,14 @@ header {
   margin-bottom: 4px;
 }
 
+.side-nav-container li:hover {
+    color: #ffffff;
+}
+
 #landing:before {
   content: " ";
 }
-#landing {
-  text-align: center;
-  color: #fff;
-}
+
 #part-zero:before {
 	content: "";
 }
@@ -152,7 +153,7 @@ header {
 }
 
 .side-nav-container li:hover, .side-nav-container li.side-nav-active {
-  border-bottom: 1px solid #fff;
+  border-right: 3px solid #2a2a2a;
 }
 
 
@@ -160,7 +161,7 @@ header {
   list-style: none;
   font-size: 14px;
   margin-left: 1em;
-  color: white;
+  color: #fff9f5;
   padding: 1px;
 }
 
