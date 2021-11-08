@@ -272,10 +272,24 @@ span.side-nav-section:hover {
     min-height: 100vh;
     background-color: #fff9f6;
 }
-
+#mobile-link {
+  display: none;
+}
 @media screen and (max-width: 999px) {
+  .page-container-mobile {
+    margin: 20px;
+  }
+  #mobile-link {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  }
+  
   .side-nav-container, .side-nav {
     display: none;
+  }
+  .side-nav-mobile-container, .side-nav-mobile {
+    display: flex;
+    border: none;
   }
   .paragraph-container {
     padding: 20px 10px !important;
@@ -288,6 +302,12 @@ span.side-nav-section:hover {
   font-feature-settings: "liga" 0;
   line-height: 1.7;
   font-weight: 300;
+}
+@media screen and (min-width: 1400px) {
+	.paragraph-container {
+		padding: 40px 10vw;
+	}
+	
 }
 
 p a {
@@ -512,3 +532,7 @@ height:1px;
 overflow:hidden;
 }
 
+#logo-link {
+  display:flex;
+  justify-content: center;
+}
