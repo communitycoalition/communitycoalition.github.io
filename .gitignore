@@ -1,2 +1,11 @@
 
 .DS_Store
+*.rtf
+TEMP/automating_banishment_press.jpg
+TEMP/cover.jpg
+TEMP/favicon.svg
+TEMP/index.css
+TEMP/index.html
+TEMP/twitterstorm/index.html
+section/expanded_full.html
+section/minified.html
