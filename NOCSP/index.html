@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>No Community Safety in Policing</title>
 
@@ -11,6 +11,9 @@
   <link href="https://unpkg.com/@videojs/themes@1/dist/forest/index.css" rel="stylesheet" />
   <link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;400;500;600;700;800&display=swap" rel="stylesheet">
 
   <link href="index.css" rel="stylesheet" />
 
@@ -18,7 +21,7 @@
   <meta name="description" content="Community policing is a counter-revolutionary attempt to legitimize policing. Our communities know how brutal our police systems are and have watched them terrorize us for generations. Let’s reclaim the resources we need and deserve to heal and thrive. Join us. Watch the video to learn more. #NoCSP">
   <meta property="og:title" content="No Community Safety in Policing">
   <meta property="og:description" content="Community policing is a counter-revolutionary attempt to legitimize policing. Our communities know how brutal our police systems are and have watched them terrorize us for generations. Let’s reclaim the resources we need and deserve to heal and thrive. Join us. Watch the video to learn more. #NoCSP">
-  <meta property="og:image" content="https://www.nocsp.org/media/nocsp_banner.jpg">
+  <meta property="og:image" content="https://www.nocsp.org/demo-unreleased/media/nocsp_banner.jpg">
   <meta property="og:image:alt" content="LA CAN members next to a sign that reads No Community Safety in Policing">
   <meta property="og:locale" content="en_GB">
   <meta property="og:type" content="website">
@@ -32,39 +35,39 @@
 </head>
 
 <body>
-  <video id="nocsp-video" class="video-js vjs-theme-forest" controls preload="auto" poster="/media/nocsp_banner.jpg"
+  <video id="nocsp-video" class="video-js vjs-theme-forest" controls preload="auto" poster="media/nocsp_banner_compressed.jpeg"
     data-setup="{}">
-    <source src="/media/nocsp.mp4" type="video/mp4" />
-    <source src="/media/nocsp_webm.webm" type="video/webm" />
+    <source src="media/nocsp_compressed.mp4" type="video/mp4" />
+    <source src="media/nocsp_webm.webm" type="video/webm" />
     <p class="vjs-no-js">
       To view this video please enable JavaScript, and consider upgrading to a
       web browser that
       <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
     </p>
   </video>
+    
   <div class="carousel" data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
-    <img src="/media/viewers_guide_page_0.jpg" alt="" class="temp_img" />
-    <img src="/media/viewers_guide_page_1.jpg" alt="" class="temp_img" />
-    <img src="/media/viewers_guide_page_2.jpg" alt="" class="temp_img" />
-    <img src="/media/viewers_guide_page_3.jpg" alt="" class="temp_img" />
-    <img src="/media/viewers_guide_page_4.jpg" alt="" class="temp_img" />
-    <img src="/media/viewers_guide_page_5.jpg" alt="" class="temp_img" />
-    <img src="/media/viewers_guide_page_6.jpg" alt="" class="temp_img" />
-    <img src="/media/viewers_guide_page_7.jpg" alt="" class="temp_img" />
-    <img src="/media/viewers_guide_page_8.jpg" alt="" class="temp_img" />
+    <img src="media/viewers_guide_page_0.jpg" alt="" class="temp_img" />
+    <img src="media/viewers_guide_page_1.jpg" alt="" class="temp_img" />
+    <img src="media/viewers_guide_page_2.jpg" alt="" class="temp_img" />
+    <img src="media/viewers_guide_page_3.jpg" alt="" class="temp_img" />
+    <img src="media/viewers_guide_page_4.jpg" alt="" class="temp_img" />
+    <img src="media/viewers_guide_page_5.jpg" alt="" class="temp_img" />
+    <img src="media/viewers_guide_page_6.jpg" alt="" class="temp_img" />
+    <img src="media/viewers_guide_page_7.jpg" alt="" class="temp_img" />
+    <img src="media/viewers_guide_page_8.jpg" alt="" class="temp_img" />
   </div>
   <div class="share-section">
       <div id="share-left">
-        <strong id="share-text"><a id="share-link" href="/media/viewers_guide.pdf">Download Guide</strong>
+        <strong id="share-text"><a id="share-link" href="media/viewers_guide.pdf">Download Guide</strong>
       </div>
       <div id="share-right">
         <strong id="share-text"><a id="share-link" href="">Share Video</a></strong>
       </div>
   </div>
-
   <div class="about-us-container">
     <div class="about-us-section">
-      <img id="logo" src="/lacan.png" />
+      <img id="logo" src="lacan-logo.png" />
       <p id="paragraph">
         The mission of the <strong>Los Angeles Community Action Network (LA CAN)</strong> is to help people dealing with
         poverty create &
@@ -75,7 +78,7 @@
     </div>
     <div class="about-us-section">
       <div>
-        <img id="logo" src="/stoplapdspying-logo-final-trns.png" />
+        <img id="logo" src="stoplapdspying-logo.png" />
   
         <p id="paragraph">
           The <strong>Stop LAPD Spying Coalition</strong> is a community organization founded in 2011. We work to build
@@ -88,7 +91,7 @@
     </div>
     <div class="about-us-section">
       <div>
-        <img id="logo" src="/otheringandbelonginginstitue-logo.svg" />
+        <img id="logo" src="otheringandbelonginginstitue-logo.svg" />
   
         <p id="paragraph">
           The <strong>Othering & Belonging Institute</strong> at the University of California, Berkeley is a vibrant hub
@@ -100,24 +103,48 @@
       </div>
     </div>
   </div>
+<div class="join-section">
+  <div id="join-left">
+    <img id="join-img" src="media/NoCSP-joinus.jpg" />
+  </div>
+  <div id="join-right">
+    <ul id="take-action-list">
+      <li>Visit website to learn more / read report</li>
+      <li>Sign up to be part of our working group</li>
+      <li>Follow SLSC and LACAN on social media</li>
+      <li>Donate</li>
+    </ul>
+  </div>
+</div>
 
-  <div class="join-section">
-    <div id="join-left">
-      <img id="join-img" src="/media/NoCSP-joinus.jpg" />
-    </div>
-    <div id="join-right">  
-      <ul id="take-action-list">
-        <li>Visit website to learn more / read report</li>
-        <li>Sign up to be part of our working group</li>
-        <li>Follow SLSC and LACAN on social media</li>
-        <li>Donate</li>
+
+  <footer>
+    <div class="footer-section">
+      <strong>Instagram</strong>
+      <ul class="footer-list">
+        <li>@lacanetwork_official</li>
+        <li>@otheringandbelonging</li>
+        <li>@stoplapdspying</li>
       </ul>
     </div>
-  </div>
 
-  
-
-  
+    <div class="footer-section">
+      <strong>Twitter</strong>
+      <ul class="footer-list">
+        <li>@lacanetwork</li>
+        <li>@oandbinstitute</li>
+        <li>@stoplapdspying</li>
+      </ul>
+    </div>
+    
+    <div class="footer-section">
+      <strong>Facebook</strong>
+      <ul class="footer-list">
+        <li>LA CAN (Los Angeles Community Action Network)</li>
+        <li>Stop LAPD Spying Coalition</li>
+      </ul>
+    </div>
+  </footer>
   <script src="https://vjs.zencdn.net/7.18.1/video.min.js"></script>
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
