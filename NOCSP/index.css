@@ -3,6 +3,10 @@ body {
   padding: 0;
 }
 
+a {
+  color: inherit;
+}
+
 #nocsp-video {
   height: 80vh;
   width: 100vw;
@@ -208,7 +212,7 @@ body {
 }
 
 #take-action-list {
-  padding: 64px 86px;
+  padding: 56px 86px;
   font-family: 'Karla', "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;
   text-decoration: none;
   list-style-type: "\2192";
@@ -220,7 +224,6 @@ body {
 #take-action-list li {
   padding: 12px;
   font-size: 32px;
-  font-weight: 200;
 }
 
 @media screen and (max-width: 1180px) {
